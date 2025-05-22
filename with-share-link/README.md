@@ -6,7 +6,7 @@
 `getTossShareLink`를 사용해 프로필 페이지의 딥링크를 생성하고, `Share`로 공유하는 예제예요.  
  ⚠️ 이 예제를 실행하려면 토스 앱이 설치되어 있어야 해요.
 
-![with-share-link-example-image](https://github.com/user-attachments/assets/35af70a5-4ee2-4e5e-94f9-5638934a3432)
+![with-share-link-example-image](../assets/with-share-link-example-image.png)
 
 <br />
 

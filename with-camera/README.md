@@ -6,7 +6,7 @@
 
 `openCamera`를 사용해서 카메라를 실행하고, 촬영한 사진을 화면에 보여주거나 삭제하는 예제예요.
 
-![with-camera-example-image](https://github.com/user-attachments/assets/f8a8c2e4-8c8f-4a3d-83b2-4cc1a3d300e8)
+![with-camera-example-image](../assets/with-camera-example-image.png)
 
 <br />
 

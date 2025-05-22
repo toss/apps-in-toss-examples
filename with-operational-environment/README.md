@@ -9,7 +9,7 @@
 Sandbox 환경에서는 실행 환경, 네트워크 상태, 사용자 언어, 스킴 URI, 운영체제(OS), 디바이스 ID 등의 정보를 확인할 수 있고,  
 Toss 앱에서는 디버그 정보를 표시하지 않도록 처리돼 있어요.
 
-<img src="https://github.com/user-attachments/assets/72d68cc4-6f2c-4fa3-bb0d-062b01fc3511" alt="with-operational-environment-example-image" style="width: 670px;" />
+<img src="../assets/with-operational-environment-example-image.png" alt="with-operational-environment-example-image" style="width: 670px;" />
 
 <br />
 

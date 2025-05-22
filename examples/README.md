@@ -6,7 +6,7 @@
 `apps-in-toss-examples`를 모아 볼 수 있는 예제에요.  
 리스트를 통해 예제를 확인하거나, 공유할 수 있어요. ⚠️ 예제를 실행하려면 토스 앱이 설치되어 있어야 해요.
 
-![examples-example-image](https://github.com/user-attachments/assets/817782f1-f077-4074-ba49-fc8a639829ec)
+![examples-example-image](../assets/examples-example-image.png)
 
 <br />
 

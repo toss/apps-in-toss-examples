@@ -8,7 +8,7 @@
 `share`를 사용해서 클라이언트 키를 텍스트로 공유하는 예제예요.  
 화면에는 마스킹된 키를 보여주고, 버튼을 누르면 실제 원본 키가 공유돼요.
 
-<img src="https://github.com/user-attachments/assets/3fdf3c0c-01a4-4fed-b737-514a179e249e" alt="with-share-text-example-image" style="width: 670px;" />
+<img src="../assets/with-share-text-example-image.png" alt="with-share-text-example-image" style="width: 670px;" />
 
 <br />
 

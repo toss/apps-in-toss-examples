@@ -8,7 +8,7 @@
 `Storage`를 사용해 입력한 텍스트의 초안을 자동으로 저장하고, 앱을 다시 실행해도 이전에 작성하던 내용을 불러올 수 있는 예제에요.  
 모바일 앱의 로컬 저장소를 활용하면 사용자의 데이터를 영구적으로 유지할 수 있어요.
 
-![with-storage-example-image](https://github.com/user-attachments/assets/44d4b9f0-2c32-44af-b4ec-5af9cdcca4c3)
+![with-storage-example-image](../assets/with-storage-example-image.png)
 
 <br />
 

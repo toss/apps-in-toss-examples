@@ -8,7 +8,7 @@
 `getPlatformOS`를 사용하여 디바이스의 운영체제에 따라 기능을 분리하고, 스타일을 최적화한 예제예요.  
 이렇게 하면 사용자에게 더 익숙하고 자연스러운 경험을 제공할 수 있어서, 좋은 사용자 경험을 만들 수 있어요.
 
-<img src="https://github.com/user-attachments/assets/a00f140d-94dd-4ea9-becc-84330c6a217d" alt="with-platform-os-example-image" style="width: 670px;" />
+<img src="../assets/with-platform-os-example-image.png" alt="with-platform-os-example-image" style="width: 670px;" />
 
 <br />
 

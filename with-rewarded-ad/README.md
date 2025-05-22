@@ -7,7 +7,7 @@
 보상형 광고는 사용자가 광고 시청을 선택하고, 그에 대한 보상을 받을 수 있어 자연스럽고 긍정적인 사용자 경험을 제공할 수 있어요.  
 ⚠️ 이 예제는 토스 앱 환경에서만 확인할 수 있어요.
 
-![with-rewarded-ad-example-image](https://github.com/user-attachments/assets/f0892d77-2139-43e2-b75f-aa0b718f52ce)
+![with-rewarded-ad-example-image](../assets/with-rewarded-ad-example-image.png)
 
 <br />
 
@@ -26,7 +26,7 @@
 4. `src/hooks/useRewardedAd.ts`에 **Ad Unit ID**를 입력해요.
 
    ```ts
-   const AD_UNIT_ID = '<YOUR_AD_UNIT_ID>';
+   const AD_UNIT_ID = "<YOUR_AD_UNIT_ID>";
    ```
 
 5. 번들 파일을 생성해요.

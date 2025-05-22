@@ -7,7 +7,7 @@
 자세한 옵션은 [HapticFeedbackOptions](https://tossmini-docs.toss.im/react-native/reference/react-native-bedrock/%EC%9D%B8%ED%84%B0%EB%A0%89%EC%85%98/HapticFeedbackOptions.html)를 참고해 주세요.  
 ⚠️ 진동 기능은 실제 기기에서만 사용할 수 있어요.
 
-<img src="https://github.com/user-attachments/assets/c81e240c-6e2a-4a1e-91b5-10fb1a47942b" alt="with-haptic-feedback-example-image" style="width: 330px;" />
+<img src="../assets/with-haptic-feedback-example-image.png" alt="with-haptic-feedback-example-image" style="width: 330px;" />
 
 <br />
 

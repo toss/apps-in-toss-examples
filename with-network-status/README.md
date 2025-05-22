@@ -6,7 +6,7 @@
 `getNetworkStatus`를 사용해 디바이스의 현재 네트워크 상태를 확인하고, 상태에 따라 영상 화질을 다르게 보여주는 예제예요.  
 WiFi 환경에서는 고화질 영상이 재생되고, 모바일 데이터 환경에서는 저화질 영상이 재생돼요. 오프라인 상태에서는 영상 시청이 제한돼요.
 
-![with-network-status-example-image](https://github.com/user-attachments/assets/a9900dc6-45ee-4085-a9d0-c5749a42ddae)
+![with-network-status-example-image](../assets/with-network-status-example-image.png)
 
 <br />
 

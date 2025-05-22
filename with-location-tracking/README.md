@@ -7,7 +7,7 @@
 
 `useGeolocation`을 사용해 실시간 위치 정보를 가져오는 예제예요. GPS 정보를 활용해 현재 위치를 감지하고, 사용자가 이동하면 자동으로 업데이트돼요.
 
-![with-location-tracking-example-image](https://github.com/user-attachments/assets/36df0893-ec96-4e58-ab03-6e1005c3b4d2)
+![with-location-tracking-example-image](../assets/with-location-tracking-example-image.png)
 
 <br />
 

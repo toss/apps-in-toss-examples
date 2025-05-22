@@ -7,7 +7,7 @@
 
 `getCurrentLocation`을 사용해 사용자의 현재 위치를 한 번만 가져오고, '다시 불러오기' 버튼을 눌러 위치 정보를 다시 불러올 수 있는 예제예요.
 
-![with-location-once-example-image](https://github.com/user-attachments/assets/2fe6a460-ce4d-45f4-a54a-bc9a9651c2de)
+![with-location-once-example-image](../assets/with-location-once-example-image.png)
 
 <br />
 

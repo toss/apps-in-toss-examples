@@ -7,7 +7,7 @@
 
 `fetchContacts`를 사용하여 사용자의 연락처 목록을 무한 스크롤로 불러오는 예제예요. 스크롤이 끝에 도달하면 자동으로 다음 연락처를 가져와요.
 
-![with-contacts-example-image](https://github.com/user-attachments/assets/4b7475ab-2d94-424a-a683-1376604f969d)
+![with-contacts-example-image](../assets/with-contacts-example-image.png)
 
 <br />
 

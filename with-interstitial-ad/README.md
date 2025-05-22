@@ -7,7 +7,7 @@
 [Google AdMob](https://support.google.com/admob/answer/6066980?hl=ko)에서는 사용자 경험 측면에서 전면 광고를 화면 이동 전에 먼저 보여주는 방식을 권장하고 있어요.  
 ⚠️ 이 예제는 토스 앱 환경에서만 확인할 수 있어요.
 
-![with-interstitial-ad-example-image](https://github.com/user-attachments/assets/bbefadcc-5c14-46fe-9958-afee30d38d0b)
+![with-interstitial-ad-example-image](../assets/with-interstitial-ad-example-image.png)
 
 <br />
 
@@ -26,7 +26,7 @@
 4. `src/hooks/useInterstitialAd.ts`에 **Ad Unit ID**를 입력해요.
 
    ```ts
-   const AD_UNIT_ID = '<YOUR_AD_UNIT_ID>';
+   const AD_UNIT_ID = "<YOUR_AD_UNIT_ID>";
    ```
 
 5. 번들 파일을 생성해요.

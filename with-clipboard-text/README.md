@@ -7,7 +7,7 @@
 
 `getClipboardText`와 `setClipboardText`를 사용하여 텍스트를 복사하고 붙여넣는 예제예요.
 
-![with-clipboard-text-example-image](https://github.com/user-attachments/assets/3a2ac768-2911-4c23-b5ba-28243bb993e8)
+![with-clipboard-text-example-image](../assets/with-clipboard-text-example-image.png)
 
 <br />
 

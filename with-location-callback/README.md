@@ -10,7 +10,7 @@
 - [iOS Simulator에서 위치 테스트](https://developer.apple.com/documentation/xcode/testing-complex-hardware-device-scenarios-in-simulator#Test-changing-locations)
 - [Android Emulator에서 위치 테스트](https://developer.android.com/studio/run/emulator-extended-controls?hl=ko#:~:text=%EC%B6%94%EA%B0%80%EB%A5%BC%20%EC%B0%B8%EA%B3%A0%ED%95%98%EC%84%B8%EC%9A%94.-,%EC%9C%84%EC%B9%98,-%EC%97%90%EB%AE%AC%EB%A0%88%EC%9D%B4%ED%84%B0%EB%A5%BC%20%EC%82%AC%EC%9A%A9%ED%95%98%EB%A9%B4%20%EC%97%90%EB%AE%AC%EB%A0%88%EC%9D%B4%EC%85%98%EB%90%9C)
 
-https://github.com/user-attachments/assets/2a234a4b-ad42-4b36-9517-182bcdd20d6c
+<video width="330" src="../assets/with-location-callback-example-video.mp4" controls preload></video>
 
 <br />
 

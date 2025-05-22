@@ -7,7 +7,7 @@
 
 `fetchAlbumPhotos`를 사용해서 사용자의 앨범에서 사진 목록을 불러오거나 삭제하는 예제예요.
 
-![with-album-photos-example-image](https://github.com/user-attachments/assets/0ab1e1d5-42ee-478f-ac2f-a83aecb4b1af)
+![with-album-photos-example-image](../assets/with-album-photos-example-image.png)
 
 <br />
 
