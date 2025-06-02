@@ -8,7 +8,7 @@
 `@apps-in-toss/web-framework`를 활용해 Vue 환경에서 만든 Weekly Todo App이에요.  
 이 프레임워크를 사용하면 앱 개발에 대한 깊은 지식이 없어도, 기존 웹 프로젝트를 기반으로 완성도 높고 심리스한 앱을 손쉽게 만들 수 있어요.
 
-<video width="300" src="../assets/weekly-todo-example-video.mp4" controls preload></video>
+<img src="../assets/weekly-todo-example-video.gif" alt="weekly-todo-example-video" style="width: 330px;" />
 
 <br />
 

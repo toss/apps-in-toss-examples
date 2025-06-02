@@ -5,6 +5,8 @@
 ![Image](https://github.com/user-attachments/assets/62eb3e4d-a6e1-493e-b76e-69bad926c2d8)
 ![Image](https://github.com/user-attachments/assets/5af3b63b-bda7-4ddb-9ae9-8c90fe747baf)
 
+<img src="../assets/with-app-login-example-video.gif" alt="with-app-login-example-video" style="width: 330px;" />
+
 `appLogin`을 사용해 인가 코드(`authorizationCode`)와 `referrer`를 받아  
 서버에 전달한 뒤 로그인, 토큰 재발급, 로그아웃(accessToken, userKey)을 테스트할 수 있는 예제예요.
 
@@ -68,15 +70,15 @@ https://github.com/user-attachments/assets/08e07166-4b72-4a53-8133-c261925ae346
    3-3. `app/bedrock.config.ts` 파일 안에 있는 [env](https://tossmini-docs.toss.im/react-native/release-notes/2025-05-15.html#react-native-bedrock-plugin-env-%E1%84%91%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A5%E1%84%80%E1%85%B3%E1%84%8B%E1%85%B5%E1%86%AB-%E1%84%8E%E1%85%AE%E1%84%80%E1%85%A1) 설정에 로컬 서버 주소를 입력해 주세요.
 
    ```ts
-   import { env } from '@react-native-bedrock/plugin-env';
+   import { env } from "@react-native-bedrock/plugin-env";
 
    export default defineConfig({
-     appName: 'with-app-login',
+     appName: "with-app-login",
      plugins: [
        // ...
        env({
          // 로컬 서버 주소를 입력해 주세요.
-         SERVER_BASE_URL: 'http://localhost:4000',
+         SERVER_BASE_URL: "http://localhost:4000",
        }),
      ],
    });
