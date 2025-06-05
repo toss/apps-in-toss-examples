@@ -8,7 +8,7 @@
 `@apps-in-toss/web-framework`를 활용해 React와 Three.js로 만든 게임이에요.  
 이 프레임워크를 사용하면 앱 개발에 대한 깊은 지식이 없어도, 기존 웹 프로젝트를 기반으로 완성도 높고 심리스한 게임 앱을 손쉽게 만들 수 있어요.
 
-<video width="300" src="../assets//random-balls-example-video.mp4" controls preload></video>
+<img src="../assets/random-balls-example-video.gif" alt="random-balls-example-video" style="width: 330px;" />
 
 <br />
 
