@@ -10,8 +10,6 @@
 `appLogin`을 사용해 인가 코드(`authorizationCode`)와 `referrer`를 받아  
 서버에 전달한 뒤 로그인, 토큰 재발급, 로그아웃(accessToken, userKey)을 테스트할 수 있는 예제예요.
 
-https://github.com/user-attachments/assets/08e07166-4b72-4a53-8133-c261925ae346
-
 <br />
 
 ## 📝 사전 준비
