@@ -100,24 +100,6 @@ export const shareLinkExample = {
   path: 'with-share-link',
 };
 
-export const interstitialAdExample = {
-  icon: `https://static.toss.im/appsintoss/73/700b2827-76db-47a7-8ed9-239eaff39812.png`,
-  label: '전면 광고 예제',
-  path: 'with-interstitial-ad',
-};
-
-export const rewardedAdExample = {
-  icon: `https://static.toss.im/appsintoss/73/289efdcd-8bc8-4d7e-ae54-bf1baed3f220.png`,
-  label: '보상형 광고 예제',
-  path: 'with-rewarded-ad',
-};
-
-export const storageExample = {
-  icon: `https://static.toss.im/appsintoss/73/a64708de-3d04-4209-acf5-2038a85a8aba.png`,
-  label: '저장소 예제',
-  path: 'with-storage',
-};
-
 export const exampleList = [
   weeklyTodoReactExample,
   weeklyTodoVueExample,
@@ -135,7 +117,4 @@ export const exampleList = [
   networkStatusExample,
   shareTextExample,
   shareLinkExample,
-  interstitialAdExample,
-  rewardedAdExample,
-  storageExample,
 ];
