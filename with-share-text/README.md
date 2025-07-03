@@ -34,4 +34,4 @@
 
 ## 📌 참고사항
 
-[Bedrock/react-native/reference/react-native-bedrock/공유/share](https://tossmini-docs.toss.im/react-native/reference/react-native-bedrock/%EA%B3%B5%EC%9C%A0/share.html)
+- [share](https://developers-apps-in-toss.toss.im/bedrock/reference/react-native-bedrock/%EA%B3%B5%EC%9C%A0/share.html)

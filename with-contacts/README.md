@@ -35,4 +35,4 @@
 
 ## 📌 참고사항
 
-[Bedrock/react-native/reference/framework/연락처/fetchContacts](https://tossmini-docs.toss.im/react-native/reference/framework/%EC%97%B0%EB%9D%BD%EC%B2%98/fetchContacts.html)
+- [fetchContacts](https://developers-apps-in-toss.toss.im/bedrock/reference/framework/%EC%97%B0%EB%9D%BD%EC%B2%98/fetchContacts.html)

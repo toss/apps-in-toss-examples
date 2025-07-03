@@ -23,7 +23,7 @@
    ```
 
 3. 개발 서버를 실행해요.  
-   \*iOS 실기기로 테스트 시 [실기기에서 개발 모드 사용하기](https://tossmini-docs.toss.im/webview/guides/develop.html#%E1%84%89%E1%85%B5%E1%86%AF%E1%84%80%E1%85%B5%E1%84%80%E1%85%B5%E1%84%8B%E1%85%A6%E1%84%89%E1%85%A5-%E1%84%80%E1%85%A2%E1%84%87%E1%85%A1%E1%86%AF-%E1%84%86%E1%85%A9%E1%84%83%E1%85%B3-%E1%84%89%E1%85%A1%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5)를 참고하여 host 설정을 해주세요.
+   \*iOS 실기기로 테스트 시 [실기기에서 개발 모드 사용하기](https://developers-apps-in-toss.toss.im/tutorials/webview.html#%E1%84%89%E1%85%B5%E1%86%AF%E1%84%80%E1%85%B5%E1%84%80%E1%85%B5%E1%84%8B%E1%85%A6%E1%84%89%E1%85%A5-%E1%84%80%E1%85%A2%E1%84%87%E1%85%A1%E1%86%AF-%E1%84%86%E1%85%A9%E1%84%83%E1%85%B3-%E1%84%89%E1%85%A1%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5)를 참고하여 host 설정을 해주세요.
 
    ```
    yarn dev
@@ -33,4 +33,4 @@
 
 ## 📌 참고사항
 
-[Bedrock/webview/guides/develop](https://tossmini-docs.toss.im/webview/guides/develop.html)
+- [WebView 개발하기](https://developers-apps-in-toss.toss.im/tutorials/webview.html)
