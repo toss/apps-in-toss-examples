@@ -26,7 +26,7 @@
 4. `src/hooks/useRewardedAd.ts`에 **Ad Unit ID**를 입력해요.
 
    ```ts
-   const AD_UNIT_ID = "<YOUR_AD_UNIT_ID>";
+   const AD_UNIT_ID = '<YOUR_AD_UNIT_ID>';
    ```
 
 5. 번들 파일을 생성해요.
@@ -35,11 +35,11 @@
    yarn build
    ```
 
-6. 앱인토스 콘솔에 [앱 번들 업로드](https://tossmini-docs.toss.im/react-native/guides/deploy/release.html#_1-%E1%84%8B%E1%85%A2%E1%86%B8-%E1%84%87%E1%85%A5%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF-%E1%84%8B%E1%85%A5%E1%86%B8%E1%84%85%E1%85%A9%E1%84%83%E1%85%B3)를 하고 테스트해요.
+6. 앱인토스 콘솔에 [앱 번들 업로드](https://developers-apps-in-toss.toss.im/release/overview.html#_1-%E1%84%8B%E1%85%A2%E1%86%B8-%E1%84%87%E1%85%A5%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF-%E1%84%8B%E1%85%A5%E1%86%B8%E1%84%85%E1%85%A9%E1%84%83%E1%85%B3)를 하고 테스트해요.
 
 <br />
 
 ## 📌 참고사항
 
-[Bedrock/react-native/reference/framework/광고/loadAdMobRewardedAd](https://tossmini-docs.toss.im/react-native/reference/framework/%EA%B4%91%EA%B3%A0/loadAdMobRewardedAd.html)  
-[Bedrock/react-native/reference/framework/광고/showAdMobRewardedAd](https://tossmini-docs.toss.im/react-native/reference/framework/%EA%B4%91%EA%B3%A0/showAdMobRewardedAd.html)
+- [loadAdMobRewardedAd](https://developers-apps-in-toss.toss.im/bedrock/reference/framework/%EA%B4%91%EA%B3%A0/loadAdMobRewardedAd.html)
+- [showAdMobRewardedAd](https://developers-apps-in-toss.toss.im/bedrock/reference/framework/%EA%B4%91%EA%B3%A0/showAdMobRewardedAd.html)

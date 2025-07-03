@@ -32,4 +32,4 @@
 
 ## 📌 참고사항
 
-[Bedrock/react-native/guides/introduction](https://tossmini-docs.toss.im/react-native/guides/introduction.html)
+- [앱인토스 시작하기](hhttps://developers-apps-in-toss.toss.im/overview.html)

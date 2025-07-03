@@ -33,4 +33,4 @@
 
 ## 📌 참고사항
 
-[Bedrock/react-native/reference/react-native-bedrock/언어/getLocale](https://tossmini-docs.toss.im/react-native/reference/react-native-bedrock/%EC%96%B8%EC%96%B4/getLocale.html)
+- [getLocale](https://developers-apps-in-toss.toss.im/bedrock/reference/react-native-bedrock/%EC%96%B8%EC%96%B4/getLocale.html)

@@ -32,4 +32,4 @@
 
 ## 📌 참고사항
 
-[Bedrock/react-native/reference/framework/카메라/openCamera](https://tossmini-docs.toss.im/react-native/reference/framework/%EC%B9%B4%EB%A9%94%EB%9D%BC/openCamera.html)
+- [openCamera](https://developers-apps-in-toss.toss.im/bedrock/reference/framework/%EC%B9%B4%EB%A9%94%EB%9D%BC/openCamera.html)

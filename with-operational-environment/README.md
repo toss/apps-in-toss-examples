@@ -35,4 +35,4 @@ Toss 앱에서는 디버그 정보를 표시하지 않도록 처리돼 있어요
 
 ## 📌 참고사항
 
-[Bedrock/react-native/reference/framework/환경 확인/getOperationalEnvironment](https://tossmini-docs.toss.im/react-native/reference/framework/%ED%99%98%EA%B2%BD%20%ED%99%95%EC%9D%B8/getOperationalEnvironment.html)
+- [getOperationalEnvironment](https://developers-apps-in-toss.toss.im/bedrock/reference/framework/%ED%99%98%EA%B2%BD%20%ED%99%95%EC%9D%B8/getOperationalEnvironment.html)

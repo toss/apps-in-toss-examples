@@ -32,4 +32,4 @@ WiFi 환경에서는 고화질 영상이 재생되고, 모바일 데이터 환�
 
 ## 📌 참고사항
 
-[Bedrock/react-native/reference/react-native-bedrock/네트워크/getNetworkStatus](https://tossmini-docs.toss.im/react-native/reference/react-native-bedrock/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/getNetworkStatus.html)
+- [getNetworkStatus](https://developers-apps-in-toss.toss.im/bedrock/reference/react-native-bedrock/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/getNetworkStatus.html)

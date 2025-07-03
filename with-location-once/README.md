@@ -33,4 +33,7 @@
 
 ## 📌 참고사항
 
-[Bedrock/react-native/reference/framework/위치 정보/getCurrentLocation](https://tossmini-docs.toss.im/react-native/reference/framework/%EC%9C%84%EC%B9%98%20%EC%A0%95%EB%B3%B4/getCurrentLocation.html)
+- [getCurrentLocation](https://developers-apps-in-toss.toss.im/bedrock/reference/framework/%EC%9C%84%EC%B9%98%20%EC%A0%95%EB%B3%B4/getCurrentLocation.html)
+- [Accuracy](https://developers-apps-in-toss.toss.im/bedrock/reference/framework/%EC%9C%84%EC%B9%98%20%EC%A0%95%EB%B3%B4/Accuracy.html)
+- [Location](https://developers-apps-in-toss.toss.im/bedrock/reference/framework/%EC%9C%84%EC%B9%98%20%EC%A0%95%EB%B3%B4/Location.html)
+- [LocationCoords](https://developers-apps-in-toss.toss.im/bedrock/reference/framework/%EC%9C%84%EC%B9%98%20%EC%A0%95%EB%B3%B4/LocationCoords.html)

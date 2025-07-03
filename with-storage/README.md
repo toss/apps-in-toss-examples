@@ -34,8 +34,8 @@
 
 ## 📌 참고사항
 
-[Bedrock/react-native/reference/framework/저장소/Storage](https://tossmini-docs.toss.im/react-native/reference/framework/%EC%A0%80%EC%9E%A5%EC%86%8C/Storage.html)  
-[Bedrock/react-native/reference/framework/저장소/clearItems](https://tossmini-docs.toss.im/react-native/reference/framework/%EC%A0%80%EC%9E%A5%EC%86%8C/clearItems.html)  
-[Bedrock/react-native/reference/framework/저장소/getItem](https://tossmini-docs.toss.im/react-native/reference/framework/%EC%A0%80%EC%9E%A5%EC%86%8C/getItem.html)  
-[Bedrock/react-native/reference/framework/저장소/removeItem](https://tossmini-docs.toss.im/react-native/reference/framework/%EC%A0%80%EC%9E%A5%EC%86%8C/removeItem.html)  
-[Bedrock/react-native/reference/framework/저장소/setItem](https://tossmini-docs.toss.im/react-native/reference/framework/%EC%A0%80%EC%9E%A5%EC%86%8C/setItem.html)
+- [Storage](https://developers-apps-in-toss.toss.im/bedrock/reference/framework/%EC%A0%80%EC%9E%A5%EC%86%8C/Storage.html)
+- [clearItems](https://developers-apps-in-toss.toss.im/bedrock/reference/framework/%EC%A0%80%EC%9E%A5%EC%86%8C/clearItems.html)
+- [getItem](https://developers-apps-in-toss.toss.im/bedrock/reference/framework/%EC%A0%80%EC%9E%A5%EC%86%8C/getItem.html)
+- [removeItem](https://developers-apps-in-toss.toss.im/bedrock/reference/framework/%EC%A0%80%EC%9E%A5%EC%86%8C/removeItem.html)
+- [setItem](https://developers-apps-in-toss.toss.im/bedrock/reference/framework/%EC%A0%80%EC%9E%A5%EC%86%8C/setItem.html)

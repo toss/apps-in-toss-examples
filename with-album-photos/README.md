@@ -33,4 +33,4 @@
 
 ## 📌 참고사항
 
-[Bedrock/react-native/reference/framework/사진/fetchAlbumPhotos](https://tossmini-docs.toss.im/react-native/reference/framework/%EC%82%AC%EC%A7%84/fetchAlbumPhotos.html)
+- [fetchAlbumPhotos](https://developers-apps-in-toss.toss.im/bedrock/reference/framework/%EC%82%AC%EC%A7%84/fetchAlbumPhotos.html)
