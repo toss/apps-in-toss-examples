@@ -32,4 +32,4 @@
 
 ## 📌 참고사항
 
-[Bedrock/react-native/reference/framework/공유/getTossShareLink](https://tossmini-docs.toss.im/react-native/reference/framework/%EA%B3%B5%EC%9C%A0/getTossShareLink.html)
+- [getTossShareLink](https://developers-apps-in-toss.toss.im/bedrock/reference/framework/%EA%B3%B5%EC%9C%A0/getTossShareLink.html)

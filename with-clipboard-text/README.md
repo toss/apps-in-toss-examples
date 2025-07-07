@@ -33,5 +33,5 @@
 
 ## 📌 참고사항
 
-[Bedrock/react-native/reference/framework/클립보드/getClipboardText](https://tossmini-docs.toss.im/react-native/reference/framework/%ED%81%B4%EB%A6%BD%EB%B3%B4%EB%93%9C/getClipboardText.html)  
-[Bedrock/react-native/reference/framework/클립보드/setClipboardText](https://tossmini-docs.toss.im/react-native/reference/framework/%ED%81%B4%EB%A6%BD%EB%B3%B4%EB%93%9C/setClipboardText.html)
+- [getClipboardText](https://developers-apps-in-toss.toss.im/bedrock/reference/framework/%ED%81%B4%EB%A6%BD%EB%B3%B4%EB%93%9C/getClipboardText.html)
+- [setClipboardText](https://developers-apps-in-toss.toss.im/bedrock/reference/framework/%ED%81%B4%EB%A6%BD%EB%B3%B4%EB%93%9C/setClipboardText.html)

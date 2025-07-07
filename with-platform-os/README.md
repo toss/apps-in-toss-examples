@@ -34,4 +34,4 @@
 
 ## 📌 참고사항
 
-[Bedrock/react-native/reference/react-native-bedrock/환경 확인/getPlatformOS](https://tossmini-docs.toss.im/react-native/reference/react-native-bedrock/%ED%99%98%EA%B2%BD%20%ED%99%95%EC%9D%B8/getPlatformOS.html)
+- [getPlatformOS](https://developers-apps-in-toss.toss.im/bedrock/reference/react-native-bedrock/%ED%99%98%EA%B2%BD%20%ED%99%95%EC%9D%B8/getPlatformOS.html)
