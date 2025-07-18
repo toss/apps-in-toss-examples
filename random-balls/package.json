@@ -10,7 +10,7 @@
     "deploy": "ait deploy"
   },
   "dependencies": {
-    "@apps-in-toss/web-framework": "^0.0.26",
+    "@apps-in-toss/web-framework": "^0.0.30",
     "@react-three/drei": "^9.120.5",
     "@react-three/fiber": "8.15.12",
     "@react-three/rapier": "^1.5.0",

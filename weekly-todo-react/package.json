@@ -11,7 +11,7 @@
     "deploy": "ait deploy"
   },
   "dependencies": {
-    "@apps-in-toss/web-framework": "^0.0.26",
+    "@apps-in-toss/web-framework": "^0.0.30",
     "clsx": "^2.1.1",
     "date-fns": "^4.1.0",
     "nanoid": "^5.0.9",
