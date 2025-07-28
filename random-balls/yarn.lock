@@ -15,16 +15,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@apps-in-toss/bridge-core@npm:0.0.32":
-  version: 0.0.32
-  resolution: "@apps-in-toss/bridge-core@npm:0.0.32"
-  checksum: 10c0/14754dcf8ad69f563d7f7e785db3460b3ec7b03063f5f1e1ce7ffbade619a88f82bb4246f29c3c0e56935cd33ae18addefc3ee51cbd5c2018c04f21f5ede25c2
+"@apps-in-toss/bridge-core@npm:0.0.30":
+  version: 0.0.30
+  resolution: "@apps-in-toss/bridge-core@npm:0.0.30"
+  checksum: 10c0/9d76926e8440d1da6d0da962b039c5261586cad87d271b740ff680c787ea977816b93bf50d357844a648512bab618b6e3d96aa4a5b7e27d5fd0dbbf978aeceae
   languageName: node
   linkType: hard
 
-"@apps-in-toss/cli@npm:0.0.32":
-  version: 0.0.32
-  resolution: "@apps-in-toss/cli@npm:0.0.32"
+"@apps-in-toss/cli@npm:0.0.30":
+  version: 0.0.30
+  resolution: "@apps-in-toss/cli@npm:0.0.30"
   dependencies:
     "@clack/prompts": "npm:^0.10.0"
     "@react-native-bedrock/utils": "npm:0.0.25"
@@ -32,52 +32,52 @@ __metadata:
     clipanion: "npm:^4.0.0-rc.4"
     source-map: "npm:^0.8.0-beta.0"
     unzipper: "npm:^0.12.3"
-  checksum: 10c0/be03a058fc0b32df22afbc331cfb64d04deb7a6de1db4f799514bf6aab52db2f88d849d55706b505d614f5be1cfd7a5f334d0a8ce43ee7cabca2295cf745651f
+  checksum: 10c0/8cf03d154a05f81f0b04f1f807db5070a99876d5513a1dfca24b97f32568d45e1849ed2ef259f0cd5a1dd979ed52482efaed8b12c072e0bc862c76fba8c18148
   languageName: node
   linkType: hard
 
-"@apps-in-toss/plugins@npm:0.0.32":
-  version: 0.0.32
-  resolution: "@apps-in-toss/plugins@npm:0.0.32"
+"@apps-in-toss/plugins@npm:0.0.30":
+  version: 0.0.30
+  resolution: "@apps-in-toss/plugins@npm:0.0.30"
   dependencies:
     esbuild: "npm:0.25.5"
-  checksum: 10c0/b265945accf79292272328fc06e510b834c4aa67102005bc2614808c809f0ab149c17e6d5d672f65bed99712ce967a9aaffc89400f542cb5d98db52678f803c6
+  checksum: 10c0/29fb58459287f7dd6baee7314af383cc22b86e3cfd89821ecbda7d8a1a4030ac9bfd4b997bd1af95c740b35dfedc93cbb3fc9e947c6992924f52ee348b8ed100
   languageName: node
   linkType: hard
 
-"@apps-in-toss/web-analytics@npm:0.0.32":
-  version: 0.0.32
-  resolution: "@apps-in-toss/web-analytics@npm:0.0.32"
+"@apps-in-toss/web-analytics@npm:0.0.30":
+  version: 0.0.30
+  resolution: "@apps-in-toss/web-analytics@npm:0.0.30"
   peerDependencies:
     "@apps-in-toss/web-bridge": "*"
-  checksum: 10c0/a0339252fbee2c070a6853ea52d89d10e451d247985e4a327c02265cad4e884773a94dd680646503590cb7397c625ee37db950cc8583b982bcb79149f37d343f
+  checksum: 10c0/5a18205f632020ba64011dfcc133113646c24b2911387e993d58103a9944d7fb94ec1c176036cc6bdaf6fe62ab28e26e8a8cbe2f5dc454d8cb8a58c791fd59fb
   languageName: node
   linkType: hard
 
-"@apps-in-toss/web-bridge@npm:0.0.32":
-  version: 0.0.32
-  resolution: "@apps-in-toss/web-bridge@npm:0.0.32"
+"@apps-in-toss/web-bridge@npm:0.0.30":
+  version: 0.0.30
+  resolution: "@apps-in-toss/web-bridge@npm:0.0.30"
   peerDependencies:
     "@apps-in-toss/bridge-core": "*"
-  checksum: 10c0/c52d27998a9b41659e4e1428a0a5f2911e46a5279da7d402470ae6c7ae0ca7006e0182e6b6d949f5497ef0ea0b34b6afa67fd7e155f2d3c96a9223089ec9418e
+  checksum: 10c0/70aac19f807358545d270df500e0563df3c48e1914f681f42153ef6a444cbba8823aec58c400a7cb8b7ed51b0ac9fc4b96a981a0a5d599f6859c287ca02a5767
   languageName: node
   linkType: hard
 
-"@apps-in-toss/web-framework@npm:^0.0.32":
-  version: 0.0.32
-  resolution: "@apps-in-toss/web-framework@npm:0.0.32"
+"@apps-in-toss/web-framework@npm:^0.0.30":
+  version: 0.0.30
+  resolution: "@apps-in-toss/web-framework@npm:0.0.30"
   dependencies:
-    "@apps-in-toss/bridge-core": "npm:0.0.32"
-    "@apps-in-toss/cli": "npm:0.0.32"
-    "@apps-in-toss/plugins": "npm:0.0.32"
-    "@apps-in-toss/web-analytics": "npm:0.0.32"
-    "@apps-in-toss/web-bridge": "npm:0.0.32"
+    "@apps-in-toss/bridge-core": "npm:0.0.30"
+    "@apps-in-toss/cli": "npm:0.0.30"
+    "@apps-in-toss/plugins": "npm:0.0.30"
+    "@apps-in-toss/web-analytics": "npm:0.0.30"
+    "@apps-in-toss/web-bridge": "npm:0.0.30"
     "@babel/core": "npm:7.23.9"
     "@react-native-bedrock/utils": "npm:0.0.25"
   bin:
     ait: ./ait.js
     bedrock: ./bin.js
-  checksum: 10c0/77d83eebf9174e5bd2884479435f02f1715d10265c39271c2ddf5ca2392eb227e6ce9372e1da40ba93888d45874faf02c34c0e12121659b72b46944f3e0c6a35
+  checksum: 10c0/3ff83d4446c27fc8a79a6e4e8f16146547ee0dddc5dff4e637b55f051204c597caaa04d189d5217e82b72ea019027ec8d83e2db377996b7ebd17dc6aa1ffadd6
   languageName: node
   linkType: hard
 
@@ -1241,74 +1241,74 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sentry/cli-darwin@npm:2.50.2":
-  version: 2.50.2
-  resolution: "@sentry/cli-darwin@npm:2.50.2"
+"@sentry/cli-darwin@npm:2.47.1":
+  version: 2.47.1
+  resolution: "@sentry/cli-darwin@npm:2.47.1"
   conditions: os=darwin
   languageName: node
   linkType: hard
 
-"@sentry/cli-linux-arm64@npm:2.50.2":
-  version: 2.50.2
-  resolution: "@sentry/cli-linux-arm64@npm:2.50.2"
+"@sentry/cli-linux-arm64@npm:2.47.1":
+  version: 2.47.1
+  resolution: "@sentry/cli-linux-arm64@npm:2.47.1"
   conditions: (os=linux | os=freebsd | os=android) & cpu=arm64
   languageName: node
   linkType: hard
 
-"@sentry/cli-linux-arm@npm:2.50.2":
-  version: 2.50.2
-  resolution: "@sentry/cli-linux-arm@npm:2.50.2"
+"@sentry/cli-linux-arm@npm:2.47.1":
+  version: 2.47.1
+  resolution: "@sentry/cli-linux-arm@npm:2.47.1"
   conditions: (os=linux | os=freebsd | os=android) & cpu=arm
   languageName: node
   linkType: hard
 
-"@sentry/cli-linux-i686@npm:2.50.2":
-  version: 2.50.2
-  resolution: "@sentry/cli-linux-i686@npm:2.50.2"
+"@sentry/cli-linux-i686@npm:2.47.1":
+  version: 2.47.1
+  resolution: "@sentry/cli-linux-i686@npm:2.47.1"
   conditions: (os=linux | os=freebsd | os=android) & (cpu=x86 | cpu=ia32)
   languageName: node
   linkType: hard
 
-"@sentry/cli-linux-x64@npm:2.50.2":
-  version: 2.50.2
-  resolution: "@sentry/cli-linux-x64@npm:2.50.2"
+"@sentry/cli-linux-x64@npm:2.47.1":
+  version: 2.47.1
+  resolution: "@sentry/cli-linux-x64@npm:2.47.1"
   conditions: (os=linux | os=freebsd | os=android) & cpu=x64
   languageName: node
   linkType: hard
 
-"@sentry/cli-win32-arm64@npm:2.50.2":
-  version: 2.50.2
-  resolution: "@sentry/cli-win32-arm64@npm:2.50.2"
+"@sentry/cli-win32-arm64@npm:2.47.1":
+  version: 2.47.1
+  resolution: "@sentry/cli-win32-arm64@npm:2.47.1"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"@sentry/cli-win32-i686@npm:2.50.2":
-  version: 2.50.2
-  resolution: "@sentry/cli-win32-i686@npm:2.50.2"
+"@sentry/cli-win32-i686@npm:2.47.1":
+  version: 2.47.1
+  resolution: "@sentry/cli-win32-i686@npm:2.47.1"
   conditions: os=win32 & (cpu=x86 | cpu=ia32)
   languageName: node
   linkType: hard
 
-"@sentry/cli-win32-x64@npm:2.50.2":
-  version: 2.50.2
-  resolution: "@sentry/cli-win32-x64@npm:2.50.2"
+"@sentry/cli-win32-x64@npm:2.47.1":
+  version: 2.47.1
+  resolution: "@sentry/cli-win32-x64@npm:2.47.1"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
 
 "@sentry/cli@npm:^2.46.0":
-  version: 2.50.2
-  resolution: "@sentry/cli@npm:2.50.2"
+  version: 2.47.1
+  resolution: "@sentry/cli@npm:2.47.1"
   dependencies:
-    "@sentry/cli-darwin": "npm:2.50.2"
-    "@sentry/cli-linux-arm": "npm:2.50.2"
-    "@sentry/cli-linux-arm64": "npm:2.50.2"
-    "@sentry/cli-linux-i686": "npm:2.50.2"
-    "@sentry/cli-linux-x64": "npm:2.50.2"
-    "@sentry/cli-win32-arm64": "npm:2.50.2"
-    "@sentry/cli-win32-i686": "npm:2.50.2"
-    "@sentry/cli-win32-x64": "npm:2.50.2"
+    "@sentry/cli-darwin": "npm:2.47.1"
+    "@sentry/cli-linux-arm": "npm:2.47.1"
+    "@sentry/cli-linux-arm64": "npm:2.47.1"
+    "@sentry/cli-linux-i686": "npm:2.47.1"
+    "@sentry/cli-linux-x64": "npm:2.47.1"
+    "@sentry/cli-win32-arm64": "npm:2.47.1"
+    "@sentry/cli-win32-i686": "npm:2.47.1"
+    "@sentry/cli-win32-x64": "npm:2.47.1"
     https-proxy-agent: "npm:^5.0.0"
     node-fetch: "npm:^2.6.7"
     progress: "npm:^2.0.3"
@@ -1333,7 +1333,7 @@ __metadata:
       optional: true
   bin:
     sentry-cli: bin/sentry-cli
-  checksum: 10c0/10e834e58f655ba27462ac80bc847f31c9ef37b0e82e872475397bca10f35dcb85978877da007d65b2e6977a5852dd1d7d05eef9951ec526ff1d85c162fed119
+  checksum: 10c0/a85a8021b4ed1d30d684ead5b76c12586e205456b2220f0b510fc96815007d4e89be156327bceac91aa28c18ce6ff5f87f31d4b48dc26d633d195356df3fce3e
   languageName: node
   linkType: hard
 
@@ -4079,7 +4079,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "random-balls@workspace:."
   dependencies:
-    "@apps-in-toss/web-framework": "npm:^0.0.32"
+    "@apps-in-toss/web-framework": "npm:^0.0.30"
     "@eslint/js": "npm:^9.17.0"
     "@react-three/drei": "npm:^9.120.5"
     "@react-three/fiber": "npm:8.15.12"
