@@ -1,16 +1,15 @@
 # In App Purchase Example
 
 ![Image](https://github.com/user-attachments/assets/e3e87c6f-75f1-4ad8-9c0f-1a4a13666f9f)
-![Image](https://github.com/user-attachments/assets/de8efa61-1879-4916-8373-3537e63312fe)
 ![Image](https://github.com/user-attachments/assets/62eb3e4d-a6e1-493e-b76e-69bad926c2d8)
-![Image](https://github.com/user-attachments/assets/5af3b63b-bda7-4ddb-9ae9-8c90fe747baf)
 
 이 예제는 `getProductItemList`를 사용해 콘솔에 등록한 인앱 결제 상품 목록을 불러오고,  
 사용자가 선택한 상품에 대해 `createOneTimePurchaseOrder`를 통해 결제를 진행하는 예제에요.
 
-⚠️ 샌드박스 앱에서는 결제가 가상으로 진행돼요. 반면, 토스 앱에서 테스트할 경우 실제 결제가 발생하고, 결제된 금액은 [iOS](https://support.apple.com/ko-kr/118223) 또는 [Android](https://support.google.com/googleplay/answer/2479637?hl=ko)의 환불 정책에 따라 환불을 요청할 수 있어요.
+⚠️ 인앱 결제는 아직 샌드박스 앱에서 테스트할 수 없고, 토스 앱에서 테스트할 경우 실제 결제가 발생해요.  
+결제된 금액은 [iOS](https://support.apple.com/ko-kr/118223) 또는 [Android](https://support.google.com/googleplay/answer/2479637?hl=ko)의 환불 정책에 따라 환불을 요청할 수 있어요.
 
-// 이미지 자리
+<img src="../assets/with-in-app-purchase-example-video.gif" alt="with-in-app-purchase-example-video" style="width: 330px;" />
 
 <br />
 
