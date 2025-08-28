@@ -14,7 +14,7 @@ export default defineConfig({
   outdir: 'dist',
   brand: {
     displayName: '랜덤 볼',
-    icon: 'https://static.toss.im/appsintoss/73/5d3c5039-585e-4ddb-a3fa-9cd260ab55b9.png',
+    icon: 'https://static.toss.im/appsintoss/73/5f223e3b-4854-42d2-8993-83c042f6c01f.png',
     primaryColor: '#3B70E3',
     bridgeColorMode: 'inverted',
   },
