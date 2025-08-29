@@ -1,5 +1,5 @@
 import { useCallback, useRef, useState } from 'react';
-import { useFocusEffect } from '@react-native-bedrock/native/@react-navigation/native';
+import { useFocusEffect } from '@granite-js/native/@react-navigation/native';
 import { GoogleAdMob } from '@apps-in-toss/framework';
 
 const AD_UNIT_ID = '<YOUR_AD_UNIT_ID>';
