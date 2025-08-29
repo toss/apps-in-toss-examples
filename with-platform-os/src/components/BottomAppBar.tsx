@@ -1,5 +1,5 @@
+import { getPlatformOS } from "@apps-in-toss/framework";
 import { StyleSheet, View } from 'react-native';
-import { getPlatformOS } from 'react-native-bedrock';
 import { colors } from '@toss-design-system/react-native';
 
 const ITEM_COUNT = 4;

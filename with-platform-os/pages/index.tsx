@@ -1,10 +1,10 @@
 import { StyleSheet, View } from 'react-native';
-import { BedrockRoute } from 'react-native-bedrock';
+import { createRoute } from "@granite-js/react-native";
 import { colors } from '@toss-design-system/react-native';
 import { BottomAppBar } from 'components/BottomAppBar';
 import { Card } from 'components/Card';
 
-export const Route = BedrockRoute('/', {
+export const Route = createRoute('/', {
   validateParams: (params) => params,
   component: Index,
 });
