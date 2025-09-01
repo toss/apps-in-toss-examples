@@ -14,7 +14,7 @@ export default defineConfig({
   outdir: 'dist',
   brand: {
     displayName: '위클리 투두 - 제이쿼리',
-    icon: 'https://static.toss.im/appsintoss/73/6d1726a1-ad8a-430f-a532-b872500ed539',
+    icon: 'https://static.toss.im/appsintoss/73/ce76ba9b-c384-49b8-8bb9-2017f903f455.png',
     primaryColor: '#3B70E3',
     bridgeColorMode: 'inverted',
   },
