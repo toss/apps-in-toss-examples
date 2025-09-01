@@ -1,10 +1,11 @@
+import { getPlatformOS } from "@apps-in-toss/framework";
 import { FlatList, StyleSheet } from 'react-native';
-import { BedrockRoute, getPlatformOS } from 'react-native-bedrock';
+import { createRoute } from "@granite-js/react-native";
 import { List, ListHeader } from '@toss-design-system/react-native';
 import { ExampleListItem } from 'components/ExampleListItem';
 import { exampleList } from 'constants/exampleList';
 
-export const Route = BedrockRoute('/', {
+export const Route = createRoute('/', {
   validateParams: (params) => params,
   component: Index,
 });
