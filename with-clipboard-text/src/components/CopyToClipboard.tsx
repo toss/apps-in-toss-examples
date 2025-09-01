@@ -23,7 +23,6 @@ export function CopyToClipboard() {
       placeholder="텍스트를 입력 후 복사해 보세요."
       value={inputText}
       onChangeText={setInputText}
-      paddingTop={0}
       paddingBottom={0}
       right={
         <Button size="tiny" onPress={handleCopyToClipboard}>
