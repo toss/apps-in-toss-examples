@@ -1,6 +1,7 @@
+import { generateHapticFeedback } from "@apps-in-toss/framework";
 import { useState } from 'react';
 import { StyleSheet, View } from 'react-native';
-import { BedrockRoute, generateHapticFeedback } from 'react-native-bedrock';
+import { createRoute } from "@granite-js/react-native";
 import { useLocationWatcher } from 'hooks/useLocationWatcher';
 import {
   LocationStatusView,
@@ -9,7 +10,7 @@ import {
 import { LOCATION } from '../src/constants/location';
 import { Button, Text } from '@toss-design-system/react-native';
 
-export const Route = BedrockRoute('/', {
+export const Route = createRoute('/', {
   validateParams: (params) => params,
   component: Index,
 });
