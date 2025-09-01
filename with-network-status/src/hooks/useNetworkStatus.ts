@@ -1,5 +1,5 @@
 import { useEffect, useState, useCallback } from 'react';
-import { getNetworkStatus, NetworkStatus } from 'react-native-bedrock';
+import { getNetworkStatus, NetworkStatus } from '@apps-in-toss/framework';
 
 export function useNetworkStatus() {
   const [status, setStatus] = useState<NetworkStatus | null>(null);
