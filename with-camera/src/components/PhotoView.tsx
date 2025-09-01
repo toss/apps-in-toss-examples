@@ -1,5 +1,5 @@
 import { StyleSheet, View } from 'react-native';
-import { Image } from 'react-native-bedrock';
+import { Image } from "@granite-js/react-native";
 import { Text, colors } from '@toss-design-system/react-native';
 import { ImageState } from 'hooks/useCamera';
 
