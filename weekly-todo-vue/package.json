@@ -4,13 +4,14 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "bedrock dev",
-    "build": "bedrock build",
+    "dev": "granite dev",
+    "build": "granite build",
     "preview": "vite preview",
     "deploy": "ait deploy"
   },
   "dependencies": {
-    "@apps-in-toss/web-framework": "^0.0.30",
+    "@apps-in-toss/web-framework": "1.0.1",
+    "@granite-js/plugin-router": "0.1.21",
     "@vueuse/core": "^13.1.0",
     "date-fns": "^4.1.0",
     "nanoid": "^5.0.9",
@@ -20,6 +21,7 @@
     "vuedraggable": "^4.1.0"
   },
   "devDependencies": {
+    "@granite-js/plugin-router": "0.1.21",
     "@types/sortablejs": "^1.15.8",
     "@vitejs/plugin-vue": "^5.2.1",
     "@vue/tsconfig": "^0.7.0",
