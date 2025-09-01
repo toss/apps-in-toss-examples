@@ -14,7 +14,7 @@ export default defineConfig({
   outdir: 'dist',
   brand: {
     displayName: '위클리 투두 - 리액트',
-    icon: 'https://static.toss.im/appsintoss/73/b6eb9bd4-5282-418f-92a5-bfffba9b9570',
+    icon: 'https://static.toss.im/appsintoss/73/10550764-5ac1-44e2-9ff3-ad78d8d2e71a.png',
     primaryColor: '#3B70E3',
     bridgeColorMode: 'inverted',
   },
