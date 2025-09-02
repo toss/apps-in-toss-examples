@@ -1,7 +1,23 @@
 # In App Purchase Example
 
-![Image](https://github.com/user-attachments/assets/e3e87c6f-75f1-4ad8-9c0f-1a4a13666f9f)
-![Image](https://github.com/user-attachments/assets/62eb3e4d-a6e1-493e-b76e-69bad926c2d8)
+<style type='text/css'>
+  [class*="tag-list"] { display: flex; flex-direction: column; gap: 10px; }
+  [class*="item"] { display: flex; alineItem: center; gap: 4px; }
+  [class*="label"] { margin: 0; padding: 0; padding-top: 2px; }
+</style>
+
+<div class="tag-list">
+   <div class="item">
+      <p class="label">지원 대상:</p>
+      <img src='../assets/tag-react-native.svg' ait="react native" />
+   </div>
+   <div class="item">
+      <p class="label">실행 환경:</p>
+      <img src='../assets/tag-toss-app.svg' ait="toss app" />
+   </div>
+<div>
+
+<br />
 
 이 예제는 `getProductItemList`를 사용해 콘솔에 등록한 인앱 결제 상품 목록을 불러오고,  
 사용자가 선택한 상품에 대해 `createOneTimePurchaseOrder`를 통해 결제를 진행하는 예제에요.

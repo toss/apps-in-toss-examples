@@ -1,5 +1,5 @@
 import { useCallback } from 'react';
-import { BedrockRoute, useNavigation } from 'react-native-bedrock';
+import { createRoute, useNavigation } from "@granite-js/react-native";
 import { List, ListRow, Text, Txt } from '@toss-design-system/react-native';
 import { IapProductListItem } from '@apps-in-toss/framework';
 import { ProductListEmpty } from 'components/ProductListEmpty';
@@ -7,7 +7,7 @@ import { StyleSheet, View } from 'react-native';
 import { useIapProductList } from 'hooks/useIapProductList';
 import { LoadingView } from 'components/LoadingView';
 
-export const Route = BedrockRoute('/', {
+export const Route = createRoute('/', {
   validateParams: (params) => params,
   component: Index,
 });
