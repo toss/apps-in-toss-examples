@@ -1,9 +1,24 @@
 # Example Game
 
-![Image](https://github.com/user-attachments/assets/e3e87c6f-75f1-4ad8-9c0f-1a4a13666f9f)
-![Image](https://github.com/user-attachments/assets/de8efa61-1879-4916-8373-3537e63312fe)
-![Image](https://github.com/user-attachments/assets/62eb3e4d-a6e1-493e-b76e-69bad926c2d8)
-![Image](https://github.com/user-attachments/assets/5af3b63b-bda7-4ddb-9ae9-8c90fe747baf)
+<style type='text/css'>
+  [class*="tag-list"] { display: flex; flex-direction: column; gap: 10px; }
+  [class*="item"] { display: flex; alineItem: center; gap: 4px; }
+  [class*="label"] { margin: 0; padding: 0; padding-top: 2px; }
+</style>
+
+<div class="tag-list">
+   <div class="item">
+      <p class="label">지원 대상:</p>
+      <img src='../assets/tag-webview.svg' ait='webview' />
+   </div>
+   <div class="item">
+      <p class="label">실행 환경:</p>
+      <img src='../assets/tag-toss-app.svg' ait='toss app' />
+      <img src='../assets/tag-sandbox-app.svg' ait='sandbox app' />
+   </div>
+<div>
+
+<br />
 
 `@apps-in-toss/web-framework`를 활용해 React와 Three.js로 만든 게임 예제에요.  
 이 예제에서는 사운드, 가로 모드, 게임 프로필, 리더보드 등 게임 개발에 필요한 다양한 요소들을 참고할 수 있어요.
