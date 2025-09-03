@@ -1,24 +1,8 @@
 # Example Game
 
-<style type='text/css'>
-  [class*="tag-list"] { display: flex; flex-direction: column; gap: 10px; }
-  [class*="item"] { display: flex; alineItem: center; gap: 4px; }
-  [class*="label"] { margin: 0; padding: 0; padding-top: 2px; }
-</style>
-
-<div class="tag-list">
-   <div class="item">
-      <p class="label">지원 대상:</p>
-      <img src='../assets/tag-webview.svg' ait='webview' />
-   </div>
-   <div class="item">
-      <p class="label">실행 환경:</p>
-      <img src='../assets/tag-toss-app.svg' ait='toss app' />
-      <img src='../assets/tag-sandbox-app.svg' ait='sandbox app' />
-   </div>
-<div>
-
-<br />
+![WebView](../assets/tags/tag-webview.svg.svg)
+![Toss App](../assets/tags/tag-toss-app.svg)
+![Sandbox App](../assets/tags/tag-sandbox-app.svg)
 
 `@apps-in-toss/web-framework`를 활용해 React와 Three.js로 만든 게임 예제에요.  
 이 예제에서는 사운드, 가로 모드, 게임 프로필, 리더보드 등 게임 개발에 필요한 다양한 요소들을 참고할 수 있어요.
@@ -27,7 +11,13 @@
 - [**가로 모드**](https://developers-apps-in-toss.toss.im/bedrock/reference/framework/%ED%99%94%EB%A9%B4%20%EC%A0%9C%EC%96%B4/setDeviceOrientation.html#setdeviceorientation): setDeviceOrientation을 사용해 가로 화면으로 전환하는 방법을 확인할 수 있어요.
 - [**게임 프로필 & 리더보드**](https://developers-apps-in-toss.toss.im/development/leaderboard.html): 전체 랭킹을 확인하고, 친구를 추가하거나 친구에게 내 점수를 자랑할 수 있어요.
 
-<img src="../assets/with-game-example-video.gif" alt="with-game-example-video" style="width: 700px;" />
+<img src="../assets/examples/with-game-example-video.gif" alt="example gif" width="700px" />
+
+<br />
+
+## 📲 체험하기
+
+<img src="../assets/qr-codes/with-game-qr-code.svg" ait="qr code" width="100px" />&nbsp;
 
 <br />
 
