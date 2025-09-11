@@ -36,8 +36,7 @@ export function DraftInput({ storageKey }: Props) {
         placeholder="텍스트를 입력 후 복사해 보세요."
         value={text}
         onChangeText={setText}
-        paddingTop={0}
-        paddingBottom={0}
+        paddingBottom={8}
         multiline
         help={showSavedMessage && '초안이 저장됐어요.'}
       />
@@ -52,6 +51,5 @@ const styles = StyleSheet.create({
   textfield: {
     height: 100,
     textAlignVertical: 'top',
-    marginBottom: 8,
   },
 });

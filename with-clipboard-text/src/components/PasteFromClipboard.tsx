@@ -14,7 +14,7 @@ export function PasteFromClipboard() {
         return;
       }
 
-      setInputText((prev) => prev + clipboardText);
+      setInputText(clipboardText);
     } catch (error) {
       toast.open('텍스트를 가져오지 못했어요.', { type: 'bottom' });
     }
@@ -28,8 +28,6 @@ export function PasteFromClipboard() {
       value={inputText}
       onChangeText={setInputText}
       disabled
-      paddingTop={0}
-      paddingBottom={0}
       right={
         <Button size="tiny" type="dark" onPress={handlePasteFromClipboard}>
           붙어넣기

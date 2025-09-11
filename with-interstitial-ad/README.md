@@ -1,13 +1,20 @@
 # Interstitial Ad Example
 
-![Image](https://github.com/user-attachments/assets/e3e87c6f-75f1-4ad8-9c0f-1a4a13666f9f)
-![Image](https://github.com/user-attachments/assets/62eb3e4d-a6e1-493e-b76e-69bad926c2d8)
+![React Native](../assets/tags/tag-react-native.svg)
+![WebView](../assets/tags/tag-webview.svg)
+![Toss App](../assets/tags/tag-toss-app.svg)
 
 `loadAdMobInterstitialAd`를 사용해 전면 광고를 로드하고, `showAdMobInterstitialAd`로 광고를 노출하는 예제예요.  
 [Google AdMob](https://support.google.com/admob/answer/6066980?hl=ko)에서는 사용자 경험 측면에서 전면 광고를 화면 이동 전에 먼저 보여주는 방식을 권장하고 있어요.  
 ⚠️ 이 예제는 토스 앱 환경에서만 확인할 수 있어요.
 
-![with-interstitial-ad-example-image](../assets/with-interstitial-ad-example-image.png)
+<img src="../assets/examples/with-interstitial-ad-example-image.png" alt="example image" width="1010px"/>
+
+<br />
+
+## 📲 체험하기
+
+<img src="../assets/qr-codes/with-interstitial-ad-qr-code.svg" ait="qr code" width="100px" />&nbsp;
 
 <br />
 

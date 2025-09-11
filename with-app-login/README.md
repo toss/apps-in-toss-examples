@@ -1,14 +1,14 @@
 # App Login Example
 
-![Image](https://github.com/user-attachments/assets/e3e87c6f-75f1-4ad8-9c0f-1a4a13666f9f)
-![Image](https://github.com/user-attachments/assets/de8efa61-1879-4916-8373-3537e63312fe)
-![Image](https://github.com/user-attachments/assets/62eb3e4d-a6e1-493e-b76e-69bad926c2d8)
-![Image](https://github.com/user-attachments/assets/5af3b63b-bda7-4ddb-9ae9-8c90fe747baf)
-
-<img src="../assets/with-app-login-example-video.gif" alt="with-app-login-example-video" style="width: 330px;" />
+![React Native](../assets/tags/tag-react-native.svg)
+![WebView](../assets/tags/tag-webview.svg)
+![Toss App](../assets/tags/tag-toss-app.svg)
+![Sandbox App](../assets/tags/tag-sandbox-app.svg)
 
 `appLogin`을 사용해 인가 코드(`authorizationCode`)와 `referrer`를 받아  
 서버에 전달한 뒤 로그인, 토큰 재발급, 로그아웃(accessToken, userKey)을 테스트할 수 있는 예제예요.
+
+<img src="../assets/examples/with-app-login-example-video.gif" alt="example gif" width="330px" />
 
 <br />
 
@@ -21,6 +21,8 @@
    신청이 완료되면, 등록된 이메일로 복호화 키와 AAD가 전달돼요.
 
 3. 앱인토스 콘솔 > 개발에서 mTLS 인증서도 함께 발급받아 주세요.
+
+<br />
 
 ## 🚀 설치 및 실행 방법
 

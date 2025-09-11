@@ -1,14 +1,19 @@
 # Weekly Todo React
 
-![Image](https://github.com/user-attachments/assets/e3e87c6f-75f1-4ad8-9c0f-1a4a13666f9f)
-![Image](https://github.com/user-attachments/assets/de8efa61-1879-4916-8373-3537e63312fe)
-![Image](https://github.com/user-attachments/assets/62eb3e4d-a6e1-493e-b76e-69bad926c2d8)
-![Image](https://github.com/user-attachments/assets/5af3b63b-bda7-4ddb-9ae9-8c90fe747baf)
+![WebView](../assets/tags/tag-webview.svg)
+![Toss App](../assets/tags/tag-toss-app.svg)
+![Sandbox App](../assets/tags/tag-sandbox-app.svg)
 
 `@apps-in-toss/web-framework`를 활용해 React 환경에서 만든 Weekly Todo App이에요.  
 이 프레임워크를 사용하면 앱 개발에 대한 깊은 지식이 없어도, 기존 웹 프로젝트를 기반으로 완성도 높고 심리스한 앱을 손쉽게 만들 수 있어요.
 
-<img src="../assets/weekly-todo-example-video.gif" alt="weekly-todo-example-video" style="width: 330px;" />
+<img src="../assets/examples/weekly-todo-example-video.gif" alt="example gif" width="330px" />
+
+<br />
+
+## 📲 체험하기
+
+<img src="../assets/qr-codes/weekly-todo-react-qr-code.svg" ait="qr code" width="100px" />&nbsp;
 
 <br />
 

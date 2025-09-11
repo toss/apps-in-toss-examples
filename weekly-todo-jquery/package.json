@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "bedrock dev",
-    "build": "bedrock build",
+    "dev": "granite dev",
+    "build": "granite build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "ait deploy"
   },
@@ -15,6 +15,7 @@
   "devDependencies": {
     "@babel/core": "^7.26.9",
     "@babel/preset-env": "^7.26.9",
+    "@granite-js/plugin-router": "0.1.21",
     "@types/sortablejs": "^1.15.8",
     "babel-loader": "^9.2.1",
     "css-loader": "^7.1.2",
@@ -28,7 +29,8 @@
     "webpack-dev-server": "^5.2.0"
   },
   "dependencies": {
-    "@apps-in-toss/web-framework": "^0.0.30",
+    "@apps-in-toss/web-framework": "1.0.1",
+    "@granite-js/plugin-router": "0.1.21",
     "@types/jquery": "^3.5.32",
     "date-fns": "^4.1.0",
     "jquery": "^3.7.1",

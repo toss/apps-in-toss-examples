@@ -1,13 +1,21 @@
 # Haptic Feedback Example
 
-![Image](https://github.com/user-attachments/assets/e3e87c6f-75f1-4ad8-9c0f-1a4a13666f9f)
-![Image](https://github.com/user-attachments/assets/62eb3e4d-a6e1-493e-b76e-69bad926c2d8)
+![React Native](../assets/tags/tag-react-native.svg)
+![WebView](../assets/tags/tag-webview.svg)
+![Toss App](../assets/tags/tag-toss-app.svg)
+![Sandbox App](../assets/tags/tag-sandbox-app.svg)
 
 `generateHapticFeedback`을 사용한 진동 알림을 직접 테스트할 수 있는 예제예요.  
 자세한 옵션은 [HapticFeedbackOptions](https://developers-apps-in-toss.toss.im/bedrock/reference/react-native-bedrock/%EC%9D%B8%ED%84%B0%EB%A0%89%EC%85%98/HapticFeedbackOptions.html)를 참고해 주세요.  
 ⚠️ 진동 기능은 실제 기기에서만 사용할 수 있어요.
 
-<img src="../assets/with-haptic-feedback-example-image.png" alt="with-haptic-feedback-example-image" style="width: 330px;" />
+<img src="../assets/examples/with-haptic-feedback-example-image.png" alt="example image" width="330px" />
+
+<br />
+
+## 📲 체험하기
+
+<img src="../assets/qr-codes/with-haptic-feedback-qr-code.svg" ait="qr code" width="100px" />&nbsp;
 
 <br />
 

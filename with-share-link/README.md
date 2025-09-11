@@ -1,12 +1,20 @@
 # Share Link Example
 
-![Image](https://github.com/user-attachments/assets/e3e87c6f-75f1-4ad8-9c0f-1a4a13666f9f)
-![Image](https://github.com/user-attachments/assets/62eb3e4d-a6e1-493e-b76e-69bad926c2d8)
+![React Native](../assets/tags/tag-react-native.svg)
+![WebView](../assets/tags/tag-webview.svg)
+![Toss App](../assets/tags/tag-toss-app.svg)
+![Sandbox App](../assets/tags/tag-sandbox-app.svg)
 
 `getTossShareLink`를 사용해 프로필 페이지의 딥링크를 생성하고, `Share`로 공유하는 예제예요.  
  ⚠️ 이 예제를 실행하려면 토스 앱이 설치되어 있어야 해요.
 
-![with-share-link-example-image](../assets/with-share-link-example-image.png)
+<img src="../assets/examples/with-share-link-example-image.png" alt="example image" width="1010px" />
+
+<br />
+
+## 📲 체험하기
+
+<img src="../assets/qr-codes/with-share-link-qr-code.svg" ait="qr code" width="100px" />&nbsp;
 
 <br />
 

@@ -35,12 +35,12 @@ const isSorting = ref<boolean>(false);
 
 <template>
   <DeviceViewport />
-  <Week @update:selectDate="(date) => (selectDate = date)" />
+  <Week @update:selectDate="(date:string) => (selectDate = date)" />
   <div className="task-container">
     <TaskList
       title="ToDo"
       :items="todos"
-      @update:isSorting="(value) => (isSorting = value)"
+      @update:isSorting="(value:boolean) => (isSorting = value)"
       emptyMessage="Set a new goal for yourself! 🎯"
     >
       <template #default="{ item: todo }">
@@ -57,7 +57,7 @@ const isSorting = ref<boolean>(false);
     <TaskList
       title="Done"
       :items="doneTodos"
-      @update:isSorting="(value) => (isSorting = value)"
+      @update:isSorting="(value:boolean) => (isSorting = value)"
       emptyMessage="Still nothing done! Finish one today! 🌟"
     >
       <template #default="{ item: doneTodo }">

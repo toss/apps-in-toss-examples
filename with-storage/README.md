@@ -1,14 +1,20 @@
 # Storage Example
 
-![Image](https://github.com/user-attachments/assets/e3e87c6f-75f1-4ad8-9c0f-1a4a13666f9f)
-![Image](https://github.com/user-attachments/assets/de8efa61-1879-4916-8373-3537e63312fe)
-![Image](https://github.com/user-attachments/assets/62eb3e4d-a6e1-493e-b76e-69bad926c2d8)
-![Image](https://github.com/user-attachments/assets/5af3b63b-bda7-4ddb-9ae9-8c90fe747baf)
+![React Native](../assets/tags/tag-react-native.svg)
+![WebView](../assets/tags/tag-webview.svg)
+![Toss App](../assets/tags/tag-toss-app.svg)
+![Sandbox App](../assets/tags/tag-sandbox-app.svg)
 
 `Storage`를 사용해 입력한 텍스트의 초안을 자동으로 저장하고, 앱을 다시 실행해도 이전에 작성하던 내용을 불러올 수 있는 예제에요.  
 모바일 앱의 로컬 저장소를 활용하면 사용자의 데이터를 영구적으로 유지할 수 있어요.
 
-![with-storage-example-image](../assets/with-storage-example-image.png)
+<img src="../assets/examples/with-storage-example-image.png" alt="example image" width="1010px" />
+
+<br />
+
+## 📲 체험하기
+
+<img src="../assets/qr-codes/with-storage-qr-code.svg" ait="qr code" width="100px" />&nbsp;
 
 <br />
 

@@ -1,11 +1,11 @@
 import { StyleSheet, FlatList, View } from 'react-native';
-import { BedrockRoute } from 'react-native-bedrock';
+import { createRoute } from "@granite-js/react-native";
 import { useContacts } from 'hooks/useContacts';
 import { Text } from '@toss-design-system/react-native';
 import { ContactItem } from 'components/ContactItem';
 import { FlatListFooter } from 'components/ListFooter';
 
-export const Route = BedrockRoute('/', {
+export const Route = createRoute('/', {
   validateParams: (params) => params,
   component: Index,
 });

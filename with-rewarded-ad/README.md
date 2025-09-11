@@ -1,13 +1,20 @@
 # Rewarded Ad Example
 
-![Image](https://github.com/user-attachments/assets/e3e87c6f-75f1-4ad8-9c0f-1a4a13666f9f)
-![Image](https://github.com/user-attachments/assets/62eb3e4d-a6e1-493e-b76e-69bad926c2d8)
+![React Native](../assets/tags/tag-react-native.svg)
+![WebView](../assets/tags/tag-webview.svg)
+![Toss App](../assets/tags/tag-toss-app.svg)
 
 `loadAdMobRewardedAd`를 사용해 보상형 광고를 로드하고, `showAdMobRewardedAd`로 광고를 노출하는 예제예요.  
 보상형 광고는 사용자가 광고 시청을 선택하고, 그에 대한 보상을 받을 수 있어 자연스럽고 긍정적인 사용자 경험을 제공할 수 있어요.  
 ⚠️ 이 예제는 토스 앱 환경에서만 확인할 수 있어요.
 
-![with-rewarded-ad-example-image](../assets/with-rewarded-ad-example-image.png)
+<img src="../assets/examples/with-rewarded-ad-example-image.png" alt="example image" width="1010px" />
+
+<br />
+
+## 📲 체험하기
+
+<img src="../assets/qr-codes/with-rewarded-ad-qr-code.svg" ait="qr code" width="100px" />&nbsp;
 
 <br />
 

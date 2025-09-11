@@ -1,5 +1,5 @@
 import { StyleSheet, View } from 'react-native';
-import { BedrockRoute } from 'react-native-bedrock';
+import { createRoute } from "@granite-js/react-native";
 import { useNetworkStatus } from 'hooks/useNetworkStatus';
 import { LoadingView } from 'components/LoadingView';
 import { OfflineVideoNotice } from 'components/OfflineVideoNotice';
@@ -7,7 +7,7 @@ import { WifiVideoPlayer } from 'components/WifiVideoPlayer';
 import { CellularVideoPlayer } from 'components/CellularVideoPlayer';
 import { Text } from '@toss-design-system/react-native';
 
-export const Route = BedrockRoute('/', {
+export const Route = createRoute('/', {
   validateParams: (params) => params,
   component: Index,
 });

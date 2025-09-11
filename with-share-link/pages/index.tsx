@@ -1,6 +1,7 @@
+import { share } from "@apps-in-toss/framework";
 import React from 'react';
 import { StyleSheet, View, Alert } from 'react-native';
-import { BedrockRoute, share } from 'react-native-bedrock';
+import { createRoute } from "@granite-js/react-native";
 import { Button, Text } from '@toss-design-system/react-native';
 import {
   getTossShareLink,
@@ -9,7 +10,7 @@ import {
 import { Visibility } from 'components/Visibility';
 import { TextBox } from 'components/TextBox';
 
-export const Route = BedrockRoute('/', {
+export const Route = createRoute('/', {
   validateParams: (params) => params,
   component: Index,
 });

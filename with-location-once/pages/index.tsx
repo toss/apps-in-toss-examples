@@ -1,12 +1,12 @@
 import { StyleSheet, View } from 'react-native';
-import { BedrockRoute } from 'react-native-bedrock';
+import { createRoute } from "@granite-js/react-native";
 import { ErrorView } from 'components/ErrorView';
 import { LoadingView } from 'components/LoadingView';
 import { useCurrentLocation } from 'hooks/useCurrentLocation';
 import { TextBox } from 'components/ui/TextBox';
 import { Button, Text } from '@toss-design-system/react-native';
 
-export const Route = BedrockRoute('/', {
+export const Route = createRoute('/', {
   validateParams: (params) => params,
   component: Index,
 });
