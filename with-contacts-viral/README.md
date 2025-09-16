@@ -37,6 +37,6 @@
 
 ## 📌 참고사항
 
-- [공유 리워드](https://developers-apps-in-toss.toss.im/reward/intro.html)
+- [친구 초대하고 리워드 받기](https://developers-apps-in-toss.toss.im/bedrock/reference/framework/%EC%B9%9C%EA%B5%AC%EC%B4%88%EB%8C%80/contactsViral.html)
 - [WebView 개발하기](https://developers-apps-in-toss.toss.im/tutorials/webview.html)
 - [사운드](https://developers-apps-in-toss.toss.im/checklist/app-game.html#_3-사운드)
