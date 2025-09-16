@@ -1,6 +1,6 @@
 # Example Game
 
-![WebView](../assets/tags/tag-webview.svg.svg)
+![WebView](../assets/tags/tag-webview.svg)
 ![Toss App](../assets/tags/tag-toss-app.svg)
 ![Sandbox App](../assets/tags/tag-sandbox-app.svg)
 
