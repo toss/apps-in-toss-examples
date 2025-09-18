@@ -1,5 +1,5 @@
 import { StyleSheet, View } from 'react-native';
-import { createRoute } from "@granite-js/react-native";
+import { createRoute } from '@granite-js/react-native';
 import { useCamera } from 'hooks/useCamera';
 import { PhotoView } from 'components/PhotoView';
 import { Button } from '@toss-design-system/react-native';

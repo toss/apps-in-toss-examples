@@ -7,6 +7,8 @@
 
 `openCamera`를 사용해서 카메라를 실행하고, 촬영한 사진을 화면에 보여주거나 삭제하는 예제예요.
 
+카메라는 [**권한 설정**](https://developers-apps-in-toss.toss.im/bedrock/reference/framework/%EA%B6%8C%ED%95%9C/permission.html)이 필요해요. 이 설정은 `granite.config.ts`에 작성하고, 설정이 끝난 뒤에는 `getPermission`으로 현재 권한 상태를 확인하고 `openPermissionDialog`로 권한 다이얼로그를 사용자에게 보여줄 수 있어요.
+
 <img src="../assets/examples/with-camera-example-image.png" ait="example image" width="1010px" />
 
 <br />
@@ -40,3 +42,4 @@
 ## 📌 참고사항
 
 - [openCamera](https://developers-apps-in-toss.toss.im/bedrock/reference/framework/%EC%B9%B4%EB%A9%94%EB%9D%BC/openCamera.html)
+- [권한 설정하기](https://developers-apps-in-toss.toss.im/bedrock/reference/framework/%EA%B6%8C%ED%95%9C/permission.html)
