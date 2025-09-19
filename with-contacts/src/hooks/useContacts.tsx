@@ -1,5 +1,7 @@
 import { useCallback, useEffect, useState } from 'react';
 import { ContactEntity, fetchContacts } from '@apps-in-toss/framework';
+import { usePermissionGate } from './usePermissionGate';
+import { useToast } from '@toss-design-system/react-native';
 
 interface ContactsResponse {
   result: ContactEntity[];
@@ -13,15 +15,29 @@ export function useContacts() {
     nextOffset: 0,
     done: false,
   });
+  const toast = useToast();
+  const permissionGate = usePermissionGate({
+    getPermission: () => fetchContacts.getPermission(),
+    openPermissionDialog: () => fetchContacts.openPermissionDialog(),
+    onPermissionRequested: (status) => console.log(`권한 요청 결과: ${status}`),
+  });
 
   const loadContacts = useCallback(async () => {
     try {
-      if (contacts.done) return;
+      if (contacts.done) {
+        return;
+      }
 
-      const response = await fetchContacts({
-        size: 10,
-        offset: contacts.nextOffset ?? 0,
-      });
+      const response = await permissionGate.ensureAndRun(() =>
+        fetchContacts({
+          size: 10,
+          offset: contacts.nextOffset ?? 0,
+        })
+      );
+
+      if (!response) {
+        return;
+      }
 
       setContacts((prev) => ({
         result: [...prev.result, ...response.result],
@@ -29,7 +45,13 @@ export function useContacts() {
         done: response.done,
       }));
     } catch (error) {
-      console.error('연락처를 가져오는 데 실패했어요:', error);
+      let errorMessage = '연락처를 가져오는 데 실패했어요';
+
+      if (error instanceof Error) {
+        errorMessage = error.message;
+      }
+
+      toast.open(`${errorMessage}`);
     }
   }, [contacts.done, contacts.nextOffset]);
 
@@ -40,6 +62,7 @@ export function useContacts() {
   return {
     contacts: contacts.result,
     done: contacts.done,
+    permission: permissionGate.permission,
     reloadContacts: loadContacts,
   };
 }

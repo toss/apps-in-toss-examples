@@ -7,7 +7,9 @@
 
 `fetchContacts`를 사용하여 사용자의 연락처 목록을 무한 스크롤로 불러오는 예제예요. 스크롤이 끝에 도달하면 자동으로 다음 연락처를 가져와요.
 
-<img src="../assets/examples/with-contacts-example-image.png" ait="example image" width="1010px" />
+연락처는 [**권한 설정**](https://developers-apps-in-toss.toss.im/bedrock/reference/framework/%EA%B6%8C%ED%95%9C/permission.html)이 필요해요. 이 설정은 `granite.config.ts`에 작성하고, 설정이 끝난 뒤에는 `getPermission`으로 현재 권한 상태를 확인하고 `openPermissionDialog`로 권한 다이얼로그를 사용자에게 보여줄 수 있어요.
+
+<img src="../assets/examples/ith-contacts-example-image.png" ait="example image" width="1010px" />
 
 <br />
 
@@ -42,3 +44,4 @@
 ## 📌 참고사항
 
 - [fetchContacts](https://developers-apps-in-toss.toss.im/bedrock/reference/framework/%EC%97%B0%EB%9D%BD%EC%B2%98/fetchContacts.html)
+- [권한 설정하기](https://developers-apps-in-toss.toss.im/bedrock/reference/framework/%EA%B6%8C%ED%95%9C/permission.html)
