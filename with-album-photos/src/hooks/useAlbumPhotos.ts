@@ -1,5 +1,7 @@
 import { useState, useCallback } from 'react';
 import { fetchAlbumPhotos, ImageResponse } from '@apps-in-toss/framework';
+import { usePermissionGate } from './usePermissionGate';
+import { useToast } from '@toss-design-system/react-native';
 
 export interface ImageState extends ImageResponse {
   previewUri: string;
@@ -11,13 +13,23 @@ interface UseAlbumPhotosProps {
 
 export function useAlbumPhotos({ base64 = false }: UseAlbumPhotosProps) {
   const [albumPhotos, setAlbumPhotos] = useState<ImageState[]>([]);
+  const toast = useToast();
+  const permissionGate = usePermissionGate({
+    getPermission: () => fetchAlbumPhotos.getPermission(),
+    openPermissionDialog: () => fetchAlbumPhotos.openPermissionDialog(),
+    onPermissionRequested: (status) => console.log(`권한 요청 결과: ${status}`),
+  });
 
   const loadPhotos = useCallback(async () => {
     try {
-      const response = await fetchAlbumPhotos({
-        maxWidth: 360,
-        base64,
-      });
+      const response = await permissionGate.ensureAndRun(() =>
+        fetchAlbumPhotos({ maxWidth: 360, base64 })
+      );
+
+      if (!response) {
+        return;
+      }
+
       const newImages = response.map((img) => ({
         ...img,
         previewUri: base64
@@ -27,7 +39,13 @@ export function useAlbumPhotos({ base64 = false }: UseAlbumPhotosProps) {
 
       setAlbumPhotos((prev) => [...prev, ...newImages]);
     } catch (error) {
-      console.error('앨범을 가져오는 데 실패했어요:', error);
+      let errorMessage = '앨범을 가져오는 데 실패했어요';
+
+      if (error instanceof Error) {
+        errorMessage = error.message;
+      }
+
+      toast.open(`${errorMessage}`);
     }
   }, [base64]);
 
