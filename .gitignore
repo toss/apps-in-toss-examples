@@ -17,3 +17,4 @@ yarn-error.log
 dist/
 *.ait
 .vscode
+update-deps-and-build.js
