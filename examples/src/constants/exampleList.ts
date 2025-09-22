@@ -143,7 +143,6 @@ export const exampleList = [
   weeklyTodoReactExample,
   weeklyTodoVueExample,
   weeklyTodoJQueryExample,
-  randomBallsExample,
   albumPhotoExample,
   cameraExample,
   contactsExample,
