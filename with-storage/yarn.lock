@@ -15,22 +15,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@apps-in-toss/analytics@npm:1.0.1":
-  version: 1.0.1
-  resolution: "@apps-in-toss/analytics@npm:1.0.1"
+"@apps-in-toss/analytics@npm:1.0.3":
+  version: 1.0.3
+  resolution: "@apps-in-toss/analytics@npm:1.0.3"
   peerDependencies:
     "@granite-js/native": "*"
     "@granite-js/react-native": "*"
     "@types/react": "*"
     react: 18.2.0
     react-native: 0.72.6
-  checksum: 10c0/a882e9d90b8a16f87914d68f05f51d70c137c0c2e52d754f58ece9238a14e226a63bd09f427f67e7497cb74a419d17c72028ca8e1e6d02958ab76a7c66d92116
+  checksum: 10c0/1be3ac90b2a5298365e9e3efd61c61b543cf0c52319c876b915a3e06db5bd83186a11b2e8ac7925e2521de33ee789bbdf302af377f99e32ab3bc6a6b01cd1ba3
   languageName: node
   linkType: hard
 
-"@apps-in-toss/cli@npm:1.0.1":
-  version: 1.0.1
-  resolution: "@apps-in-toss/cli@npm:1.0.1"
+"@apps-in-toss/cli@npm:1.0.3":
+  version: 1.0.3
+  resolution: "@apps-in-toss/cli@npm:1.0.3"
   dependencies:
     "@clack/prompts": "npm:^0.10.0"
     "@granite-js/utils": "npm:0.1.21"
@@ -41,48 +41,48 @@ __metadata:
     jscodeshift: "npm:^17.3.0"
     source-map: "npm:^0.8.0-beta.0"
     unzipper: "npm:^0.12.3"
-  checksum: 10c0/d0e2e4ec713d359e63518f9f7e03b923169f3c5ed2c4a63f8e09c1883e6842fd75e5ba6f68ae5f092cbc427467004252e79fa1202775ff0d97e13667ad7ddb6c
+  checksum: 10c0/d3278d258d89babb4c83736c013837cb877841e623f1bccd8a7cc384a54b093148a31a4bdbefdb08522c2a6ed5a6c741fdd80395cf7ba6cd7de15e17328d86d8
   languageName: node
   linkType: hard
 
-"@apps-in-toss/framework@npm:1.0.1":
-  version: 1.0.1
-  resolution: "@apps-in-toss/framework@npm:1.0.1"
+"@apps-in-toss/framework@npm:1.0.3":
+  version: 1.0.3
+  resolution: "@apps-in-toss/framework@npm:1.0.3"
   dependencies:
-    "@apps-in-toss/analytics": "npm:1.0.1"
-    "@apps-in-toss/cli": "npm:1.0.1"
-    "@apps-in-toss/native-modules": "npm:1.0.1"
-    "@apps-in-toss/plugins": "npm:1.0.1"
+    "@apps-in-toss/analytics": "npm:1.0.3"
+    "@apps-in-toss/cli": "npm:1.0.3"
+    "@apps-in-toss/native-modules": "npm:1.0.3"
+    "@apps-in-toss/plugins": "npm:1.0.3"
     es-hangul: "npm:^2.3.2"
   peerDependencies:
     "@granite-js/native": "*"
     "@granite-js/react-native": "*"
-    "@toss-design-system/react-native": ">=1.0.4"
+    "@toss-design-system/react-native": ">=1.1.0"
     "@types/react": "*"
     react: "*"
     react-native: "*"
   bin:
     ait: ./bin/ait.js
-  checksum: 10c0/c2ef937aad4a0e3e1c91432115449960955c5824d9e8cfeb051f90ba349cb3e85b2c9673969ba8071a04ce6c3653b63e3ea46c065295cc01b3c159e16aac1ea8
+  checksum: 10c0/2d539a891dfb3728036e1f888b7de81960d4c940d8659a442b096d3ce2bf8ab7fe7ca4d15599d251d865c46091c14a5916d21544fb497cb4fe020962b4f9272f
   languageName: node
   linkType: hard
 
-"@apps-in-toss/native-modules@npm:1.0.1":
-  version: 1.0.1
-  resolution: "@apps-in-toss/native-modules@npm:1.0.1"
+"@apps-in-toss/native-modules@npm:1.0.3":
+  version: 1.0.3
+  resolution: "@apps-in-toss/native-modules@npm:1.0.3"
   dependencies:
     es-toolkit: "npm:^1.39.3"
   peerDependencies:
     "@granite-js/native": "*"
     "@granite-js/react-native": "*"
     react-native: "*"
-  checksum: 10c0/08026fde1d770b1c6bac6b6d44822e082a6c610156e5a2d05ca976f3a8d0dfe9a67263d416d45f320693f9bd364c4ffcc8cbf0fc81b29e0269c149a4a2fd7742
+  checksum: 10c0/8e78b34d4755d592a40b4b3af6a69a4b0eccc179b7e8a2b61d0ee4efd90df74e893434b09472d62be9e3c88a0f1b18db7decbe9727aaa75601444603ba35947f
   languageName: node
   linkType: hard
 
-"@apps-in-toss/plugins@npm:1.0.1":
-  version: 1.0.1
-  resolution: "@apps-in-toss/plugins@npm:1.0.1"
+"@apps-in-toss/plugins@npm:1.0.3":
+  version: 1.0.3
+  resolution: "@apps-in-toss/plugins@npm:1.0.3"
   dependencies:
     "@granite-js/plugin-core": "npm:0.1.21"
     "@granite-js/plugin-micro-frontend": "npm:0.1.21"
@@ -93,7 +93,7 @@ __metadata:
     execa: "npm:^9.5.2"
     picocolors: "npm:^1.1.1"
     uuidv7: "npm:^1.0.2"
-  checksum: 10c0/584bc64c161e7698f31dda07212a059e07271ea2d9957fa6a0b94413893638f7fa89e1b54611a8e76e1816ea3196a13e9117c0ee09a0fee2d5bffe3ba4a4bba8
+  checksum: 10c0/e4ceb7c6c61d56221e90a7fc226e85912c2fa0e14ad5d4b4012ba3926f5bfbb3f2e2d2a2a69631837df44e7acc431f7a977af123be321f57aa00af228fd030db
   languageName: node
   linkType: hard
 
@@ -4850,9 +4850,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@toss-design-system/react-native@npm:1.0.4":
-  version: 1.0.4
-  resolution: "@toss-design-system/react-native@npm:1.0.4"
+"@toss-design-system/react-native@npm:1.1.1":
+  version: 1.1.1
+  resolution: "@toss-design-system/react-native@npm:1.1.1"
   dependencies:
     "@react-spring/native": "npm:9.5.2"
     "@react-stately/radio": "npm:^3.6.0"
@@ -4872,7 +4872,7 @@ __metadata:
     "@granite-js/react-native": "*"
     react: "*"
     react-native: "*"
-  checksum: 10c0/687a029d8ee0eb43287ba402e55fda07a33a5480d750969fd4dd41fe13fdb555cd8ea5dd5bd3ca575cf64ec4a195757f28aa5f688970113dd898d556ee89add5
+  checksum: 10c0/a5acfb123fdecfc6ad88b789c6ede1469c72e84850068b210dd7bcc2222a09230bbaa99f0ff2926e03239617e6cf410da24814c8721bf3ff75fc0c98f6351413
   languageName: node
   linkType: hard
 
@@ -13711,7 +13711,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "with-storage@workspace:."
   dependencies:
-    "@apps-in-toss/framework": "npm:1.0.1"
+    "@apps-in-toss/framework": "npm:1.0.3"
     "@babel/core": "npm:7.23.9"
     "@babel/plugin-proposal-class-properties": "npm:^7.16.7"
     "@babel/plugin-proposal-nullish-coalescing-operator": "npm:^7.16.7"
@@ -13728,7 +13728,7 @@ __metadata:
     "@granite-js/plugin-router": "npm:0.1.20"
     "@granite-js/react-native": "npm:0.1.20"
     "@testing-library/react-native": "npm:^12.9.0"
-    "@toss-design-system/react-native": "npm:1.0.4"
+    "@toss-design-system/react-native": "npm:1.1.1"
     "@types/babel__core": "npm:^7.20.5"
     "@types/jest": "npm:^29.5.14"
     "@types/node": "npm:^22.10.2"
