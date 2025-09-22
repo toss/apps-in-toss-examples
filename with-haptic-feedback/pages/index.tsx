@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, ScrollView, StyleSheet } from 'react-native';
-import { createRoute } from "@granite-js/react-native";
+import { createRoute } from '@granite-js/react-native';
 import { Text } from '@toss-design-system/react-native';
 import { HapticFeedbackButton } from 'components/HapticFeedbackButton';
 
@@ -33,6 +33,7 @@ export function Index() {
 
 const styles = StyleSheet.create({
   container: {
+    flex: 1,
     paddingHorizontal: 20,
   },
   title: {
