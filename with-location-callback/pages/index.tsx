@@ -1,7 +1,7 @@
-import { generateHapticFeedback } from "@apps-in-toss/framework";
+import { generateHapticFeedback } from '@apps-in-toss/framework';
 import { useState } from 'react';
 import { StyleSheet, View } from 'react-native';
-import { createRoute } from "@granite-js/react-native";
+import { createRoute } from '@granite-js/react-native';
 import { useLocationWatcher } from 'hooks/useLocationWatcher';
 import {
   LocationStatusView,
@@ -9,6 +9,7 @@ import {
 } from 'components/LocationStatusView';
 import { LOCATION } from '../src/constants/location';
 import { Button, Text } from '@toss-design-system/react-native';
+import { ErrorView } from 'components/ErrorView';
 
 export const Route = createRoute('/', {
   validateParams: (params) => params,
@@ -30,6 +31,7 @@ export function Index() {
     stopWatchingLocation,
     currentDistance,
     isWatching,
+    error,
   } = useLocationWatcher({
     onDistanceInitial: () => {
       setLocationStatus(LOCATION_STATUS_KEYS.SAFE);
@@ -55,10 +57,12 @@ export function Index() {
       <Text typography="st5" fontWeight="extraBold" style={styles.title}>
         위치 변경 시 콜백 예제
       </Text>
-      <LocationStatusView
-        currentDistance={currentDistance}
-        locationStatus={locationStatus}
-      />
+      <ErrorView error={error}>
+        <LocationStatusView
+          currentDistance={currentDistance}
+          locationStatus={locationStatus}
+        />
+      </ErrorView>
       <View style={styles.buttons}>
         <Button
           viewStyle={styles.button}
