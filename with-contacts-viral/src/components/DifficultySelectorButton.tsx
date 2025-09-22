@@ -72,8 +72,8 @@ export function DifficultySelectorButton({
       key={version.toString()}
       onClick={openDifficultySelector}
       disabled={disabled}
-      type="dark"
-      style="weak"
+      color="dark"
+      variant="weak"
       display="block"
     >
       난이도 선택

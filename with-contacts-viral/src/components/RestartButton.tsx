@@ -90,7 +90,7 @@ export function RestartButton({
       <Button
         key={version.toString()}
         onClick={handleClick}
-        style="weak"
+        variant="weak"
         display="block"
       >
         다시 시작하기
