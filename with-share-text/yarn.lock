@@ -45,7 +45,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@apps-in-toss/framework@npm:^1.1.3":
+"@apps-in-toss/framework@npm:1.1.3":
   version: 1.1.3
   resolution: "@apps-in-toss/framework@npm:1.1.3"
   dependencies:
@@ -4969,9 +4969,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@toss-design-system/react-native@npm:^1.2.0":
-  version: 1.2.0
-  resolution: "@toss-design-system/react-native@npm:1.2.0"
+"@toss-design-system/react-native@npm:1.2.1":
+  version: 1.2.1
+  resolution: "@toss-design-system/react-native@npm:1.2.1"
   dependencies:
     "@react-spring/native": "npm:9.5.2"
     "@react-stately/radio": "npm:^3.6.0"
@@ -4991,7 +4991,7 @@ __metadata:
     "@granite-js/react-native": "*"
     react: "*"
     react-native: "*"
-  checksum: 10c0/0714d4238f00c41d3920454842244753dc56689a508820d2bc780806410d7e8e1c6268bc0d6fc6a8b7019fb3ecd046103ac872c57e00eeb0fa9f720a86e1d534
+  checksum: 10c0/19108fdd04bfd0bb615ac18a19d63b249503487e16848db3d2217c77d0d04cc89ef442791454547dac2f7d76aded746f2fa7740ff881e02d2ca89e1e7f5f4578
   languageName: node
   linkType: hard
 
@@ -13825,7 +13825,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "with-share-text@workspace:."
   dependencies:
-    "@apps-in-toss/framework": "npm:^1.1.3"
+    "@apps-in-toss/framework": "npm:1.1.3"
     "@babel/core": "npm:7.23.9"
     "@babel/plugin-proposal-class-properties": "npm:^7.16.7"
     "@babel/plugin-proposal-nullish-coalescing-operator": "npm:^7.16.7"
@@ -13842,7 +13842,7 @@ __metadata:
     "@granite-js/plugin-router": "npm:0.1.20"
     "@granite-js/react-native": "npm:0.1.20"
     "@testing-library/react-native": "npm:^12.9.0"
-    "@toss-design-system/react-native": "npm:^1.2.0"
+    "@toss-design-system/react-native": "npm:1.2.1"
     "@types/babel__core": "npm:^7.20.5"
     "@types/jest": "npm:^29.5.14"
     "@types/node": "npm:^22.10.2"
