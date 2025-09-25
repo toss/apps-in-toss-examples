@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useState } from 'react';
+import { useCallback, useState } from 'react';
 import { ContactEntity, fetchContacts } from '@apps-in-toss/framework';
 import { usePermissionGate } from './usePermissionGate';
 import { useToast } from '@toss-design-system/react-native';
@@ -54,10 +54,6 @@ export function useContacts() {
       toast.open(`${errorMessage}`);
     }
   }, [contacts.done, contacts.nextOffset]);
-
-  useEffect(() => {
-    loadContacts();
-  }, []);
 
   return {
     contacts: contacts.result,
