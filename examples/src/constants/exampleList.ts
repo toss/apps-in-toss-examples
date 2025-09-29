@@ -149,6 +149,7 @@ export const exampleList = [
   clipboardExample,
   locationOnceExample,
   locationTrackingExample,
+  locationCallbackExample,
   hapticFeedbackExample,
   operationalEnvironmentExample,
   platformOSExample,
