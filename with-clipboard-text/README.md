@@ -7,6 +7,8 @@
 
 `getClipboardText`와 `setClipboardText`를 사용하여 텍스트를 복사하고 붙여넣는 예제예요.
 
+클립보드는 [**권한 설정**](https://developers-apps-in-toss.toss.im/bedrock/reference/framework/%EA%B6%8C%ED%95%9C/permission.html)이 필요해요. 이 설정은 `granite.config.ts`에 작성하고, 설정이 끝난 뒤에는 `getPermission`으로 현재 권한 상태를 확인하고 `openPermissionDialog`로 권한 다이얼로그를 사용자에게 보여줄 수 있어요.
+
 <img src="../assets/examples/with-clipboard-text-example-image.png" ait="example image" width="1010px"/>
 
 <br />
@@ -41,3 +43,4 @@
 
 - [getClipboardText](https://developers-apps-in-toss.toss.im/bedrock/reference/framework/%ED%81%B4%EB%A6%BD%EB%B3%B4%EB%93%9C/getClipboardText.html)
 - [setClipboardText](https://developers-apps-in-toss.toss.im/bedrock/reference/framework/%ED%81%B4%EB%A6%BD%EB%B3%B4%EB%93%9C/setClipboardText.html)
+- [권한 설정하기](https://developers-apps-in-toss.toss.im/bedrock/reference/framework/%EA%B6%8C%ED%95%9C/permission.html)

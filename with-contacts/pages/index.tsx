@@ -1,9 +1,10 @@
 import { StyleSheet, FlatList, View } from 'react-native';
-import { createRoute } from "@granite-js/react-native";
+import { createRoute } from '@granite-js/react-native';
 import { useContacts } from 'hooks/useContacts';
-import { Text } from '@toss-design-system/react-native';
+import { Button, Text } from '@toss-design-system/react-native';
 import { ContactItem } from 'components/ContactItem';
 import { FlatListFooter } from 'components/ListFooter';
+import { Visibility } from 'components/Visibility';
 
 export const Route = createRoute('/', {
   validateParams: (params) => params,
@@ -11,13 +12,20 @@ export const Route = createRoute('/', {
 });
 
 export function Index() {
-  const { contacts, done, reloadContacts } = useContacts();
+  const { contacts, done, reloadContacts, permission } = useContacts();
 
   return (
     <View style={styles.container}>
       <Text typography="st5" fontWeight="extraBold" style={styles.title}>
         연락처 예제
       </Text>
+      <Visibility visible={permission === 'denied'}>
+        <View style={styles.requestButton}>
+          <Button display="block" onPress={reloadContacts}>
+            다시 요청하기
+          </Button>
+        </View>
+      </Visibility>
       <FlatList
         contentContainerStyle={styles.listContent}
         data={contacts}
@@ -45,5 +53,8 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20,
     paddingBottom: 20,
     gap: 10,
+  },
+  requestButton: {
+    marginHorizontal: 20,
   },
 });
