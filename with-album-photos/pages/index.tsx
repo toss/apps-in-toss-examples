@@ -1,8 +1,8 @@
 import { View, FlatList } from 'react-native';
-import { createRoute } from "@granite-js/react-native";
+import { createRoute } from '@granite-js/react-native';
 import { useAlbumPhotos } from 'hooks/useAlbumPhotos';
 import { PhotoItem } from 'components/PhotoItem';
-import { Button, useDialog } from '@toss-design-system/react-native';
+import { Button, useDialog } from '@toss/tds-react-native';
 import { useCallback } from 'react';
 
 export const Route = createRoute('/', {
