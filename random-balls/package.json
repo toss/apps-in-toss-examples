@@ -10,7 +10,7 @@
     "deploy": "ait deploy"
   },
   "dependencies": {
-    "@apps-in-toss/web-framework": "1.0.1",
+    "@apps-in-toss/web-framework": "1.1.2",
     "@granite-js/plugin-router": "0.1.20",
     "@react-three/drei": "^9.120.5",
     "@react-three/fiber": "8.15.12",

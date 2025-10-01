@@ -15,22 +15,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@apps-in-toss/analytics@npm:1.1.1":
-  version: 1.1.1
-  resolution: "@apps-in-toss/analytics@npm:1.1.1"
+"@apps-in-toss/analytics@npm:1.1.3":
+  version: 1.1.3
+  resolution: "@apps-in-toss/analytics@npm:1.1.3"
   peerDependencies:
     "@granite-js/native": "*"
     "@granite-js/react-native": "*"
     "@types/react": "*"
     react: 18.2.0
     react-native: 0.72.6
-  checksum: 10c0/22fe979a93eb9ce6756447e88f61e941fc279ae15afa5181dd9517c230ee308d3a52638be09b1a7b931ee3eac6a136de99e5b0244e3ddd4486cb77d4f59676b4
+  checksum: 10c0/76326ff807a4ccf78be4be3dcb4406bb6e91f566d6f2604fb8f9271ff67ad09bee176b060adefbf2534c7b984c1410d1612619f1bf96a2543d8cf5c78be19f2f
   languageName: node
   linkType: hard
 
-"@apps-in-toss/cli@npm:1.1.1":
-  version: 1.1.1
-  resolution: "@apps-in-toss/cli@npm:1.1.1"
+"@apps-in-toss/cli@npm:1.1.3":
+  version: 1.1.3
+  resolution: "@apps-in-toss/cli@npm:1.1.3"
   dependencies:
     "@clack/prompts": "npm:^0.10.0"
     "@granite-js/utils": "npm:0.1.22"
@@ -41,50 +41,50 @@ __metadata:
     jscodeshift: "npm:^17.3.0"
     source-map: "npm:^0.8.0-beta.0"
     unzipper: "npm:^0.12.3"
-  checksum: 10c0/4e22b7a8c3826ee987ad5c538cbb6ae0e3669922ac3e18705520672ce0e7f8b5207156617d49081eec7d636f3626c1f28b08fb8c2ffbdb591e0fc7d9e1e74f75
+  checksum: 10c0/7b1abbe4015a8301f05af3e663b52123a054a45bb477aa1954eaa7fa3c16dccf8a83ac142dc3e7976027f6478965a3fb443a26ab1039bef5eb6e40f8a2f28d66
   languageName: node
   linkType: hard
 
-"@apps-in-toss/framework@npm:^1.1.1":
-  version: 1.1.1
-  resolution: "@apps-in-toss/framework@npm:1.1.1"
+"@apps-in-toss/framework@npm:1.1.3":
+  version: 1.1.3
+  resolution: "@apps-in-toss/framework@npm:1.1.3"
   dependencies:
-    "@apps-in-toss/analytics": "npm:1.1.1"
-    "@apps-in-toss/cli": "npm:1.1.1"
-    "@apps-in-toss/native-modules": "npm:1.1.1"
-    "@apps-in-toss/plugins": "npm:1.1.1"
-    "@apps-in-toss/types": "npm:1.1.1"
+    "@apps-in-toss/analytics": "npm:1.1.3"
+    "@apps-in-toss/cli": "npm:1.1.3"
+    "@apps-in-toss/native-modules": "npm:1.1.3"
+    "@apps-in-toss/plugins": "npm:1.1.3"
+    "@apps-in-toss/types": "npm:1.1.3"
     es-hangul: "npm:^2.3.2"
   peerDependencies:
     "@granite-js/native": "*"
     "@granite-js/react-native": "*"
-    "@toss-design-system/react-native": ">=1.1.0"
+    "@toss-design-system/react-native": ">=1.1.2"
     "@types/react": "*"
     react: "*"
     react-native: "*"
   bin:
     ait: ./bin/ait.js
-  checksum: 10c0/701c75ee0da074027d4508a0cd2ad72aeaf1505a9ab169f62679f5a2981c5e56b7518fba5c12d904b6fbbe9d111429e1d0d66630bb422edb15efc48d81129d26
+  checksum: 10c0/3cf5ec9970800e9c31a43fedf70d787dd8dba6cbfd8d6c74eaa3a2eb32adabc1d67a24711fde0d97076da14b8959cf3e747a43633caa0bf4ba48d36bdfd9f145
   languageName: node
   linkType: hard
 
-"@apps-in-toss/native-modules@npm:1.1.1":
-  version: 1.1.1
-  resolution: "@apps-in-toss/native-modules@npm:1.1.1"
+"@apps-in-toss/native-modules@npm:1.1.3":
+  version: 1.1.3
+  resolution: "@apps-in-toss/native-modules@npm:1.1.3"
   dependencies:
-    "@apps-in-toss/types": "npm:^1.1.1"
+    "@apps-in-toss/types": "npm:^1.1.3"
     es-toolkit: "npm:^1.39.3"
   peerDependencies:
     "@granite-js/native": "*"
     "@granite-js/react-native": "*"
     react-native: "*"
-  checksum: 10c0/f2e78b0fb640a292083da040cc56cc4faaca14ed92e743928300e8c48832c3d422b41c14070db7b039680b16b76ac6364a06ca8750dc31eb1cbd16ef5bfd9747
+  checksum: 10c0/c917dbd229e3894e548bbb1da64a496c097d94f41a719607b26d40e965e39f3fd3bcdb4045ec8155304134fdafe86f8f3b9a397c0f5b0ac967831821cb2f0fd4
   languageName: node
   linkType: hard
 
-"@apps-in-toss/plugins@npm:1.1.1":
-  version: 1.1.1
-  resolution: "@apps-in-toss/plugins@npm:1.1.1"
+"@apps-in-toss/plugins@npm:1.1.3":
+  version: 1.1.3
+  resolution: "@apps-in-toss/plugins@npm:1.1.3"
   dependencies:
     "@granite-js/plugin-core": "npm:0.1.22"
     "@granite-js/plugin-micro-frontend": "npm:0.1.22"
@@ -96,14 +96,14 @@ __metadata:
     execa: "npm:^9.5.2"
     picocolors: "npm:^1.1.1"
     uuidv7: "npm:^1.0.2"
-  checksum: 10c0/b563cf28f53dbc7590ed53495cacf9a62ec05fe28121033c5b660972d8bdd593bcbbd153b93963e2cb1376a983f557d62adea36e92e7c27e67581ce17d4ed22a
+  checksum: 10c0/b846824bcf448259474714f662e2e81678d9f20c5e19747ed02ccb1dcc4aa122c98247a07f8c6fa56009cbd7ccf98ba7b845d011806c9e8d90434497682283fd
   languageName: node
   linkType: hard
 
-"@apps-in-toss/types@npm:1.1.1, @apps-in-toss/types@npm:^1.1.1":
-  version: 1.1.1
-  resolution: "@apps-in-toss/types@npm:1.1.1"
-  checksum: 10c0/467bbdf34af09b09929c769d977af94711adb8b1a4366e5444fc52e1643fde474b473cf68a71eae207dee136bb59c2c5c1176121eec46ba5e089166572970455
+"@apps-in-toss/types@npm:1.1.3, @apps-in-toss/types@npm:^1.1.3":
+  version: 1.1.3
+  resolution: "@apps-in-toss/types@npm:1.1.3"
+  checksum: 10c0/299d0792d0b65d4d34aad35c77a9008b8b2dbb65c2c192e4c51a35db1cfd825e16bdb1c7a254188f5e653fd92f145d698239d2ebac7e4a20abe4ea7f9c46dc7a
   languageName: node
   linkType: hard
 
@@ -4505,9 +4505,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sentry/cli-darwin@npm:2.53.0":
-  version: 2.53.0
-  resolution: "@sentry/cli-darwin@npm:2.53.0"
+"@sentry/cli-darwin@npm:2.55.0":
+  version: 2.55.0
+  resolution: "@sentry/cli-darwin@npm:2.55.0"
   conditions: os=darwin
   languageName: node
   linkType: hard
@@ -4519,9 +4519,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sentry/cli-linux-arm64@npm:2.53.0":
-  version: 2.53.0
-  resolution: "@sentry/cli-linux-arm64@npm:2.53.0"
+"@sentry/cli-linux-arm64@npm:2.55.0":
+  version: 2.55.0
+  resolution: "@sentry/cli-linux-arm64@npm:2.55.0"
   conditions: (os=linux | os=freebsd | os=android) & cpu=arm64
   languageName: node
   linkType: hard
@@ -4533,9 +4533,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sentry/cli-linux-arm@npm:2.53.0":
-  version: 2.53.0
-  resolution: "@sentry/cli-linux-arm@npm:2.53.0"
+"@sentry/cli-linux-arm@npm:2.55.0":
+  version: 2.55.0
+  resolution: "@sentry/cli-linux-arm@npm:2.55.0"
   conditions: (os=linux | os=freebsd | os=android) & cpu=arm
   languageName: node
   linkType: hard
@@ -4547,9 +4547,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sentry/cli-linux-i686@npm:2.53.0":
-  version: 2.53.0
-  resolution: "@sentry/cli-linux-i686@npm:2.53.0"
+"@sentry/cli-linux-i686@npm:2.55.0":
+  version: 2.55.0
+  resolution: "@sentry/cli-linux-i686@npm:2.55.0"
   conditions: (os=linux | os=freebsd | os=android) & (cpu=x86 | cpu=ia32)
   languageName: node
   linkType: hard
@@ -4561,9 +4561,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sentry/cli-linux-x64@npm:2.53.0":
-  version: 2.53.0
-  resolution: "@sentry/cli-linux-x64@npm:2.53.0"
+"@sentry/cli-linux-x64@npm:2.55.0":
+  version: 2.55.0
+  resolution: "@sentry/cli-linux-x64@npm:2.55.0"
   conditions: (os=linux | os=freebsd | os=android) & cpu=x64
   languageName: node
   linkType: hard
@@ -4575,9 +4575,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sentry/cli-win32-arm64@npm:2.53.0":
-  version: 2.53.0
-  resolution: "@sentry/cli-win32-arm64@npm:2.53.0"
+"@sentry/cli-win32-arm64@npm:2.55.0":
+  version: 2.55.0
+  resolution: "@sentry/cli-win32-arm64@npm:2.55.0"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
@@ -4589,9 +4589,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sentry/cli-win32-i686@npm:2.53.0":
-  version: 2.53.0
-  resolution: "@sentry/cli-win32-i686@npm:2.53.0"
+"@sentry/cli-win32-i686@npm:2.55.0":
+  version: 2.55.0
+  resolution: "@sentry/cli-win32-i686@npm:2.55.0"
   conditions: os=win32 & (cpu=x86 | cpu=ia32)
   languageName: node
   linkType: hard
@@ -4603,25 +4603,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sentry/cli-win32-x64@npm:2.53.0":
-  version: 2.53.0
-  resolution: "@sentry/cli-win32-x64@npm:2.53.0"
+"@sentry/cli-win32-x64@npm:2.55.0":
+  version: 2.55.0
+  resolution: "@sentry/cli-win32-x64@npm:2.55.0"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
 
 "@sentry/cli@npm:^2.45.0":
-  version: 2.53.0
-  resolution: "@sentry/cli@npm:2.53.0"
+  version: 2.55.0
+  resolution: "@sentry/cli@npm:2.55.0"
   dependencies:
-    "@sentry/cli-darwin": "npm:2.53.0"
-    "@sentry/cli-linux-arm": "npm:2.53.0"
-    "@sentry/cli-linux-arm64": "npm:2.53.0"
-    "@sentry/cli-linux-i686": "npm:2.53.0"
-    "@sentry/cli-linux-x64": "npm:2.53.0"
-    "@sentry/cli-win32-arm64": "npm:2.53.0"
-    "@sentry/cli-win32-i686": "npm:2.53.0"
-    "@sentry/cli-win32-x64": "npm:2.53.0"
+    "@sentry/cli-darwin": "npm:2.55.0"
+    "@sentry/cli-linux-arm": "npm:2.55.0"
+    "@sentry/cli-linux-arm64": "npm:2.55.0"
+    "@sentry/cli-linux-i686": "npm:2.55.0"
+    "@sentry/cli-linux-x64": "npm:2.55.0"
+    "@sentry/cli-win32-arm64": "npm:2.55.0"
+    "@sentry/cli-win32-i686": "npm:2.55.0"
+    "@sentry/cli-win32-x64": "npm:2.55.0"
     https-proxy-agent: "npm:^5.0.0"
     node-fetch: "npm:^2.6.7"
     progress: "npm:^2.0.3"
@@ -4646,7 +4646,7 @@ __metadata:
       optional: true
   bin:
     sentry-cli: bin/sentry-cli
-  checksum: 10c0/ea6acf44d336feb3911b07ddac4cde96a0d86cd72eb96be75ad531efa2ba713190eea02f92526b7014289dac85ede58e93575672236a8cc60695e6ad1c604df6
+  checksum: 10c0/fa7114b03997e3d7a4fdc370743b2b4305d073944e52ed382b82b9b5078e85be1325390f6187cf592a5d2db144201e99ae9544b0e7b2dfdbb8056a1aa37bbfdb
   languageName: node
   linkType: hard
 
@@ -4969,9 +4969,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@toss-design-system/react-native@npm:^1.0.4":
-  version: 1.1.2
-  resolution: "@toss-design-system/react-native@npm:1.1.2"
+"@toss-design-system/react-native@npm:1.2.1":
+  version: 1.2.1
+  resolution: "@toss-design-system/react-native@npm:1.2.1"
   dependencies:
     "@react-spring/native": "npm:9.5.2"
     "@react-stately/radio": "npm:^3.6.0"
@@ -4991,7 +4991,7 @@ __metadata:
     "@granite-js/react-native": "*"
     react: "*"
     react-native: "*"
-  checksum: 10c0/6678cff54ac897273002ebb276240cab38fbfeb81d826f222186e0c2dbcd36e2b78db25450f3f9fb7748bfee8b64e0dc8182d9e22d926dec0c73049e82d4dfb9
+  checksum: 10c0/19108fdd04bfd0bb615ac18a19d63b249503487e16848db3d2217c77d0d04cc89ef442791454547dac2f7d76aded746f2fa7740ff881e02d2ca89e1e7f5f4578
   languageName: node
   linkType: hard
 
@@ -13818,7 +13818,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "with-rewarded-ad@workspace:."
   dependencies:
-    "@apps-in-toss/framework": "npm:^1.1.1"
+    "@apps-in-toss/framework": "npm:1.1.3"
     "@babel/core": "npm:7.23.9"
     "@babel/plugin-proposal-class-properties": "npm:^7.16.7"
     "@babel/plugin-proposal-nullish-coalescing-operator": "npm:^7.16.7"
@@ -13835,7 +13835,7 @@ __metadata:
     "@granite-js/plugin-router": "npm:0.1.21"
     "@granite-js/react-native": "npm:0.1.21"
     "@testing-library/react-native": "npm:^12.9.0"
-    "@toss-design-system/react-native": "npm:^1.0.4"
+    "@toss-design-system/react-native": "npm:1.2.1"
     "@types/babel__core": "npm:^7.20.5"
     "@types/jest": "npm:^29.5.14"
     "@types/node": "npm:^22.10.2"

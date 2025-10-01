@@ -22,6 +22,7 @@ export function CellFront({
       bgColor={bgColor}
       aria-label={ariaLabel ?? KIND_LABEL.box}
       onClick={onClick}
+      name=""
     >
       {shouldShowFlag ? (
         <Asset.ContentImage

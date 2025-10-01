@@ -35,6 +35,7 @@ export function CellBack({
       aria-label={ariaLabel ?? KIND_LABEL[kind]}
       onClick={onClick}
       disabled={isRevealed}
+      name=""
     >
       {(() => {
         switch (kind) {
