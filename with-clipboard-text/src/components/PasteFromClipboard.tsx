@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { getClipboardText } from '@apps-in-toss/framework';
-import { Button, TextField, useToast } from '@toss-design-system/react-native';
+import { Button, TextField, useToast } from '@toss/tds-react-native';
 import { usePermissionGate } from 'hooks/usePermissionGate';
 
 export function PasteFromClipboard() {
