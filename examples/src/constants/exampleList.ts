@@ -136,6 +136,12 @@ export const localeExample = {
   path: 'with-locale',
 };
 
+export const permissionExample = {
+  icon: `https://static.toss.im/appsintoss/73/f6ee90c3-8e37-41d2-b7ec-70fc1cc8acad.png`,
+  label: '권한 예제',
+  path: 'with-permission',
+};
+
 export const exampleList = [
   gameExample,
   contactsViralExample,
@@ -160,4 +166,5 @@ export const exampleList = [
   rewardedAdExample,
   storageExample,
   localeExample,
+  permissionExample,
 ];
