@@ -1,10 +1,10 @@
 import { StyleSheet, View } from 'react-native';
-import { BedrockRoute } from 'react-native-bedrock';
+import { createRoute } from "@granite-js/react-native";
 import { colors, Text } from '@toss-design-system/react-native';
 import { TextBox } from 'components/TextBox';
 import { PROFILE } from 'constants/profile';
 
-export const Route = BedrockRoute('/shared', {
+export const Route = createRoute('/shared', {
   validateParams: (params) => params,
   component: Shared,
 });

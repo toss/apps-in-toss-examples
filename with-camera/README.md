@@ -1,12 +1,21 @@
 # Camera Example
 
-![Image](https://github.com/user-attachments/assets/e3e87c6f-75f1-4ad8-9c0f-1a4a13666f9f)
-![Image](https://github.com/user-attachments/assets/de8efa61-1879-4916-8373-3537e63312fe)
-![Image](https://github.com/user-attachments/assets/62eb3e4d-a6e1-493e-b76e-69bad926c2d8)
+![React Native](../assets/tags/tag-react-native.svg)
+![WebView](../assets/tags/tag-webview.svg)
+![Toss App](../assets/tags/tag-toss-app.svg)
+![Sandbox App](../assets/tags/tag-sandbox-app.svg)
 
 `openCamera`를 사용해서 카메라를 실행하고, 촬영한 사진을 화면에 보여주거나 삭제하는 예제예요.
 
-![with-camera-example-image](../assets/with-camera-example-image.png)
+카메라는 [**권한 설정**](https://developers-apps-in-toss.toss.im/bedrock/reference/framework/%EA%B6%8C%ED%95%9C/permission.html)이 필요해요. 이 설정은 `granite.config.ts`에 작성하고, 설정이 끝난 뒤에는 `getPermission`으로 현재 권한 상태를 확인하고 `openPermissionDialog`로 권한 다이얼로그를 사용자에게 보여줄 수 있어요.
+
+<img src="../assets/examples/with-camera-example-image.png" ait="example image" width="1010px" />
+
+<br />
+
+## 📲 체험하기
+
+<img src="../assets/qr-codes/with-camera-qr-code.svg" ait="qr code" width="100px" />&nbsp;
 
 <br />
 
@@ -33,3 +42,4 @@
 ## 📌 참고사항
 
 - [openCamera](https://developers-apps-in-toss.toss.im/bedrock/reference/framework/%EC%B9%B4%EB%A9%94%EB%9D%BC/openCamera.html)
+- [권한 설정하기](https://developers-apps-in-toss.toss.im/bedrock/reference/framework/%EA%B6%8C%ED%95%9C/permission.html)

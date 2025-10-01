@@ -1,11 +1,11 @@
 import { StyleSheet, View } from 'react-native';
-import { BedrockRoute } from 'react-native-bedrock';
+import { createRoute } from "@granite-js/react-native";
 import { TextBox } from 'components/TextBox';
 import { KeyboardDismissView } from 'components/KeyboardDismissView';
 import { DraftInput } from 'components/DraftInput';
 import { Text } from '@toss-design-system/react-native';
 
-export const Route = BedrockRoute('/', {
+export const Route = createRoute('/', {
   validateParams: (params) => params,
   component: Index,
 });

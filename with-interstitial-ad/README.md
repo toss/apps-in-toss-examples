@@ -1,13 +1,20 @@
 # Interstitial Ad Example
 
-![Image](https://github.com/user-attachments/assets/e3e87c6f-75f1-4ad8-9c0f-1a4a13666f9f)
-![Image](https://github.com/user-attachments/assets/62eb3e4d-a6e1-493e-b76e-69bad926c2d8)
+![React Native](../assets/tags/tag-react-native.svg)
+![WebView](../assets/tags/tag-webview.svg)
+![Toss App](../assets/tags/tag-toss-app.svg)
 
-`loadAdMobInterstitialAd`를 사용해 전면 광고를 로드하고, `showAdMobInterstitialAd`로 광고를 노출하는 예제예요.  
+`loadAppsInTossAdMob`을 사용해 광고를 로드하고, `showAppsInTossAdMob`으로 광고를 노출하는 예제예요.  
 [Google AdMob](https://support.google.com/admob/answer/6066980?hl=ko)에서는 사용자 경험 측면에서 전면 광고를 화면 이동 전에 먼저 보여주는 방식을 권장하고 있어요.  
-⚠️ 이 예제는 토스 앱 환경에서만 확인할 수 있어요.
+💡 광고 유형은 앱인토스 콘솔에서 광고 그룹 생성 시 리워드 광고 또는 전면 광고를 선택할 수 있어요.
 
-![with-interstitial-ad-example-image](../assets/with-interstitial-ad-example-image.png)
+<img src="../assets/examples/with-interstitial-ad-example-image.png" alt="example image" width="1010px"/>
+
+<br />
+
+## 📲 체험하기
+
+<img src="../assets/qr-codes/with-interstitial-ad-qr-code.svg" ait="qr code" width="100px" />&nbsp;
 
 <br />
 
@@ -23,23 +30,17 @@
    yarn install
    ```
 
-4. `src/hooks/useInterstitialAd.ts`에 **Ad Unit ID**를 입력해요.
-
-   ```ts
-   const AD_UNIT_ID = '<YOUR_AD_UNIT_ID>';
-   ```
-
-5. 번들 파일을 생성해요.
+4. 번들 파일을 생성해요.
 
    ```
    yarn build
    ```
 
-6. 앱인토스 콘솔에 [앱 번들 업로드](https://developers-apps-in-toss.toss.im/release/overview.html#_1-%E1%84%8B%E1%85%A2%E1%86%B8-%E1%84%87%E1%85%A5%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF-%E1%84%8B%E1%85%A5%E1%86%B8%E1%84%85%E1%85%A9%E1%84%83%E1%85%B3)를 하고 테스트해요.
+5. 앱인토스 콘솔에 [앱 번들 업로드](https://developers-apps-in-toss.toss.im/release/overview.html#_1-%E1%84%8B%E1%85%A2%E1%86%B8-%E1%84%87%E1%85%A5%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF-%E1%84%8B%E1%85%A5%E1%86%B8%E1%84%85%E1%85%A9%E1%84%83%E1%85%B3)를 하고 테스트해요.
 
 <br />
 
 ## 📌 참고사항
 
-- [loadAdMobInterstitialAd](https://developers-apps-in-toss.toss.im/bedrock/reference/framework/%EA%B4%91%EA%B3%A0/loadAdMobInterstitialAd.html)
-- [showAdMobInterstitialAd](https://developers-apps-in-toss.toss.im/bedrock/reference/framework/%EA%B4%91%EA%B3%A0/showAdMobInterstitialAd.html)
+- [loadAppsInTossAdMob](https://developers-apps-in-toss.toss.im/bedrock/reference/framework/%EA%B4%91%EA%B3%A0/loadAppsInTossAdMob.html)
+- [showAppsInTossAdMob](https://developers-apps-in-toss.toss.im/bedrock/reference/framework/%EA%B4%91%EA%B3%A0/showAppsInTossAdMob.html)

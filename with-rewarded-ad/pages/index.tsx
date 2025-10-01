@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { StyleSheet, View } from 'react-native';
-import { BedrockRoute } from 'react-native-bedrock';
+import { createRoute } from "@granite-js/react-native";
 import { getOperationalEnvironment } from '@apps-in-toss/framework';
 import { Button, Text, useDialog } from '@toss-design-system/react-native';
 import { useRewardedAd } from 'hooks/useRewardedAd';
@@ -8,7 +8,7 @@ import { Visibility } from 'components/Visibility';
 import { TextBox } from 'components/TextBox';
 import { LoadingView } from 'components/LoadingView';
 
-export const Route = BedrockRoute('/', {
+export const Route = createRoute('/', {
   validateParams: (params) => params,
   component: Index,
 });

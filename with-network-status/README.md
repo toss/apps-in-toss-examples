@@ -1,12 +1,20 @@
 # Network Status Example
 
-![Image](https://github.com/user-attachments/assets/e3e87c6f-75f1-4ad8-9c0f-1a4a13666f9f)
-![Image](https://github.com/user-attachments/assets/62eb3e4d-a6e1-493e-b76e-69bad926c2d8)
+![React Native](../assets/tags/tag-react-native.svg)
+![WebView](../assets/tags/tag-webview.svg)
+![Toss App](../assets/tags/tag-toss-app.svg)
+![Sandbox App](../assets/tags/tag-sandbox-app.svg)
 
 `getNetworkStatus`를 사용해 디바이스의 현재 네트워크 상태를 확인하고, 상태에 따라 영상 화질을 다르게 보여주는 예제예요.  
 WiFi 환경에서는 고화질 영상이 재생되고, 모바일 데이터 환경에서는 저화질 영상이 재생돼요. 오프라인 상태에서는 영상 시청이 제한돼요.
 
-![with-network-status-example-image](../assets/with-network-status-example-image.png)
+<img src="../assets/examples/with-network-status-example-image.png" alt="example image" width="1010px" />
+
+<br />
+
+## 📲 체험하기
+
+<img src="../assets/qr-codes/with-network-status-qr-code.svg" ait="qr code" width="100px" />&nbsp;
 
 <br />
 

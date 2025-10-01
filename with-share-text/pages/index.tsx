@@ -1,10 +1,11 @@
+import { share } from "@apps-in-toss/framework";
 import { StyleSheet, View } from 'react-native';
-import { BedrockRoute, share } from 'react-native-bedrock';
+import { createRoute } from "@granite-js/react-native";
 import { Button, Text } from '@toss-design-system/react-native';
 import { TextBox } from 'components/TextBox';
 import { useClientKey } from 'hooks/useClientKey';
 
-export const Route = BedrockRoute('/', {
+export const Route = createRoute('/', {
   validateParams: (params) => params,
   component: Index,
 });

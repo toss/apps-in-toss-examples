@@ -1,8 +1,8 @@
 import { useCallback, useRef, useState } from 'react';
-import { useFocusEffect } from '@react-native-bedrock/native/@react-navigation/native';
+import { useFocusEffect } from '@granite-js/native/@react-navigation/native';
 import { GoogleAdMob } from '@apps-in-toss/framework';
 
-const AD_UNIT_ID = '<YOUR_AD_UNIT_ID>';
+const TEST_AD_GROUP_ID = 'ait-ad-test-interstitial-id';
 
 interface InterstitialAdCallback {
   onDismiss?: () => void;
@@ -17,44 +17,20 @@ export function useInterstitialAd() {
       setLoading(true);
 
       const isAdUnsupported =
-        GoogleAdMob.loadAdMobInterstitialAd.isSupported?.() === false;
+        GoogleAdMob.loadAppsInTossAdMob.isSupported?.() === false;
 
       if (isAdUnsupported) {
         console.warn('광고가 준비되지 않았거나, 지원되지 않아요.');
         return;
       }
 
-      const cleanup = GoogleAdMob.loadAdMobInterstitialAd({
+      const cleanup = GoogleAdMob.loadAppsInTossAdMob({
         options: {
-          adUnitId: AD_UNIT_ID,
+          adGroupId: TEST_AD_GROUP_ID,
         },
         onEvent: (event) => {
-          switch (event.type) {
-            case 'loaded':
-              setLoading(false);
-              break;
-
-            case 'dismissed':
-              dismissCallbackRef.current?.();
-              dismissCallbackRef.current = undefined;
-
-              break;
-
-            case 'clicked':
-              // 사용자가 광고를 클릭했어요.
-              break;
-
-            case 'failedToShow':
-              // 광고를 보여주지 못했어요.
-              break;
-
-            case 'impression':
-              // 광고가 화면에 노출됐어요.
-              break;
-
-            case 'show':
-              // 광고 컨텐츠가 노출되기 시작했어요.
-              break;
+          if (event.type === 'loaded') {
+            setLoading(false);
           }
         },
         onError: (error) => {
@@ -68,7 +44,7 @@ export function useInterstitialAd() {
 
   const showInterstitialAd = ({ onDismiss }: InterstitialAdCallback) => {
     const isAdUnsupported =
-      GoogleAdMob.showAdMobInterstitialAd.isSupported?.() === false;
+      GoogleAdMob.showAppsInTossAdMob.isSupported?.() === false;
 
     if (loading || isAdUnsupported) {
       console.warn('광고가 준비되지 않았거나, 지원되지 않아요.');
@@ -77,13 +53,37 @@ export function useInterstitialAd() {
 
     dismissCallbackRef.current = onDismiss;
 
-    GoogleAdMob.showAdMobInterstitialAd({
+    GoogleAdMob.showAppsInTossAdMob({
       options: {
-        adUnitId: AD_UNIT_ID,
+        adGroupId: TEST_AD_GROUP_ID,
       },
       onEvent: (event) => {
-        if (event.type === 'requested') {
-          // 광고 노출이 요청됐어요.
+        switch (event.type) {
+          case 'requested':
+            setLoading(false);
+            break;
+
+          case 'clicked':
+            // 사용자가 광고를 클릭했어요.
+            break;
+
+          case 'dismissed':
+            dismissCallbackRef.current?.();
+            dismissCallbackRef.current = undefined;
+
+            break;
+
+          case 'failedToShow':
+            // 광고를 보여주지 못했어요.
+            break;
+
+          case 'impression':
+            // 광고가 화면에 노출됐어요.
+            break;
+
+          case 'show':
+            // 광고 컨텐츠가 노출되기 시작했어요.
+            break;
         }
       },
       onError: (error) => {

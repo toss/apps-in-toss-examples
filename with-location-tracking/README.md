@@ -1,13 +1,18 @@
 # Location Tracking Example
 
-![Image](https://github.com/user-attachments/assets/e3e87c6f-75f1-4ad8-9c0f-1a4a13666f9f)
-![Image](https://github.com/user-attachments/assets/de8efa61-1879-4916-8373-3537e63312fe)
-![Image](https://github.com/user-attachments/assets/62eb3e4d-a6e1-493e-b76e-69bad926c2d8)
-![Image](https://github.com/user-attachments/assets/5af3b63b-bda7-4ddb-9ae9-8c90fe747baf)
+![React Native](../assets/tags/tag-react-native.svg)
+![Toss App](../assets/tags/tag-toss-app.svg)
+![Sandbox App](../assets/tags/tag-sandbox-app.svg)
 
 `useGeolocation`을 사용해 실시간 위치 정보를 가져오는 예제예요. GPS 정보를 활용해 현재 위치를 감지하고, 사용자가 이동하면 자동으로 업데이트돼요.
 
-![with-location-tracking-example-image](../assets/with-location-tracking-example-image.png)
+<img src="../assets/examples/with-location-tracking-example-image.png" alt="example image" width="1010px" />
+
+<br />
+
+## 📲 체험하기
+
+<img src="../assets/qr-codes/with-location-tracking-qr-code.svg" ait="qr code" width="100px" />&nbsp;
 
 <br />
 

@@ -1,5 +1,5 @@
 import { StyleSheet, View } from 'react-native';
-import { BedrockRoute } from 'react-native-bedrock';
+import { createRoute } from "@granite-js/react-native";
 import { useAuth } from 'hooks/useAuth';
 import { useUserInfo } from 'hooks/useUserInfo';
 import { LoadingView } from 'components/LoadingView';
@@ -9,7 +9,7 @@ import { LoginStateView } from 'components/LoginStateView';
 import { UserInfoView } from 'components/UserInfoView';
 import { Button, Text, useToast } from '@toss-design-system/react-native';
 
-export const Route = BedrockRoute('/', {
+export const Route = createRoute('/', {
   validateParams: (params) => params,
   component: Index,
 });

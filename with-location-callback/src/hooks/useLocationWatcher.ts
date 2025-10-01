@@ -6,6 +6,7 @@ import {
 } from '@apps-in-toss/framework';
 import { useToast } from '@toss-design-system/react-native';
 import { getDistanceFromCurrentLocation } from 'utils/locationDistance';
+import { usePermissionGate } from './usePermissionGate';
 
 /**
  * 위치 관련 액션에 대해 정의한 사용자 메시지예요.
@@ -31,13 +32,19 @@ export function useLocationWatcher({
   const targetLocationRef = useRef<Location | null>(null);
   const unsubscribeRef = useRef<(() => void) | null>(null);
   const [currentDistance, setCurrentDistance] = useState(0);
+  const [error, setError] = useState<string | null>(null);
   const toast = useToast();
+  const permissionGate = usePermissionGate({
+    getPermission: () => startUpdateLocation.getPermission(),
+    openPermissionDialog: () => startUpdateLocation.openPermissionDialog(),
+    onPermissionRequested: (status) => console.log(`권한 요청 결과: ${status}`),
+  });
 
   const handleLocationUpdate = useCallback(
     (location: Location) => {
       if (targetLocationRef.current == null) {
         targetLocationRef.current = location;
-        toast.open(LOCATION_ACTIONS.SAVED_LOCATION, { type: 'bottom' });
+        toast.open(LOCATION_ACTIONS.SAVED_LOCATION);
 
         if (onDistanceInitial != null) {
           onDistanceInitial(location);
@@ -66,23 +73,40 @@ export function useLocationWatcher({
   );
 
   const handleLocationError = useCallback(() => {
-    toast.open(LOCATION_ACTIONS.ERROR_LOCATION, { type: 'bottom' });
+    toast.open(LOCATION_ACTIONS.ERROR_LOCATION);
   }, []);
 
-  const startWatchingLocation = useCallback(() => {
+  const startWatchingLocation = useCallback(async () => {
     if (unsubscribeRef.current != null) {
       return;
     }
 
-    unsubscribeRef.current = startUpdateLocation({
-      options: {
-        accuracy: Accuracy.BestForNavigation,
-        timeInterval: 1000,
-        distanceInterval: 0.1,
-      },
-      onEvent: handleLocationUpdate,
-      onError: handleLocationError,
-    });
+    try {
+      setError(null);
+      const unsubscribe = await permissionGate.ensureAndRun(async () =>
+        startUpdateLocation({
+          options: {
+            accuracy: Accuracy.BestForNavigation,
+            timeInterval: 1000,
+            distanceInterval: 0.1,
+          },
+          onEvent: handleLocationUpdate,
+          onError: handleLocationError,
+        })
+      );
+
+      if (unsubscribe) {
+        unsubscribeRef.current = unsubscribe;
+      }
+    } catch (error) {
+      let errorMessage = '위치 정보를 가져오는 데 실패했어요.';
+
+      if (error instanceof Error) {
+        errorMessage = error.message;
+      }
+
+      setError(errorMessage);
+    }
   }, [handleLocationUpdate, handleLocationError]);
 
   const stopWatchingLocation = useCallback(() => {
@@ -90,7 +114,7 @@ export function useLocationWatcher({
       unsubscribeRef.current();
       unsubscribeRef.current = null;
     }
-    toast.open(LOCATION_ACTIONS.STOP_TRACKING, { type: 'bottom' });
+    toast.open(LOCATION_ACTIONS.STOP_TRACKING);
     targetLocationRef.current = null;
     setCurrentDistance(0);
 
@@ -111,6 +135,7 @@ export function useLocationWatcher({
   return {
     isWatching: unsubscribeRef.current !== null,
     currentDistance,
+    error,
     startWatchingLocation,
     stopWatchingLocation,
   };

@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native';
-import { Video } from 'react-native-bedrock';
+import { Video } from "@granite-js/react-native";
 
 interface VideoViewProps {
   uri: string;

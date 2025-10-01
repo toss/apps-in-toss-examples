@@ -1,5 +1,5 @@
 import { StyleSheet, Pressable, PressableProps } from 'react-native';
-import { Image } from 'react-native-bedrock';
+import { Image } from "@granite-js/react-native";
 
 interface PhotoItemProps extends PressableProps {
   uri: string;

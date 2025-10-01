@@ -22,7 +22,7 @@ export function useDebouncedSaveWithMessage({
 }: Options) {
   const [showSavedMessage, setShowSavedMessage] = useState(false);
   const previousValueRef = useRef<string>('');
-  const timeoutRef = useRef<NodeJS.Timeout>();
+  const timeoutRef = useRef<number>();
 
   const debouncedSave = useMemo(
     () =>

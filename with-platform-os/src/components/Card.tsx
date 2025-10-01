@@ -1,5 +1,5 @@
+import { getPlatformOS } from "@apps-in-toss/framework";
 import { StyleSheet, View } from 'react-native';
-import { getPlatformOS } from 'react-native-bedrock';
 import { colors, Text } from '@toss-design-system/react-native';
 
 export function Card() {
