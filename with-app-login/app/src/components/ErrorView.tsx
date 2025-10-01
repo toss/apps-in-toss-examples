@@ -1,4 +1,4 @@
-import { colors } from '@toss-design-system/react-native';
+import { colors } from '@toss/tds-react-native';
 import { TextBox } from './ui/TextBox';
 
 interface ErrorViewProps {
