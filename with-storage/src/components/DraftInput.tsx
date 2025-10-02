@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { StyleSheet, View } from 'react-native';
-import { TextField } from '@toss-design-system/react-native';
+import { TextField } from '@toss/tds-react-native';
 import { useStorage } from 'hooks/useStorage';
 import { useDebouncedSaveWithMessage } from 'hooks/useDebouncedSaveWithMessage';
 import { DraftPrompt } from './DraftPrompt';
