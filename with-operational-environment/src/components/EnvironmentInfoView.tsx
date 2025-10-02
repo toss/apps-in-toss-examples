@@ -1,7 +1,7 @@
 import { type EnvironmentDetails } from 'hooks/useEnvironmentDetails';
 import { FlatList, StyleSheet } from 'react-native';
 import { TextBox } from './TextBox';
-import { colors, ListRow } from '@toss-design-system/react-native';
+import { colors, ListRow } from '@toss/tds-react-native';
 
 interface EnvironmentInfoViewProps {
   environmentInfo: EnvironmentDetails | null;
