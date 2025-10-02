@@ -1,6 +1,6 @@
 import { StyleSheet, View } from 'react-native';
-import { createRoute, useNavigation } from "@granite-js/react-native";
-import { Button, Text } from '@toss-design-system/react-native';
+import { createRoute, useNavigation } from '@granite-js/react-native';
+import { Button, Text } from '@toss/tds-react-native';
 import { TextBox } from 'components/TextBox';
 
 export const Route = createRoute('/interstitial-ad-result', {
