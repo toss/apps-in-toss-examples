@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useRef } from 'react';
-import { Button, Paragraph, useDialog } from '@toss-design-system/mobile';
+import { Button, Paragraph, useDialog } from '@toss/tds-mobile';
 import { DifficultyModalContent } from '@/components/DifficultyModalContent';
 import { DIFFICULTY_DENSITY } from '@/constants/game';
 

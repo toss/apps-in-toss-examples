@@ -1,5 +1,5 @@
-import { colors } from '@toss-design-system/colors';
-import { Asset, IconButton } from '@toss-design-system/mobile';
+import { colors } from '@toss/tds-colors';
+import { Asset, IconButton } from '@toss/tds-mobile';
 import type { MouseEventHandler } from 'react';
 import {
   EMOJI_BASE_URL,
