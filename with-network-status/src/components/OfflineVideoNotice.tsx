@@ -1,5 +1,5 @@
 import { TextBox } from './ui/TextBox';
-import { Button, colors } from '@toss-design-system/react-native';
+import { Button, colors } from '@toss/tds-react-native';
 
 interface OfflineVideoNoticeProps {
   reloadNetworkStatus: () => void;
