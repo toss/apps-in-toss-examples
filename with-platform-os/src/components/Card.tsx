@@ -1,6 +1,6 @@
-import { getPlatformOS } from "@apps-in-toss/framework";
+import { getPlatformOS } from '@apps-in-toss/framework';
 import { StyleSheet, View } from 'react-native';
-import { colors, Text } from '@toss-design-system/react-native';
+import { colors, Text } from '@toss/tds-react-native';
 
 export function Card() {
   const isIOS = getPlatformOS() === 'ios';
