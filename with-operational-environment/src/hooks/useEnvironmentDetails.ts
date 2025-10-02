@@ -1,6 +1,11 @@
-import { getLocale, getNetworkStatus, getSchemeUri, getPlatformOS } from "@apps-in-toss/framework";
+import {
+  getLocale,
+  getNetworkStatus,
+  getSchemeUri,
+  getPlatformOS,
+  NetworkStatus,
+} from '@apps-in-toss/framework';
 import { useEffect, useState } from 'react';
-import { type NetworkStatus } from "@granite-js/react-native";
 import {
   getOperationalEnvironment,
   getDeviceId,

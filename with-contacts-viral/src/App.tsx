@@ -1,4 +1,4 @@
-import { Top } from '@toss-design-system/mobile';
+import { Top } from '@toss/tds-mobile';
 import { DIFFICULTY_LABEL } from '@/constants/game';
 import { SafeArea } from '@/components/SafeArea';
 import { StatusPanel } from '@/components/StatusPanel';

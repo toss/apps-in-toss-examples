@@ -1,5 +1,5 @@
 import { StyleSheet, View } from 'react-native';
-import { Text, colors, FontWeightKeys } from '@toss-design-system/react-native';
+import { Text, colors, FontWeightKeys } from '@toss/tds-react-native';
 
 interface TextBoxProps {
   text: string;

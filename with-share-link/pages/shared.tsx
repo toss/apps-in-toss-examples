@@ -1,6 +1,6 @@
 import { StyleSheet, View } from 'react-native';
-import { createRoute } from "@granite-js/react-native";
-import { colors, Text } from '@toss-design-system/react-native';
+import { createRoute } from '@granite-js/react-native';
+import { colors, Text } from '@toss/tds-react-native';
 import { TextBox } from 'components/TextBox';
 import { PROFILE } from 'constants/profile';
 

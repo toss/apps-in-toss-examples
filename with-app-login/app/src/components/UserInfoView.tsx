@@ -1,6 +1,6 @@
 import type { UserInfo } from 'types/user';
 import { FlatList, StyleSheet } from 'react-native';
-import { colors, TableRow } from '@toss-design-system/react-native';
+import { colors, TableRow } from '@toss/tds-react-native';
 
 const USER_INFO_LABELS = [
   'name',

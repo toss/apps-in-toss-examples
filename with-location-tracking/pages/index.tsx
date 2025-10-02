@@ -1,9 +1,9 @@
 import { StyleSheet, View } from 'react-native';
-import { createRoute } from "@granite-js/react-native";
+import { createRoute } from '@granite-js/react-native';
 import { useGeolocation, Accuracy } from '@apps-in-toss/framework';
 import { LoadingView } from 'components/LoadingView';
 import { TextBox } from 'components/ui/TextBox';
-import { Text } from '@toss-design-system/react-native';
+import { Text } from '@toss/tds-react-native';
 
 export const Route = createRoute('/', {
   validateParams: (params) => params,

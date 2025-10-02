@@ -1,7 +1,7 @@
 import { useCallback, useState } from 'react';
 import { ContactEntity, fetchContacts } from '@apps-in-toss/framework';
 import { usePermissionGate } from './usePermissionGate';
-import { useToast } from '@toss-design-system/react-native';
+import { useToast } from '@toss/tds-react-native';
 
 interface ContactsResponse {
   result: ContactEntity[];

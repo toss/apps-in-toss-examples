@@ -1,5 +1,5 @@
 import type { MouseEventHandler } from 'react';
-import { Asset, IconButton } from '@toss-design-system/mobile';
+import { Asset, IconButton } from '@toss/tds-mobile';
 import { EMOJI_BASE_URL, IMAGE_NAME, KIND_LABEL } from '@/constants/cell';
 
 interface CellFrontProps {

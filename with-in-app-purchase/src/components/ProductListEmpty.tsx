@@ -1,5 +1,5 @@
 import { StyleSheet, View } from 'react-native';
-import { Asset, colors, Txt } from '@toss-design-system/react-native';
+import { Asset, colors, Txt } from '@toss/tds-react-native';
 
 interface ProductListEmptyProps {
   productsLength: number;

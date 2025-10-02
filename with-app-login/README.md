@@ -58,19 +58,17 @@
    ```
 
 3. 예제 앱을 세팅해요.  
-    3-1. `app/.yarnrc.yml` 파일의 `npmAuthToken` 항목에, [toss-design-system 그룹](https://tossmini-docs.toss.im/tds-react-native/setup-npm/)에 초대된 npm 계정의 토큰 값을 입력해주세요.
-
-   3-2. 예제 앱 경로로 이동 후 필요한 패키지를 설치해요.
+   3-1. 예제 앱 경로로 이동 후 필요한 패키지를 설치해요.
 
    ```
    cd app
    yarn install
    ```
 
-   3-3. `app/bedrock.config.ts` 파일 안에 있는 [env](https://developers-apps-in-toss.toss.im/bedrock/release-notes/2025-05-15.html#react-native-bedrock-plugin-env-%E1%84%91%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A5%E1%84%80%E1%85%B3%E1%84%8B%E1%85%B5%E1%86%AB-%E1%84%8E%E1%85%AE%E1%84%80%E1%85%A1) 설정에 로컬 서버 주소를 입력해 주세요.
+   3-2. `granite.config.ts` 파일 안에 있는 `env` 설정에 로컬 서버 주소를 입력해 주세요.
 
    ```ts
-   import { env } from '@react-native-bedrock/plugin-env';
+   import { env } from '@granite-js/plugin-env';
 
    export default defineConfig({
      appName: 'with-app-login',
@@ -84,17 +82,17 @@
    });
    ```
 
-   3-4. 예제 앱을 실행해요.
+   3-3. 예제 앱을 실행해요.
 
    ```
    yarn dev
    ```
 
-4. 샌드박스 앱을 실행한 뒤, [개발자 로그인](https://developers-apps-in-toss.toss.im/prepare/sandbox.html#%E1%84%80%E1%85%A2%E1%84%87%E1%85%A1%E1%86%AF%E1%84%8C%E1%85%A1-%E1%84%85%E1%85%A9%E1%84%80%E1%85%B3%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5)을 하고 예제를 테스트해 보세요.
+4. 샌드박스 앱을 실행한 뒤, [개발자 로그인](https://developers-apps-in-toss.toss.im/development/test/sandbox.html#_2-%E1%84%80%E1%85%A2%E1%84%87%E1%85%A1%E1%86%AF%E1%84%8C%E1%85%A1-%E1%84%85%E1%85%A9%E1%84%80%E1%85%B3%E1%84%8B%E1%85%B5%E1%86%AB)을 하고 예제를 테스트해 보세요.
 
 <br />
 
 ## 📌 참고사항
 
 - [appLogin](https://developers-apps-in-toss.toss.im/bedrock/reference/framework/%EB%A1%9C%EA%B7%B8%EC%9D%B8/appLogin.html)
-- [개발자 로그인하기](https://developers-apps-in-toss.toss.im/prepare/sandbox.html#%E1%84%80%E1%85%A2%E1%84%87%E1%85%A1%E1%86%AF%E1%84%8C%E1%85%A1-%E1%84%85%E1%85%A9%E1%84%80%E1%85%B3%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5)
+- [개발자 로그인하기](https://developers-apps-in-toss.toss.im/development/test/sandbox.html#_2-%E1%84%80%E1%85%A2%E1%84%87%E1%85%A1%E1%86%AF%E1%84%8C%E1%85%A1-%E1%84%85%E1%85%A9%E1%84%80%E1%85%B3%E1%84%8B%E1%85%B5%E1%86%AB)

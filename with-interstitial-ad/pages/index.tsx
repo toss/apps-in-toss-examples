@@ -1,7 +1,7 @@
 import { StyleSheet, View } from 'react-native';
-import { createRoute, useNavigation } from "@granite-js/react-native";
+import { createRoute, useNavigation } from '@granite-js/react-native';
 import { getOperationalEnvironment } from '@apps-in-toss/framework';
-import { Button, Text } from '@toss-design-system/react-native';
+import { Button, Text } from '@toss/tds-react-native';
 import { useInterstitialAd } from 'hooks/useInterstitialAd';
 import { Visibility } from 'components/Visibility';
 import { TextBox } from 'components/TextBox';

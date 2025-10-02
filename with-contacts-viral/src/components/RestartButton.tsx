@@ -2,7 +2,7 @@ import {
   contactsViral,
   getOperationalEnvironment,
 } from '@apps-in-toss/web-framework';
-import { Button, useDialog, useToast } from '@toss-design-system/mobile';
+import { Button, useDialog, useToast } from '@toss/tds-mobile';
 import { useHeartOverlay } from '@/hooks/useHeartOverlay';
 import { useAudio } from '@/hooks/useAudio';
 import { useVisibilityChange } from '@/hooks/useVisibilityChange';

@@ -1,8 +1,8 @@
-import { share } from "@apps-in-toss/framework";
+import { share } from '@apps-in-toss/framework';
 import React from 'react';
 import { StyleSheet, View, Alert } from 'react-native';
-import { createRoute } from "@granite-js/react-native";
-import { Button, Text } from '@toss-design-system/react-native';
+import { createRoute } from '@granite-js/react-native';
+import { Button, Text } from '@toss/tds-react-native';
 import {
   getTossShareLink,
   getOperationalEnvironment,

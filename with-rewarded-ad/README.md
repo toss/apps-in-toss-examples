@@ -22,21 +22,19 @@
 
 1. **ZIP 파일**을 다운로드하고 압축을 풀어주세요.
 
-2. `.yarnrc.yml` 파일의 `npmAuthToken` 항목에, [toss-design-system 그룹](https://tossmini-docs.toss.im/tds-react-native/setup-npm/)에 초대된 npm 계정의 토큰 값을 입력해주세요.
-
-3. 필요한 패키지를 설치해요.
+2. 필요한 패키지를 설치해요.
 
    ```
    yarn install
    ```
 
-4. 번들 파일을 생성해요.
+3. 번들 파일을 생성해요.
 
    ```
    yarn build
    ```
 
-5. 앱인토스 콘솔에 [앱 번들 업로드](https://developers-apps-in-toss.toss.im/release/overview.html#_1-%E1%84%8B%E1%85%A2%E1%86%B8-%E1%84%87%E1%85%A5%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF-%E1%84%8B%E1%85%A5%E1%86%B8%E1%84%85%E1%85%A9%E1%84%83%E1%85%B3)를 하고 테스트해요.
+4. 앱인토스 콘솔에 [앱 번들 업로드](https://developers-apps-in-toss.toss.im/development/test/toss.html#_1-%E1%84%8B%E1%85%A2%E1%86%B8-%E1%84%87%E1%85%A5%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF-%E1%84%8B%E1%85%A5%E1%86%B8%E1%84%85%E1%85%A9%E1%84%83%E1%85%B3)를 하고 테스트해요.
 
 <br />
 

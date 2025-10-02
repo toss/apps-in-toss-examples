@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react';
-import { useDialog } from '@toss-design-system/react-native';
+import { useDialog } from '@toss/tds-react-native';
 
 interface DraftPromptProps {
   stored: string;

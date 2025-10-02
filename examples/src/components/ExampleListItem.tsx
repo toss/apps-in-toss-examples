@@ -1,6 +1,6 @@
-import { openURL, share } from "@apps-in-toss/framework";
-import { Spacing } from "@granite-js/react-native";
-import { Button, ListRow } from '@toss-design-system/react-native';
+import { openURL, share } from '@apps-in-toss/framework';
+import { Spacing } from '@granite-js/react-native';
+import { Button, ListRow } from '@toss/tds-react-native';
 import { getTossShareLink } from '@apps-in-toss/framework';
 
 interface ExampleListItemProps {

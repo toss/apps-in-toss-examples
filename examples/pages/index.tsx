@@ -1,7 +1,7 @@
-import { getPlatformOS } from "@apps-in-toss/framework";
+import { getPlatformOS } from '@apps-in-toss/framework';
 import { FlatList, StyleSheet } from 'react-native';
-import { createRoute } from "@granite-js/react-native";
-import { List, ListHeader } from '@toss-design-system/react-native';
+import { createRoute } from '@granite-js/react-native';
+import { List, ListHeader } from '@toss/tds-react-native';
 import { ExampleListItem } from 'components/ExampleListItem';
 import { exampleList } from 'constants/exampleList';
 

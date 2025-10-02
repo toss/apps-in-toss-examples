@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useToast } from '@toss-design-system/react-native';
+import { useToast } from '@toss/tds-react-native';
 import { get } from 'utils/fetcher';
 import type { GetUserInfoResponse, UserInfo, UserInfoState } from 'types/user';
 

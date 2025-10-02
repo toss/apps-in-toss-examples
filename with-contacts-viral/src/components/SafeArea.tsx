@@ -1,5 +1,5 @@
 import { getSafeAreaInsets } from '@apps-in-toss/web-framework';
-import { colors } from '@toss-design-system/colors';
+import { colors } from '@toss/tds-colors';
 
 interface SafeAreaProps {
   children: React.ReactNode;

@@ -1,5 +1,5 @@
 import type { MouseEventHandler } from 'react';
-import { colors } from '@toss-design-system/colors';
+import { colors } from '@toss/tds-colors';
 import { FlipCard } from './FlipCard';
 import { CellFront } from './CellFront';
 import { CellBack, type CellKind } from './CellBack';

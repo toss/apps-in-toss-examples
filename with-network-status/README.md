@@ -22,15 +22,13 @@ WiFi 환경에서는 고화질 영상이 재생되고, 모바일 데이터 환�
 
 1. **ZIP 파일**을 다운로드하고 압축을 풀어주세요.
 
-2. `.yarnrc.yml` 파일의 `npmAuthToken` 항목에, [toss-design-system 그룹](https://tossmini-docs.toss.im/tds-react-native/setup-npm/)에 초대된 npm 계정의 토큰 값을 입력해주세요.
-
-3. 필요한 패키지를 설치해요.
+2. 필요한 패키지를 설치해요.
 
    ```
    yarn install
    ```
 
-4. 개발 서버를 실행해요.
+3. 개발 서버를 실행해요.
 
    ```
    yarn dev
@@ -40,4 +38,4 @@ WiFi 환경에서는 고화질 영상이 재생되고, 모바일 데이터 환�
 
 ## 📌 참고사항
 
-- [getNetworkStatus](https://developers-apps-in-toss.toss.im/bedrock/reference/react-native-bedrock/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/getNetworkStatus.html)
+- [getNetworkStatus](https://developers-apps-in-toss.toss.im/bedrock/reference/framework/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/getNetworkStatus.html#getnetworkstatus)

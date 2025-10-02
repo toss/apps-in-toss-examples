@@ -1,6 +1,6 @@
 import { useCallback } from 'react';
-import { createRoute, useNavigation } from "@granite-js/react-native";
-import { List, ListRow, Text, Txt } from '@toss-design-system/react-native';
+import { createRoute, useNavigation } from '@granite-js/react-native';
+import { List, ListRow, Text, Txt } from '@toss/tds-react-native';
 import { IapProductListItem } from '@apps-in-toss/framework';
 import { ProductListEmpty } from 'components/ProductListEmpty';
 import { StyleSheet, View } from 'react-native';

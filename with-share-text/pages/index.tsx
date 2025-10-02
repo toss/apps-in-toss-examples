@@ -1,7 +1,7 @@
-import { share } from "@apps-in-toss/framework";
+import { share } from '@apps-in-toss/framework';
 import { StyleSheet, View } from 'react-native';
-import { createRoute } from "@granite-js/react-native";
-import { Button, Text } from '@toss-design-system/react-native';
+import { createRoute } from '@granite-js/react-native';
+import { Button, Text } from '@toss/tds-react-native';
 import { TextBox } from 'components/TextBox';
 import { useClientKey } from 'hooks/useClientKey';
 

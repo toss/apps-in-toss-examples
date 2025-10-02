@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { StyleSheet, View } from 'react-native';
-import { createRoute } from "@granite-js/react-native";
+import { createRoute } from '@granite-js/react-native';
 import { getOperationalEnvironment } from '@apps-in-toss/framework';
-import { Button, Text, useDialog } from '@toss-design-system/react-native';
+import { Button, Text, useDialog } from '@toss/tds-react-native';
 import { useRewardedAd } from 'hooks/useRewardedAd';
 import { Visibility } from 'components/Visibility';
 import { TextBox } from 'components/TextBox';
