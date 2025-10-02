@@ -1,7 +1,7 @@
 import { StyleSheet, FlatList, View } from 'react-native';
 import { createRoute } from '@granite-js/react-native';
 import { useContacts } from 'hooks/useContacts';
-import { Button, Text } from '@toss-design-system/react-native';
+import { Button, Text } from '@toss/tds-react-native';
 import { ContactItem } from 'components/ContactItem';
 import { FlatListFooter } from 'components/ListFooter';
 import { Visibility } from 'components/Visibility';

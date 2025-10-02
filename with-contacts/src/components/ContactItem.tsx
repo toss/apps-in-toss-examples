@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native';
-import { ListRow, colors } from '@toss-design-system/react-native';
+import { ListRow, colors } from '@toss/tds-react-native';
 
 interface ContentItemProps {
   name: string;

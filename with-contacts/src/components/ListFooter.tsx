@@ -1,4 +1,4 @@
-import { ListFooter, colors } from '@toss-design-system/react-native';
+import { ListFooter, colors } from '@toss/tds-react-native';
 
 interface FlatListFooterProps {
   done: boolean;
