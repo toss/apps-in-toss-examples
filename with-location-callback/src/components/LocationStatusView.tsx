@@ -1,5 +1,5 @@
 import { TextBox } from './ui/TextBox';
-import { colors } from '@toss-design-system/react-native';
+import { colors } from '@toss/tds-react-native';
 
 /**
  * 현재 위치 상태에 따라 사용자에게 보여줄 메시지를 정의한 상수예요.

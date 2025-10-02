@@ -8,7 +8,7 @@ import {
   LOCATION_STATUS,
 } from 'components/LocationStatusView';
 import { LOCATION } from '../src/constants/location';
-import { Button, Text } from '@toss-design-system/react-native';
+import { Button, Text } from '@toss/tds-react-native';
 import { ErrorView } from 'components/ErrorView';
 
 export const Route = createRoute('/', {
