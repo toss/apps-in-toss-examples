@@ -1,13 +1,7 @@
 import { View, Dimensions, StyleSheet } from 'react-native';
-import { createRoute } from "@granite-js/react-native";
+import { createRoute } from '@granite-js/react-native';
 import { IapProductListItem } from '@apps-in-toss/framework';
-import {
-  Asset,
-  Border,
-  Button,
-  Txt,
-  colors,
-} from '@toss-design-system/react-native';
+import { Asset, Border, Button, Txt, colors } from '@toss/tds-react-native';
 import { usePurchase } from 'hooks/usePurchase';
 
 const windowSize = Dimensions.get('window');
