@@ -1,9 +1,9 @@
-import { useState } from 'react';
-import { StyleSheet, View } from 'react-native';
-import { TextField } from '@toss-design-system/react-native';
-import { useStorage } from 'hooks/useStorage';
-import { useDebouncedSaveWithMessage } from 'hooks/useDebouncedSaveWithMessage';
-import { DraftPrompt } from './DraftPrompt';
+import { useState } from "react";
+import { StyleSheet, View } from "react-native";
+import { TextField } from "@toss/tds-react-native";
+import { useStorage } from "hooks/useStorage";
+import { useDebouncedSaveWithMessage } from "hooks/useDebouncedSaveWithMessage";
+import { DraftPrompt } from "./DraftPrompt";
 
 interface Props {
   storageKey: string;
@@ -11,7 +11,7 @@ interface Props {
 
 export function DraftInput({ storageKey }: Props) {
   const { loading, storedValue, saveItem, removeItem } = useStorage(storageKey);
-  const [text, setText] = useState<string>('');
+  const [text, setText] = useState<string>("");
   const { showSavedMessage } = useDebouncedSaveWithMessage({
     value: text,
     onSave: saveItem,
@@ -25,7 +25,7 @@ export function DraftInput({ storageKey }: Props) {
           onAccept={() => setText(storedValue)}
           onDecline={() => {
             removeItem();
-            setText('');
+            setText("");
           }}
         />
       )}
@@ -38,7 +38,7 @@ export function DraftInput({ storageKey }: Props) {
         onChangeText={setText}
         paddingBottom={8}
         multiline
-        help={showSavedMessage && '초안이 저장됐어요.'}
+        help={showSavedMessage && "초안이 저장됐어요."}
       />
     </View>
   );
@@ -50,6 +50,6 @@ const styles = StyleSheet.create({
   },
   textfield: {
     height: 100,
-    textAlignVertical: 'top',
+    textAlignVertical: "top",
   },
 });

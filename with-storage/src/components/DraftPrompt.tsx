@@ -1,5 +1,5 @@
-import { useEffect, useRef } from 'react';
-import { useDialog } from '@toss-design-system/react-native';
+import { useEffect, useRef } from "react";
+import { useDialog } from "@toss/tds-react-native";
 
 interface DraftPromptProps {
   stored: string;
@@ -25,8 +25,8 @@ export function DraftPrompt({ stored, onAccept, onDecline }: DraftPromptProps) {
 
   const showRestoreDraftDialog = async () => {
     const confirmed = await dialog.openConfirm({
-      title: '작성하던 글이 있어요.',
-      description: '불러올까요?',
+      title: "작성하던 글이 있어요.",
+      description: "불러올까요?",
     });
 
     confirmed ? onAccept() : onDecline();
