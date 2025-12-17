@@ -15,32 +15,32 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@apps-in-toss/analytics@npm:1.1.2":
-  version: 1.1.2
-  resolution: "@apps-in-toss/analytics@npm:1.1.2"
+"@apps-in-toss/analytics@npm:1.5.2":
+  version: 1.5.2
+  resolution: "@apps-in-toss/analytics@npm:1.5.2::__archiveUrl=http%3A%2F%2Fnexus.toss.bz%2Frepository%2Fnpm-group%2F%40apps-in-toss%2Fanalytics%2F-%2Fanalytics-1.5.2.tgz"
   peerDependencies:
     "@granite-js/native": "*"
     "@granite-js/react-native": "*"
     "@types/react": "*"
     react: 18.2.0
     react-native: 0.72.6
-  checksum: 10c0/616f6a613bb2076c7b55ba0966a24105d45cc25bb27a920693561c1d918573d505e450fc15830bc11ca0304d4ebd36d8963dd637c5a6667e567302a3b18046a0
+  checksum: 10c0/c67f38d62001fbbf897544a409c36858891fdf60811c9619ed0a91b196d4c88d7acce4b81268ffb77ab1307d246b9ec5b8c16444df57861e4f272674dd59218d
   languageName: node
   linkType: hard
 
-"@apps-in-toss/bridge-core@npm:1.1.2":
-  version: 1.1.2
-  resolution: "@apps-in-toss/bridge-core@npm:1.1.2"
-  checksum: 10c0/c6fb4a332311961fadbe450e13dfe4ebcf10011bb254d8e5a729f3bc7c1f9a5b9ff406b0bec95dde63d58d517bb3c4834545d6b08b997fbc960c7b3520bac038
+"@apps-in-toss/bridge-core@npm:1.5.2":
+  version: 1.5.2
+  resolution: "@apps-in-toss/bridge-core@npm:1.5.2::__archiveUrl=http%3A%2F%2Fnexus.toss.bz%2Frepository%2Fnpm-group%2F%40apps-in-toss%2Fbridge-core%2F-%2Fbridge-core-1.5.2.tgz"
+  checksum: 10c0/90fd714e110a227e711b8b04ec1c73bc293b801587487e2c1b289b770587c366aafefbbd387fa7d7bcfb24be8ed3be1f4d6aac2b75a1fe4dae886cf4798b46d5
   languageName: node
   linkType: hard
 
-"@apps-in-toss/cli@npm:1.1.2":
-  version: 1.1.2
-  resolution: "@apps-in-toss/cli@npm:1.1.2"
+"@apps-in-toss/cli@npm:1.5.2":
+  version: 1.5.2
+  resolution: "@apps-in-toss/cli@npm:1.5.2::__archiveUrl=http%3A%2F%2Fnexus.toss.bz%2Frepository%2Fnpm-group%2F%40apps-in-toss%2Fcli%2F-%2Fcli-1.5.2.tgz"
   dependencies:
     "@clack/prompts": "npm:^0.10.0"
-    "@granite-js/utils": "npm:0.1.22"
+    "@granite-js/utils": "npm:0.1.31"
     "@sentry/cli": "npm:^2.46.0"
     clipanion: "npm:^4.0.0-rc.4"
     dedent: "npm:^1.6.0"
@@ -48,120 +48,120 @@ __metadata:
     jscodeshift: "npm:^17.3.0"
     source-map: "npm:^0.8.0-beta.0"
     unzipper: "npm:^0.12.3"
-  checksum: 10c0/37f685989309beeda3bdacaeee442295a7789869a8c63fd9a45754a480e0d2bc69a980508f59d503ae8fb8b5b39c40372b5b453e9c68e22bd50b1b968203632d
+  checksum: 10c0/3a07d7dba253db4918cc9554846ae43c6d45c5da19ad3eec1ec541ca04ad7d0ea09f889f75f09ae96fc30260a16e27621b60e572332b344b7cd9c6363e353939
   languageName: node
   linkType: hard
 
-"@apps-in-toss/framework@npm:1.1.2":
-  version: 1.1.2
-  resolution: "@apps-in-toss/framework@npm:1.1.2"
+"@apps-in-toss/framework@npm:1.5.2":
+  version: 1.5.2
+  resolution: "@apps-in-toss/framework@npm:1.5.2::__archiveUrl=http%3A%2F%2Fnexus.toss.bz%2Frepository%2Fnpm-group%2F%40apps-in-toss%2Fframework%2F-%2Fframework-1.5.2.tgz"
   dependencies:
-    "@apps-in-toss/analytics": "npm:1.1.2"
-    "@apps-in-toss/cli": "npm:1.1.2"
-    "@apps-in-toss/native-modules": "npm:1.1.2"
-    "@apps-in-toss/plugins": "npm:1.1.2"
-    "@apps-in-toss/types": "npm:1.1.2"
+    "@apps-in-toss/analytics": "npm:1.5.2"
+    "@apps-in-toss/cli": "npm:1.5.2"
+    "@apps-in-toss/native-modules": "npm:1.5.2"
+    "@apps-in-toss/plugins": "npm:1.5.2"
+    "@apps-in-toss/types": "npm:1.5.2"
     es-hangul: "npm:^2.3.2"
   peerDependencies:
     "@granite-js/native": "*"
     "@granite-js/react-native": "*"
-    "@toss-design-system/react-native": ">=1.1.2"
+    "@toss/tds-react-native": ">=1.3.6"
     "@types/react": "*"
     react: "*"
     react-native: "*"
   bin:
     ait: ./bin/ait.js
-  checksum: 10c0/0b8a4cfab3397ffbae1ec8245e9cb17f992e3d83e728011488407f17b1ce3093128d739ac7e3f736cfd36687308a1edce3b34ce6faa5e6948da09df8649cef61
+  checksum: 10c0/0d4756266f3c91f101b9ca9c512579d152d1399e06a755e7863be7f5c72a5cd6139a4458e437c779ff971969435881434f9fdfd1f92a9adeb1148c29655ceb8b
   languageName: node
   linkType: hard
 
-"@apps-in-toss/native-modules@npm:1.1.2":
-  version: 1.1.2
-  resolution: "@apps-in-toss/native-modules@npm:1.1.2"
+"@apps-in-toss/native-modules@npm:1.5.2":
+  version: 1.5.2
+  resolution: "@apps-in-toss/native-modules@npm:1.5.2::__archiveUrl=http%3A%2F%2Fnexus.toss.bz%2Frepository%2Fnpm-group%2F%40apps-in-toss%2Fnative-modules%2F-%2Fnative-modules-1.5.2.tgz"
   dependencies:
-    "@apps-in-toss/types": "npm:^1.1.2"
+    "@apps-in-toss/types": "npm:^1.5.2"
     es-toolkit: "npm:^1.39.3"
   peerDependencies:
     "@granite-js/native": "*"
     "@granite-js/react-native": "*"
     react-native: "*"
-  checksum: 10c0/557ee914805c3557296c8ab321d73a67fef4ab96e4ecf5dbfa5cdbeb3185faf6cadf006cd4d4bfdca31db49c37dd882018b8de014b9f68989c4438658973e61e
+  checksum: 10c0/894e15d7d3cffd1c92804d1bc4cf753c8b6f3e774efd81bdfa7203c67f97070d36783055190c3f4e51075b928e9891b7c0d30cda9d1131f80ac31664f7bd4cec
   languageName: node
   linkType: hard
 
-"@apps-in-toss/plugins@npm:1.1.2":
-  version: 1.1.2
-  resolution: "@apps-in-toss/plugins@npm:1.1.2"
+"@apps-in-toss/plugins@npm:1.5.2":
+  version: 1.5.2
+  resolution: "@apps-in-toss/plugins@npm:1.5.2::__archiveUrl=http%3A%2F%2Fnexus.toss.bz%2Frepository%2Fnpm-group%2F%40apps-in-toss%2Fplugins%2F-%2Fplugins-1.5.2.tgz"
   dependencies:
-    "@granite-js/plugin-core": "npm:0.1.22"
-    "@granite-js/plugin-micro-frontend": "npm:0.1.22"
-    "@granite-js/plugin-sentry": "npm:0.1.22"
-    "@granite-js/utils": "npm:0.1.22"
+    "@granite-js/plugin-core": "npm:0.1.31"
+    "@granite-js/plugin-micro-frontend": "npm:0.1.31"
+    "@granite-js/plugin-sentry": "npm:0.1.31"
+    "@granite-js/utils": "npm:0.1.31"
     archiver: "npm:^7.0.1"
     connect: "npm:^3.7.0"
     esbuild: "npm:0.25.5"
     execa: "npm:^9.5.2"
     picocolors: "npm:^1.1.1"
     uuidv7: "npm:^1.0.2"
-  checksum: 10c0/0d47a9c27cbc5e5f39e7b9527edcdf101b4e27e94cf1626a8feb85a918ab849b46fd86964165f4cc42e6bc4aec2f4b5782698981de55b384f6c3511cb7525155
+  checksum: 10c0/6e98fd39ce893875104c065b49e887696e37374efd0f62c867a978506a4cb399cfe4bdd0d28677d76616cf41546395b54870d197b7bdd4798536ff13531014cb
   languageName: node
   linkType: hard
 
-"@apps-in-toss/types@npm:1.1.2":
-  version: 1.1.2
-  resolution: "@apps-in-toss/types@npm:1.1.2"
-  checksum: 10c0/5ee846e6b46a9118db1db5e45f3823a524bdf6f7576e4392038922438e35703f3451cd0589e1b4d71fa7b1309e8fb5069efb1e55d731814f65b663940010ebb7
+"@apps-in-toss/types@npm:1.5.2":
+  version: 1.5.2
+  resolution: "@apps-in-toss/types@npm:1.5.2::__archiveUrl=http%3A%2F%2Fnexus.toss.bz%2Frepository%2Fnpm-group%2F%40apps-in-toss%2Ftypes%2F-%2Ftypes-1.5.2.tgz"
+  checksum: 10c0/c745e46830023eaff75196e41579834828948e5773a91a73e80183a3708d31b6c291f7fa8f9b2cee03ae1256770af7937ab03b2ccccacd14184cbe31840cf09a
   languageName: node
   linkType: hard
 
-"@apps-in-toss/types@npm:^1.1.2":
-  version: 1.1.3
-  resolution: "@apps-in-toss/types@npm:1.1.3"
-  checksum: 10c0/299d0792d0b65d4d34aad35c77a9008b8b2dbb65c2c192e4c51a35db1cfd825e16bdb1c7a254188f5e653fd92f145d698239d2ebac7e4a20abe4ea7f9c46dc7a
+"@apps-in-toss/types@npm:^1.5.2":
+  version: 1.5.3
+  resolution: "@apps-in-toss/types@npm:1.5.3::__archiveUrl=http%3A%2F%2Fnexus.toss.bz%2Frepository%2Fnpm-group%2F%40apps-in-toss%2Ftypes%2F-%2Ftypes-1.5.3.tgz"
+  checksum: 10c0/3b421766f33cba2546adee420f4e4dce244d322bc9bd648480da33a1ebe97aecfda0c7964d3a751b416943e02a427336de3d2210ae55ed67c5ff45b573e22c87
   languageName: node
   linkType: hard
 
-"@apps-in-toss/web-analytics@npm:1.1.2":
-  version: 1.1.2
-  resolution: "@apps-in-toss/web-analytics@npm:1.1.2"
+"@apps-in-toss/web-analytics@npm:1.5.2":
+  version: 1.5.2
+  resolution: "@apps-in-toss/web-analytics@npm:1.5.2::__archiveUrl=http%3A%2F%2Fnexus.toss.bz%2Frepository%2Fnpm-group%2F%40apps-in-toss%2Fweb-analytics%2F-%2Fweb-analytics-1.5.2.tgz"
   peerDependencies:
     "@apps-in-toss/web-bridge": "*"
-  checksum: 10c0/ebcff3793802cfa2458e892af85e937fb737ce5aef35c4bd4e572d0f71f6f69ad7389c3c1a2da8b357d729c5a510ab04d1fa9bd14cdd06cc74f6caa3fd20281f
+  checksum: 10c0/a8dd505ea3b5f9026e1b35f444c57f917e6b3116baca8c1ef512c2d3991f2fe8836f917d6f246be862cad688a23e7c099692812bc5d667ae49f0c771374b3901
   languageName: node
   linkType: hard
 
-"@apps-in-toss/web-bridge@npm:1.1.2":
-  version: 1.1.2
-  resolution: "@apps-in-toss/web-bridge@npm:1.1.2"
+"@apps-in-toss/web-bridge@npm:1.5.2":
+  version: 1.5.2
+  resolution: "@apps-in-toss/web-bridge@npm:1.5.2::__archiveUrl=http%3A%2F%2Fnexus.toss.bz%2Frepository%2Fnpm-group%2F%40apps-in-toss%2Fweb-bridge%2F-%2Fweb-bridge-1.5.2.tgz"
   dependencies:
-    "@apps-in-toss/types": "npm:1.1.2"
+    "@apps-in-toss/types": "npm:1.5.2"
   peerDependencies:
     "@apps-in-toss/bridge-core": "*"
-  checksum: 10c0/513be14d1ebb470ee91bb8c4e074ff7f9c1ced74cf1f446718e244cc2fc83330a5827a7b9a62d60290cae9a5636724194623e2a924401b66b2f49834e452ec7a
+  checksum: 10c0/5b5bb02a6b30f8c86535c7de18418bb5c8bc409dd2251b384cf8a2d13da69e0c188fd87de10b4419ef28be7b2cf3c5e21d26f6f91717e0777e099262360116c3
   languageName: node
   linkType: hard
 
-"@apps-in-toss/web-framework@npm:1.1.2":
-  version: 1.1.2
-  resolution: "@apps-in-toss/web-framework@npm:1.1.2"
+"@apps-in-toss/web-framework@npm:1.5.2":
+  version: 1.5.2
+  resolution: "@apps-in-toss/web-framework@npm:1.5.2::__archiveUrl=http%3A%2F%2Fnexus.toss.bz%2Frepository%2Fnpm-group%2F%40apps-in-toss%2Fweb-framework%2F-%2Fweb-framework-1.5.2.tgz"
   dependencies:
-    "@apps-in-toss/bridge-core": "npm:1.1.2"
-    "@apps-in-toss/cli": "npm:1.1.2"
-    "@apps-in-toss/framework": "npm:1.1.2"
-    "@apps-in-toss/plugins": "npm:1.1.2"
-    "@apps-in-toss/web-analytics": "npm:1.1.2"
-    "@apps-in-toss/web-bridge": "npm:1.1.2"
+    "@apps-in-toss/bridge-core": "npm:1.5.2"
+    "@apps-in-toss/cli": "npm:1.5.2"
+    "@apps-in-toss/framework": "npm:1.5.2"
+    "@apps-in-toss/plugins": "npm:1.5.2"
+    "@apps-in-toss/web-analytics": "npm:1.5.2"
+    "@apps-in-toss/web-bridge": "npm:1.5.2"
     "@babel/core": "npm:7.23.9"
-    "@granite-js/cli": "npm:0.1.22"
-    "@granite-js/mpack": "npm:0.1.22"
-    "@granite-js/native": "npm:0.1.22"
-    "@granite-js/plugin-core": "npm:0.1.22"
-    "@granite-js/react-native": "npm:0.1.22"
-    "@granite-js/utils": "npm:0.1.22"
+    "@granite-js/cli": "npm:0.1.31"
+    "@granite-js/mpack": "npm:0.1.31"
+    "@granite-js/native": "npm:0.1.31"
+    "@granite-js/plugin-core": "npm:0.1.31"
+    "@granite-js/react-native": "npm:0.1.31"
+    "@granite-js/utils": "npm:0.1.31"
   bin:
     ait: ./ait.js
     granite: ./bin.js
-  checksum: 10c0/b7994bb5df473920c80c8c1198c6e012a9b9b8584896bf6255fc065a4bd7f6ffed69ff9c0859c731103d9883013dd2da22263de18ffe69865bde5ee73e04e9fe
+  checksum: 10c0/89f59c16f13bb514a51cb9d28ea1958409dff4e76a013ead6bd99d25ab48ee20773261f919fa3d396bb0b29eaa2628bd6be927584fb6a38b07828a44c4d74a77
   languageName: node
   linkType: hard
 
@@ -2752,13 +2752,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@granite-js/cli@npm:0.1.22":
-  version: 0.1.22
-  resolution: "@granite-js/cli@npm:0.1.22"
+"@granite-js/cli@npm:0.1.31":
+  version: 0.1.31
+  resolution: "@granite-js/cli@npm:0.1.31::__archiveUrl=http%3A%2F%2Fnexus.toss.bz%2Frepository%2Fnpm-group%2F%40granite-js%2Fcli%2F-%2Fcli-0.1.31.tgz"
   dependencies:
-    "@granite-js/mpack": "npm:0.1.22"
-    "@granite-js/plugin-core": "npm:0.1.22"
-    "@granite-js/utils": "npm:0.1.22"
+    "@granite-js/mpack": "npm:0.1.31"
+    "@granite-js/plugin-core": "npm:0.1.31"
+    "@granite-js/utils": "npm:0.1.31"
     "@inquirer/prompts": "npm:^7.2.3"
     "@shopify/semaphore": "npm:^3.1.0"
     chalk: "npm:^4"
@@ -2771,20 +2771,20 @@ __metadata:
     ora: "npm:^5"
     typanion: "npm:^3.14.0"
     zod: "npm:3.24.4"
-  checksum: 10c0/7ea8684ca6751ab03c722d52d26045166703498ea549c8a354328ba4109df83d6f85207904532c0c3bc97d15d8784918b2dff5ec59486400385d1c3982a6d7dd
+  checksum: 10c0/ec510177483d440f34dc39e98c4d3028ee040ec1161e1db6a21407f8d9f9363ceb3cee6774f676e48b3c32eec99ca973def84cf83e9546a1871a5ca21587df97
   languageName: node
   linkType: hard
 
-"@granite-js/devtools-frontend@npm:0.1.22":
-  version: 0.1.22
-  resolution: "@granite-js/devtools-frontend@npm:0.1.22"
-  checksum: 10c0/e7522ddca33ff7f98e92dd8ff73eba601506b0f0e394a8ea72a0fde8e9450d494607d2cd8a2ad3d8fb48c9e25639ad4257dd137e2d59019b4c1ec8511610db95
+"@granite-js/devtools-frontend@npm:0.1.31":
+  version: 0.1.31
+  resolution: "@granite-js/devtools-frontend@npm:0.1.31::__archiveUrl=http%3A%2F%2Fnexus.toss.bz%2Frepository%2Fnpm-group%2F%40granite-js%2Fdevtools-frontend%2F-%2Fdevtools-frontend-0.1.31.tgz"
+  checksum: 10c0/3905dc479f9eb1c6c4b89548a1ebd22329611c2e1ac6461ea61944879fc5f52ec3582678552e9c53bf86ff7bd6be109024fc0a7bacff405df23f22dece61bfe1
   languageName: node
   linkType: hard
 
-"@granite-js/image@npm:0.1.22":
-  version: 0.1.22
-  resolution: "@granite-js/image@npm:0.1.22"
+"@granite-js/image@npm:0.1.31":
+  version: 0.1.31
+  resolution: "@granite-js/image@npm:0.1.31::__archiveUrl=http%3A%2F%2Fnexus.toss.bz%2Frepository%2Fnpm-group%2F%40granite-js%2Fimage%2F-%2Fimage-0.1.31.tgz"
   dependencies:
     react-simplikit: "npm:^0.0.40"
   peerDependencies:
@@ -2792,38 +2792,38 @@ __metadata:
     "@types/react": "*"
     react: "*"
     react-native: "*"
-  checksum: 10c0/149772075353ff1f69e3c2d156700a6f44848aa8141750e562fa5116f9e2c54e390ac97068789faabab262ad1e5e664abfd6e3a8f99e939fc528121c8d7144ec
+  checksum: 10c0/95a3593c3628ee960d458f950c5a0ab7b16b7fb24ac0be55da8365c28a786292806ec54d09947fbb9e24084f5fb54ea7c1b678c6ceec9db00103e5fec3cf5a94
   languageName: node
   linkType: hard
 
-"@granite-js/jest@npm:0.1.22":
-  version: 0.1.22
-  resolution: "@granite-js/jest@npm:0.1.22"
+"@granite-js/jest@npm:0.1.31":
+  version: 0.1.31
+  resolution: "@granite-js/jest@npm:0.1.31::__archiveUrl=http%3A%2F%2Fnexus.toss.bz%2Frepository%2Fnpm-group%2F%40granite-js%2Fjest%2F-%2Fjest-0.1.31.tgz"
   dependencies:
     jest: "npm:^29.7.0"
   peerDependencies:
     "@granite-js/native": "*"
     react: "*"
     react-native: "*"
-  checksum: 10c0/b9c3ebccbfda70e01a23ed540c8808b473f87b9daf7c450093aa1dcd3e02e4f76b470aab81aac8cf4a65fda7469db79ce6115563b7944f081de98650c34c2f22
+  checksum: 10c0/0272d8f0e55d5b6d2efbd42b1818d2dab22efb36d81e3dae296762fc40883ca2909f0419305d9dadd0d06a82a3635a2db005774e3283a05d8197e77cea5112ce
   languageName: node
   linkType: hard
 
-"@granite-js/lottie@npm:0.1.22":
-  version: 0.1.22
-  resolution: "@granite-js/lottie@npm:0.1.22"
+"@granite-js/lottie@npm:0.1.31":
+  version: 0.1.31
+  resolution: "@granite-js/lottie@npm:0.1.31::__archiveUrl=http%3A%2F%2Fnexus.toss.bz%2Frepository%2Fnpm-group%2F%40granite-js%2Flottie%2F-%2Flottie-0.1.31.tgz"
   peerDependencies:
     "@granite-js/native": "*"
     "@types/react": "*"
     react: "*"
     react-native: "*"
-  checksum: 10c0/40d7c55b1d3a54b4c0affd2fff9b7c6453113c8e0f999b400b2306cc7b2fbda64e7eb729b49e310a7d530b4bf875659bf54ec97c2382881e5f02c19f40cee03e
+  checksum: 10c0/904623068faf2c8c540e9882593e642037f9b79a1d3c072c89a10f2bbdd3040ef30f0de007a6c935a4bef68daa5203aac957bd88f2d6892ee6cc491fc7d16e2b
   languageName: node
   linkType: hard
 
-"@granite-js/mpack@npm:0.1.22":
-  version: 0.1.22
-  resolution: "@granite-js/mpack@npm:0.1.22"
+"@granite-js/mpack@npm:0.1.31":
+  version: 0.1.31
+  resolution: "@granite-js/mpack@npm:0.1.31::__archiveUrl=http%3A%2F%2Fnexus.toss.bz%2Frepository%2Fnpm-group%2F%40granite-js%2Fmpack%2F-%2Fmpack-0.1.31.tgz"
   dependencies:
     "@babel/code-frame": "npm:7.24.7"
     "@babel/core": "npm:7.23.9"
@@ -2840,9 +2840,9 @@ __metadata:
     "@babel/traverse": "npm:^7.14.0"
     "@babel/types": "npm:^7.0.0"
     "@fastify/static": "npm:7.0.1"
-    "@granite-js/devtools-frontend": "npm:0.1.22"
-    "@granite-js/plugin-core": "npm:0.1.22"
-    "@granite-js/utils": "npm:0.1.22"
+    "@granite-js/devtools-frontend": "npm:0.1.31"
+    "@granite-js/plugin-core": "npm:0.1.31"
+    "@granite-js/utils": "npm:0.1.31"
     "@inquirer/prompts": "npm:^7.2.3"
     "@react-native-community/cli-plugin-metro": "npm:11.3.7"
     "@react-native-community/cli-server-api": "npm:11.3.7"
@@ -2917,13 +2917,13 @@ __metadata:
     ws: "npm:^8.18.0"
     yargs: "npm:^15.3.1"
     zod: "npm:3.24.4"
-  checksum: 10c0/bc11b9a8a344a21fd07983197aa4dacbb919175c7c4ae444bba22d74323b048c375e56411b74849991e44641c23e32648fce755b5442936e54f2ad07e8bfe16c
+  checksum: 10c0/62eda223de0d9b667fcf00170b339eb0e58bdb241cebbaa76f2b30bea91bb45f12c122da85914efbcaae0eebd17dd8acaa10d3bd855b642f95016771e45f2338
   languageName: node
   linkType: hard
 
-"@granite-js/native@npm:0.1.22":
-  version: 0.1.22
-  resolution: "@granite-js/native@npm:0.1.22"
+"@granite-js/native@npm:0.1.31":
+  version: 0.1.31
+  resolution: "@granite-js/native@npm:0.1.31::__archiveUrl=http%3A%2F%2Fnexus.toss.bz%2Frepository%2Fnpm-group%2F%40granite-js%2Fnative%2F-%2Fnative-0.1.31.tgz"
   dependencies:
     "@react-native-async-storage/async-storage": "npm:1.18.2"
     "@react-native-community/blur": "npm:4.3.2"
@@ -2945,7 +2945,7 @@ __metadata:
     "@babel/runtime": "*"
     react: "*"
     react-native: "*"
-  checksum: 10c0/c413ac72bc88a6ea68c159c84d7748614394a6c2d19c396c129ac93f5c57c562499eabb465a8d02ab6430d01a4cd9f1ce9f4748c499e691812fedcb1de04af1c
+  checksum: 10c0/636ede6ad79c64b7d62a4c9eedd3aff3dfd72f1e4e0421c25aefe9770cf3c3f9899e9c90c10cf03dfe8109397650d63218e857142c18c5b5cd4b5494e33114ea
   languageName: node
   linkType: hard
 
@@ -2967,33 +2967,34 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@granite-js/plugin-core@npm:0.1.22":
-  version: 0.1.22
-  resolution: "@granite-js/plugin-core@npm:0.1.22"
+"@granite-js/plugin-core@npm:0.1.31":
+  version: 0.1.31
+  resolution: "@granite-js/plugin-core@npm:0.1.31::__archiveUrl=http%3A%2F%2Fnexus.toss.bz%2Frepository%2Fnpm-group%2F%40granite-js%2Fplugin-core%2F-%2Fplugin-core-0.1.31.tgz"
   dependencies:
-    "@granite-js/utils": "npm:0.1.22"
+    "@granite-js/utils": "npm:0.1.31"
     "@swc/core": "npm:1.5.24"
     "@types/babel__core": "npm:^7"
     "@types/connect": "npm:^3"
+    "@types/ws": "npm:^8.18.0"
     cosmiconfig: "npm:^9.0.0"
     cosmiconfig-typescript-loader: "npm:^5.1.0"
     es-toolkit: "npm:^1.39.8"
     esbuild: "npm:^0.25.8"
     fastify: "npm:4.14.0"
     zod: "npm:^4.0.10"
-  checksum: 10c0/d5ed0f92a0b3b098030199d7eef8f9562f3b2fcfaa32601222f28e38ce1b3d641c02de16b401b1f55df9511cad0e1e7d44cb6c0ae1982cfb1f74d960644f4439
+  checksum: 10c0/868b53b0ce56338797a0988c4bf9d254afbb95cef473ab6e9ec5e3a72cb9e76b413005ebcd2f700056908b8c5fafad5fe5e044b0aec95239dbdf768d5ccf0f4d
   languageName: node
   linkType: hard
 
-"@granite-js/plugin-micro-frontend@npm:0.1.22":
-  version: 0.1.22
-  resolution: "@granite-js/plugin-micro-frontend@npm:0.1.22"
+"@granite-js/plugin-micro-frontend@npm:0.1.31":
+  version: 0.1.31
+  resolution: "@granite-js/plugin-micro-frontend@npm:0.1.31::__archiveUrl=http%3A%2F%2Fnexus.toss.bz%2Frepository%2Fnpm-group%2F%40granite-js%2Fplugin-micro-frontend%2F-%2Fplugin-micro-frontend-0.1.31.tgz"
   dependencies:
-    "@granite-js/plugin-core": "npm:0.1.22"
-    "@granite-js/utils": "npm:0.1.22"
+    "@granite-js/plugin-core": "npm:0.1.31"
+    "@granite-js/utils": "npm:0.1.31"
     es-toolkit: "npm:^1.39.8"
     picocolors: "npm:^1.1.1"
-  checksum: 10c0/739e95bfa7fcddd4a6d70d3fe602dab39f8d4825cff7b8e99878b705c980fb68f45c4cd0d94a96381a1cb897a20ec4a5ae233bc77747b2d5c510225b1f05391f
+  checksum: 10c0/642a2e891c805075d0a0d285defd171f16d0ba1e2195fd86dd26fc0c2154e93094836707df7cf8073420bb6909ff9dc99c629cd09af45e3d27ce915e7622e714
   languageName: node
   linkType: hard
 
@@ -3009,32 +3010,33 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@granite-js/plugin-sentry@npm:0.1.22":
-  version: 0.1.22
-  resolution: "@granite-js/plugin-sentry@npm:0.1.22"
+"@granite-js/plugin-sentry@npm:0.1.31":
+  version: 0.1.31
+  resolution: "@granite-js/plugin-sentry@npm:0.1.31::__archiveUrl=http%3A%2F%2Fnexus.toss.bz%2Frepository%2Fnpm-group%2F%40granite-js%2Fplugin-sentry%2F-%2Fplugin-sentry-0.1.31.tgz"
   dependencies:
-    "@granite-js/plugin-core": "npm:0.1.22"
-    "@granite-js/utils": "npm:0.1.22"
+    "@granite-js/plugin-core": "npm:0.1.31"
+    "@granite-js/utils": "npm:0.1.31"
     "@sentry/cli": "npm:^2.45.0"
     es-toolkit: "npm:^1.39.8"
     execa: "npm:^5"
-  checksum: 10c0/8207e0f40176822cdab56e82deb9586942516fc38587bb305e025820e5fafa01d6f19bb0fe9f75caba0a0d16f241d33f09123c0f1185a6a1fc5a311eb5182d03
+  checksum: 10c0/26ec6a13a470fd6284e52dac10073969f6da8d5a9217cbbd7a0265f55fab16afcc45923158fdfbfca53e1cd82b49e201abe70d8f57240a03fb3d4486674e9e94
   languageName: node
   linkType: hard
 
-"@granite-js/react-native@npm:0.1.22":
-  version: 0.1.22
-  resolution: "@granite-js/react-native@npm:0.1.22"
+"@granite-js/react-native@npm:0.1.31":
+  version: 0.1.31
+  resolution: "@granite-js/react-native@npm:0.1.31::__archiveUrl=http%3A%2F%2Fnexus.toss.bz%2Frepository%2Fnpm-group%2F%40granite-js%2Freact-native%2F-%2Freact-native-0.1.31.tgz"
   dependencies:
-    "@granite-js/cli": "npm:0.1.22"
-    "@granite-js/image": "npm:0.1.22"
-    "@granite-js/jest": "npm:0.1.22"
-    "@granite-js/lottie": "npm:0.1.22"
-    "@granite-js/mpack": "npm:0.1.22"
-    "@granite-js/plugin-core": "npm:0.1.22"
-    "@granite-js/style-utils": "npm:0.1.22"
+    "@granite-js/cli": "npm:0.1.31"
+    "@granite-js/image": "npm:0.1.31"
+    "@granite-js/jest": "npm:0.1.31"
+    "@granite-js/lottie": "npm:0.1.31"
+    "@granite-js/mpack": "npm:0.1.31"
+    "@granite-js/plugin-core": "npm:0.1.31"
+    "@granite-js/style-utils": "npm:0.1.31"
+    "@standard-schema/spec": "npm:^1.0.0"
     es-toolkit: "npm:^1.39.8"
-    react-native-url-polyfill: "npm:1.3.0"
+    react-native-url-polyfill: "npm:3.0.0"
   peerDependencies:
     "@granite-js/native": "*"
     "@types/react": "*"
@@ -3042,18 +3044,18 @@ __metadata:
     react-native: "*"
   bin:
     granite: ./bin/cli.js
-  checksum: 10c0/ae5bd165449b1b6660d95a9467163cf60a2f8bed0c2c0ae4b83948cffcfc26c2f4b1545bce1d7748d6ad813288b7d319098c95472d03e585900f2f359f864a3d
+  checksum: 10c0/853d16b8e382e2b781044811044ffded80a07e848301ca6d79b124300d085ee26bc1a783b757434e911bf59cf68a5d0547babf756b14e66da0252d9541003a5a
   languageName: node
   linkType: hard
 
-"@granite-js/style-utils@npm:0.1.22":
-  version: 0.1.22
-  resolution: "@granite-js/style-utils@npm:0.1.22"
+"@granite-js/style-utils@npm:0.1.31":
+  version: 0.1.31
+  resolution: "@granite-js/style-utils@npm:0.1.31::__archiveUrl=http%3A%2F%2Fnexus.toss.bz%2Frepository%2Fnpm-group%2F%40granite-js%2Fstyle-utils%2F-%2Fstyle-utils-0.1.31.tgz"
   peerDependencies:
     "@types/react": "*"
     react: "*"
     react-native: "*"
-  checksum: 10c0/5d0c779b9196eaa33d7ffe98a981527fc027275d694297331828d29529849cc9c1019959ca33725215bb363f226545ba0dac9a5adee696337537ad74d21a05c8
+  checksum: 10c0/65b80e04c8bbd1a1b8f9d3408e25b58d05e18249880cd2e6907d35bb51b9359e70ffcd8a75a7a7ebf2255c4b06ba6591146ed24dd1a21c2ff1d773d4c78f0c38
   languageName: node
   linkType: hard
 
@@ -3066,12 +3068,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@granite-js/utils@npm:0.1.22":
-  version: 0.1.22
-  resolution: "@granite-js/utils@npm:0.1.22"
+"@granite-js/utils@npm:0.1.31":
+  version: 0.1.31
+  resolution: "@granite-js/utils@npm:0.1.31::__archiveUrl=http%3A%2F%2Fnexus.toss.bz%2Frepository%2Fnpm-group%2F%40granite-js%2Futils%2F-%2Futils-0.1.31.tgz"
   dependencies:
     yauzl: "npm:^3.2.0"
-  checksum: 10c0/c4ff531df8d07d6c028851aac68b3f9ba2ada021ab21d092b5fe4586705dcb94b6f9b6f3e293e19b48753287f76e09355ce561d99c1c16c189fdeaacba8c09d4
+  checksum: 10c0/45173055023c58df8ea3567506ab44283bb1aa7b9eb3b879d4d10c29f23b8b7596a5e43527eb3e2aa3731593150cba8bf64b1ea4614075cc839e2ad8c3b12f2c
   languageName: node
   linkType: hard
 
@@ -4618,6 +4620,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@standard-schema/spec@npm:^1.0.0":
+  version: 1.1.0
+  resolution: "@standard-schema/spec@npm:1.1.0::__archiveUrl=http%3A%2F%2Fnexus.toss.bz%2Frepository%2Fnpm-group%2F%40standard-schema%2Fspec%2F-%2Fspec-1.1.0.tgz"
+  checksum: 10c0/d90f55acde4b2deb983529c87e8025fa693de1a5e8b49ecc6eb84d1fd96328add0e03d7d551442156c7432fd78165b2c26ff561b970a9a881f046abb78d6a526
+  languageName: node
+  linkType: hard
+
 "@swc/core-darwin-arm64@npm:1.5.24":
   version: 1.5.24
   resolution: "@swc/core-darwin-arm64@npm:1.5.24"
@@ -4917,6 +4926,15 @@ __metadata:
   version: 0.0.21
   resolution: "@types/web-bluetooth@npm:0.0.21"
   checksum: 10c0/5f47c5ec452ca31e6a9b44c8aaa54b66c4f57d4aca00166c45902a3883139580e14b254b774172ff982ba4458cc444b5aa59bb4573c2fd34562cfa599721f8e4
+  languageName: node
+  linkType: hard
+
+"@types/ws@npm:^8.18.0":
+  version: 8.18.1
+  resolution: "@types/ws@npm:8.18.1::__archiveUrl=http%3A%2F%2Fnexus.toss.bz%2Frepository%2Fnpm-group%2F%40types%2Fws%2F-%2Fws-8.18.1.tgz"
+  dependencies:
+    "@types/node": "npm:*"
+  checksum: 10c0/61aff1129143fcc4312f083bc9e9e168aa3026b7dd6e70796276dcfb2c8211c4292603f9c4864fae702f2ed86e4abd4d38aa421831c2fd7f856c931a481afbab
   languageName: node
   linkType: hard
 
@@ -11528,14 +11546,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-url-polyfill@npm:1.3.0":
-  version: 1.3.0
-  resolution: "react-native-url-polyfill@npm:1.3.0"
+"react-native-url-polyfill@npm:3.0.0":
+  version: 3.0.0
+  resolution: "react-native-url-polyfill@npm:3.0.0::__archiveUrl=http%3A%2F%2Fnexus.toss.bz%2Frepository%2Fnpm-group%2Freact-native-url-polyfill%2F-%2Freact-native-url-polyfill-3.0.0.tgz"
   dependencies:
     whatwg-url-without-unicode: "npm:8.0.0-3"
   peerDependencies:
     react-native: "*"
-  checksum: 10c0/d8167ad2cc17261906ffde19970279406db63d61b9ca85d85b02f5592e53a83db70aace3c1d89081ce46ddcfacbdac6a7faaa329b5235c6b980e1f533de5b318
+  checksum: 10c0/a1e539c2a28dc48125ada8bf29f3536ee2c149e4a5e3d205858755783afafe7f871ce1de8b66cb1c4cc05e15e212c74c49e93ddde856cda63fcf660cf943522a
   languageName: node
   linkType: hard
 
@@ -13443,7 +13461,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "weekly-todo-vue@workspace:."
   dependencies:
-    "@apps-in-toss/web-framework": "npm:1.1.2"
+    "@apps-in-toss/web-framework": "npm:1.5.2"
     "@granite-js/plugin-router": "npm:0.1.21"
     "@types/sortablejs": "npm:^1.15.8"
     "@vitejs/plugin-vue": "npm:^5.2.1"

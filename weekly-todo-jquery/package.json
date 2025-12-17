@@ -29,7 +29,7 @@
     "webpack-dev-server": "^5.2.0"
   },
   "dependencies": {
-    "@apps-in-toss/web-framework": "1.1.2",
+    "@apps-in-toss/web-framework": "1.5.2",
     "@granite-js/plugin-router": "0.1.21",
     "@types/jquery": "^3.5.32",
     "date-fns": "^4.1.0",
