@@ -4937,36 +4937,36 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@toss-design-system/colors@npm:^0.1.0":
+"@toss/tds-colors@npm:^0.1.0":
   version: 0.1.0
-  resolution: "@toss-design-system/colors@npm:0.1.0"
-  checksum: 10c0/a49983cf9352cda9aa349f05c118846bb6833ebace61c86551873d65f90aa188d29a726fd8ab6c5007f391881d4a3e21e2f17b55814f302d3afc414a68913f53
+  resolution: "@toss/tds-colors@npm:0.1.0::__archiveUrl=http%3A%2F%2Fnexus.toss.bz%2Frepository%2Fnpm-group%2F%40toss%2Ftds-colors%2F-%2Ftds-colors-0.1.0.tgz"
+  checksum: 10c0/0129efb3fcb7624b6f7a54538cf7e68e33edad179bf747fad2733e19ec52769dcb5b55ea6e4b14036036622f58600c21670dce97ab2709399ce490a54f85f7d3
   languageName: node
   linkType: hard
 
-"@toss-design-system/mobile-ait@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "@toss-design-system/mobile-ait@npm:1.0.0"
+"@toss/tds-mobile-ait@npm:^2.2.0":
+  version: 2.2.0
+  resolution: "@toss/tds-mobile-ait@npm:2.2.0::__archiveUrl=http%3A%2F%2Fnexus.toss.bz%2Frepository%2Fnpm-group%2F%40toss%2Ftds-mobile-ait%2F-%2Ftds-mobile-ait-2.2.0.tgz"
   dependencies:
-    "@toss-design-system/colors": "npm:^0.1.0"
+    "@toss/tds-colors": "npm:^0.1.0"
   peerDependencies:
-    "@apps-in-toss/web-framework": ">=0.0.26"
+    "@apps-in-toss/web-framework": ">=0.0.31"
     "@emotion/react": ^11
-    "@toss-design-system/mobile": ^1.0.0
+    "@toss/tds-mobile": ^2
     react: ^16.8.3 || ^17 || ^18
     react-dom: ^16.8.3 || ^17 || ^18
-  checksum: 10c0/99a3e4418eecb52bce9c7749712e0f50439cf5a5c644fc1247784a014897167b83a87c538288a6b3ade79151f463c372cb888dcdcbdbb9e17c4c3a735985da11
+  checksum: 10c0/49c5037d83c10939a5314328ffa706b6df26184175aa34fac460d047185071651dd06e6454ff96158200fc63c6b65e106c3d2c93125a602d80554b62398a6a76
   languageName: node
   linkType: hard
 
-"@toss-design-system/mobile@npm:^2.1.0":
-  version: 2.1.0
-  resolution: "@toss-design-system/mobile@npm:2.1.0"
+"@toss/tds-mobile@npm:^2.2.0":
+  version: 2.2.0
+  resolution: "@toss/tds-mobile@npm:2.2.0::__archiveUrl=http%3A%2F%2Fnexus.toss.bz%2Frepository%2Fnpm-group%2F%40toss%2Ftds-mobile%2F-%2Ftds-mobile-2.2.0.tgz"
   peerDependencies:
     "@emotion/react": ^11
     react: ^16.8.3 || ^17 || ^18
     react-dom: ^16.8.3 || ^17 || ^18
-  checksum: 10c0/6513fd0abfc02bceaa2f40824cc5213ac8acea229a3a9c8c1d0e9d195578fe170cd5e52a59b2875cdeb6c3510005611157c060845b66d5722fcdd9118e7c5b32
+  checksum: 10c0/3f71f09f87a1746f5479056e668d25f1a6f35c698c3e598266db2b2d8a10c72088d8161d82c8efc27bce2706b14ad26f6d80497c2783bfc713d12af25628f2dc
   languageName: node
   linkType: hard
 
@@ -14119,9 +14119,9 @@ __metadata:
     "@emotion/react": "npm:^11.14.0"
     "@eslint/js": "npm:^9.33.0"
     "@granite-js/plugin-router": "npm:0.1.21"
-    "@toss-design-system/colors": "npm:^0.1.0"
-    "@toss-design-system/mobile": "npm:^2.1.0"
-    "@toss-design-system/mobile-ait": "npm:^1.0.0"
+    "@toss/tds-colors": "npm:^0.1.0"
+    "@toss/tds-mobile": "npm:^2.2.0"
+    "@toss/tds-mobile-ait": "npm:^2.2.0"
     "@types/howler": "npm:^2"
     "@types/node": "npm:^24.3.0"
     "@types/react": "npm:^19.1.10"
