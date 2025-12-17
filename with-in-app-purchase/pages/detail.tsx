@@ -45,7 +45,9 @@ function Detail() {
       <View style={styles.wrapper}>
         <Button
           display="block"
-          onPress={() => purchaseProduct(product.sku)}
+          onPress={() => {
+            purchaseProduct(product.sku);
+          }}
           disabled={loading}
         >
           구매하기
