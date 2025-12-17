@@ -1,7 +1,7 @@
-import { useCallback, useState } from 'react';
-import { ContactEntity, fetchContacts } from '@apps-in-toss/framework';
-import { usePermissionGate } from './usePermissionGate';
-import { useToast } from '@toss-design-system/react-native';
+import { useCallback, useState } from "react";
+import { ContactEntity, fetchContacts } from "@apps-in-toss/framework";
+import { usePermissionGate } from "./usePermissionGate";
+import { useToast } from "@toss/tds-react-native";
 
 interface ContactsResponse {
   result: ContactEntity[];
@@ -45,7 +45,7 @@ export function useContacts() {
         done: response.done,
       }));
     } catch (error) {
-      let errorMessage = '연락처를 가져오는 데 실패했어요';
+      let errorMessage = "연락처를 가져오는 데 실패했어요";
 
       if (error instanceof Error) {
         errorMessage = error.message;

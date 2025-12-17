@@ -1,12 +1,12 @@
-import { colors } from '@toss-design-system/react-native';
-import { TextBox } from './ui/TextBox';
-import { VideoView } from './ui/VideoView';
+import { colors } from "@toss/tds-react-native";
+import { TextBox } from "./ui/TextBox";
+import { VideoView } from "./ui/VideoView";
 
 /**
  * 저화질 비디오 URL이에요.
  */
 const LOW_QUALITY =
-  'https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/360/Big_Buck_Bunny_360_10s_1MB.mp4';
+  "https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/360/Big_Buck_Bunny_360_10s_1MB.mp4";
 
 export function CellularVideoPlayer() {
   return (

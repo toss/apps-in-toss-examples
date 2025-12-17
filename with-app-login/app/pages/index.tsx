@@ -1,15 +1,15 @@
-import { StyleSheet, View } from 'react-native';
+import { StyleSheet, View } from "react-native";
 import { createRoute } from "@granite-js/react-native";
-import { useAuth } from 'hooks/useAuth';
-import { useUserInfo } from 'hooks/useUserInfo';
-import { LoadingView } from 'components/LoadingView';
-import { ErrorView } from 'components/ErrorView';
-import { Visibility } from 'components/ui/Visibility';
-import { LoginStateView } from 'components/LoginStateView';
-import { UserInfoView } from 'components/UserInfoView';
-import { Button, Text, useToast } from '@toss-design-system/react-native';
+import { useAuth } from "hooks/useAuth";
+import { useUserInfo } from "hooks/useUserInfo";
+import { LoadingView } from "components/LoadingView";
+import { ErrorView } from "components/ErrorView";
+import { Visibility } from "components/ui/Visibility";
+import { LoginStateView } from "components/LoginStateView";
+import { UserInfoView } from "components/UserInfoView";
+import { Button, Text, useToast } from "@toss/tds-react-native";
 
-export const Route = createRoute('/', {
+export const Route = createRoute("/", {
   validateParams: (params) => params,
   component: Index,
 });

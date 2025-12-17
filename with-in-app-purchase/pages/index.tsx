@@ -1,13 +1,13 @@
-import { useCallback } from 'react';
+import { useCallback } from "react";
 import { createRoute, useNavigation } from "@granite-js/react-native";
-import { List, ListRow, Text, Txt } from '@toss-design-system/react-native';
-import { IapProductListItem } from '@apps-in-toss/framework';
-import { ProductListEmpty } from 'components/ProductListEmpty';
-import { StyleSheet, View } from 'react-native';
-import { useIapProductList } from 'hooks/useIapProductList';
-import { LoadingView } from 'components/LoadingView';
+import { List, ListRow, Text, Txt } from "@toss/tds-react-native";
+import { IapProductListItem } from "@apps-in-toss/framework";
+import { ProductListEmpty } from "components/ProductListEmpty";
+import { StyleSheet, View } from "react-native";
+import { useIapProductList } from "hooks/useIapProductList";
+import { LoadingView } from "components/LoadingView";
 
-export const Route = createRoute('/', {
+export const Route = createRoute("/", {
   validateParams: (params) => params,
   component: Index,
 });
@@ -18,7 +18,7 @@ export function Index() {
 
   const handleNavigate = useCallback(
     (product: IapProductListItem) => {
-      navigation.navigate('/detail', { product });
+      navigation.navigate("/detail", { product });
     },
     [navigation]
   );

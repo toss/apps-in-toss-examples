@@ -1,24 +1,24 @@
 import { share } from "@apps-in-toss/framework";
-import React from 'react';
-import { StyleSheet, View, Alert } from 'react-native';
+import React from "react";
+import { StyleSheet, View, Alert } from "react-native";
 import { createRoute } from "@granite-js/react-native";
-import { Button, Text } from '@toss-design-system/react-native';
+import { Button, Text } from "@toss/tds-react-native";
 import {
   getTossShareLink,
   getOperationalEnvironment,
-} from '@apps-in-toss/framework';
-import { Visibility } from 'components/Visibility';
-import { TextBox } from 'components/TextBox';
+} from "@apps-in-toss/framework";
+import { Visibility } from "components/Visibility";
+import { TextBox } from "components/TextBox";
 
-export const Route = createRoute('/', {
+export const Route = createRoute("/", {
   validateParams: (params) => params,
   component: Index,
 });
 
-const INTOSS_PREFIX = 'intoss';
+const INTOSS_PREFIX = "intoss";
 
 export function Index() {
-  const isSandbox = getOperationalEnvironment() === 'sandbox';
+  const isSandbox = getOperationalEnvironment() === "sandbox";
 
   const handleShareLink = async (link: string) => {
     try {
@@ -26,7 +26,7 @@ export function Index() {
       await share({ message: tossLink });
     } catch (error) {
       console.error(error);
-      Alert.alert('링크를 공유하는 중 오류가 발생했어요. 다시 시도해 주세요.');
+      Alert.alert("링크를 공유하는 중 오류가 발생했어요. 다시 시도해 주세요.");
     }
   };
   return (

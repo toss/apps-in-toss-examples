@@ -1,13 +1,13 @@
-import { useMemo } from 'react';
-import { StyleSheet, View } from 'react-native';
+import { useMemo } from "react";
+import { StyleSheet, View } from "react-native";
 import { createRoute } from "@granite-js/react-native";
-import { useEnvironmentDetails } from 'hooks/useEnvironmentDetails';
-import { TextBox } from 'components/TextBox';
-import { EnvironmentInfoView } from 'components/EnvironmentInfoView';
-import { ErrorView } from 'components/ErrorView';
-import { Text } from '@toss-design-system/react-native';
+import { useEnvironmentDetails } from "hooks/useEnvironmentDetails";
+import { TextBox } from "components/TextBox";
+import { EnvironmentInfoView } from "components/EnvironmentInfoView";
+import { ErrorView } from "components/ErrorView";
+import { Text } from "@toss/tds-react-native";
 
-export const Route = createRoute('/', {
+export const Route = createRoute("/", {
   validateParams: (params) => params,
   component: Index,
 });
@@ -15,7 +15,7 @@ export const Route = createRoute('/', {
 export function Index() {
   const envDetails = useEnvironmentDetails();
   const isSandbox = useMemo(
-    () => envDetails.info?.environment === 'sandbox',
+    () => envDetails.info?.environment === "sandbox",
     [envDetails.info]
   );
 

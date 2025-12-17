@@ -1,12 +1,12 @@
-import { colors } from '@toss-design-system/react-native';
-import { TextBox } from './ui/TextBox';
-import { VideoView } from './ui/VideoView';
+import { colors } from "@toss/tds-react-native";
+import { TextBox } from "./ui/TextBox";
+import { VideoView } from "./ui/VideoView";
 
 /**
  * 고화질 비디오 URL이에요.
  */
 const HIGH_QUALITY =
-  'https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/1080/Big_Buck_Bunny_1080_10s_30MB.mp4';
+  "https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/1080/Big_Buck_Bunny_1080_10s_30MB.mp4";
 
 export function WifiVideoPlayer() {
   return (

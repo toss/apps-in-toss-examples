@@ -1,11 +1,11 @@
 import { share } from "@apps-in-toss/framework";
-import { StyleSheet, View } from 'react-native';
+import { StyleSheet, View } from "react-native";
 import { createRoute } from "@granite-js/react-native";
-import { Button, Text } from '@toss-design-system/react-native';
-import { TextBox } from 'components/TextBox';
-import { useClientKey } from 'hooks/useClientKey';
+import { Button, Text } from "@toss/tds-react-native";
+import { TextBox } from "components/TextBox";
+import { useClientKey } from "hooks/useClientKey";
 
-export const Route = createRoute('/', {
+export const Route = createRoute("/", {
   validateParams: (params) => params,
   component: Index,
 });
@@ -25,7 +25,7 @@ export function Index() {
           try {
             await share({ message: key });
           } catch (error) {
-            console.error('공유 중 오류가 발생했습니다:', error);
+            console.error("공유 중 오류가 발생했습니다:", error);
           }
         }}
       >

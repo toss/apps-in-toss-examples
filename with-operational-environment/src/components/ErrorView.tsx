@@ -1,5 +1,5 @@
-import { colors } from '@toss-design-system/react-native';
-import { TextBox } from './TextBox';
+import { colors } from "@toss/tds-react-native";
+import { TextBox } from "./TextBox";
 
 interface ErrorViewProps {
   children: React.ReactNode;

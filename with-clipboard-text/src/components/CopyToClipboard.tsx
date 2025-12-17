@@ -1,10 +1,10 @@
-import { useState } from 'react';
-import { setClipboardText } from '@apps-in-toss/framework';
-import { Button, TextField, useToast } from '@toss-design-system/react-native';
-import { usePermissionGate } from 'hooks/usePermissionGate';
+import { useState } from "react";
+import { setClipboardText } from "@apps-in-toss/framework";
+import { Button, TextField, useToast } from "@toss/tds-react-native";
+import { usePermissionGate } from "hooks/usePermissionGate";
 
 export function CopyToClipboard() {
-  const [inputText, setInputText] = useState('');
+  const [inputText, setInputText] = useState("");
   const toast = useToast();
   const permissionGate = usePermissionGate({
     getPermission: () => setClipboardText.getPermission(),
@@ -14,16 +14,16 @@ export function CopyToClipboard() {
 
   const handleCopyToClipboard = async () => {
     try {
-      if (inputText.trim() === '') {
-        toast.open('텍스트를 입력해주세요.');
+      if (inputText.trim() === "") {
+        toast.open("텍스트를 입력해주세요.");
         return;
       }
 
       await permissionGate.ensureAndRun(() => setClipboardText(inputText));
 
-      toast.open('텍스트가 복사됐어요!');
+      toast.open("텍스트가 복사됐어요!");
     } catch (error) {
-      let errorMessage = '텍스트를 복사에 실패했어요';
+      let errorMessage = "텍스트를 복사에 실패했어요";
 
       if (error instanceof Error) {
         errorMessage = error.message;

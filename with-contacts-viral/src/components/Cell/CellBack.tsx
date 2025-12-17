@@ -1,12 +1,12 @@
-import { colors } from '@toss-design-system/colors';
-import { Asset, IconButton } from '@toss-design-system/mobile';
-import type { MouseEventHandler } from 'react';
+import { colors } from "@toss/tds-colors";
+import { Asset, IconButton } from "@toss/tds-mobile";
+import type { MouseEventHandler } from "react";
 import {
   EMOJI_BASE_URL,
   IMAGE_NAME,
   KIND_LABEL,
   CELL_KIND,
-} from '@/constants/cell';
+} from "@/constants/cell";
 
 export type CellKind = (typeof CELL_KIND)[keyof typeof CELL_KIND];
 
@@ -39,11 +39,11 @@ export function CellBack({
     >
       {(() => {
         switch (kind) {
-          case 'treasure':
+          case "treasure":
             return (
               <Asset.ContentIcon className="cell-icon" name="icon-diamond" />
             );
-          case 'number':
+          case "number":
             return (
               <span
                 className="cell-number"
@@ -53,11 +53,11 @@ export function CellBack({
                 {adjacentMines}
               </span>
             );
-          case 'box':
+          case "box":
             return (
               <Asset.ContentIcon className="cell-icon" name="icon-safe-box" />
             );
-          case 'pirate':
+          case "pirate":
             return (
               <Asset.ContentImage
                 className="cell-icon"
@@ -65,7 +65,7 @@ export function CellBack({
                 alt={KIND_LABEL.pirate}
               />
             );
-          case 'pirateFlag':
+          case "pirateFlag":
             return (
               <Asset.ContentImage
                 className="cell-icon"

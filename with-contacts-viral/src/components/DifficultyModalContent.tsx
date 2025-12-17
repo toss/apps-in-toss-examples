@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Checkbox } from '@toss-design-system/mobile';
+import { Checkbox } from '@toss/tds-mobile';
 import { DIFFICULTY_LABEL, DIFFICULTY_OPTIONS } from '@/constants/game';
 
 interface DifficultyModalContentProps {

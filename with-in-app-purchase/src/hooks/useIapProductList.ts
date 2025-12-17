@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { IAP, IapProductListItem } from '@apps-in-toss/framework';
-import { useToast } from '@toss-design-system/react-native';
+import { useToast } from '@toss/tds-react-native';
 
 export function useIapProductList() {
   const toast = useToast();

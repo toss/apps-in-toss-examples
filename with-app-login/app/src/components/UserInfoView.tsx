@@ -1,14 +1,14 @@
-import type { UserInfo } from 'types/user';
-import { FlatList, StyleSheet } from 'react-native';
-import { colors, TableRow } from '@toss-design-system/react-native';
+import type { UserInfo } from "types/user";
+import { FlatList, StyleSheet } from "react-native";
+import { colors, TableRow } from "@toss/tds-react-native";
 
 const USER_INFO_LABELS = [
-  'name',
-  'email',
-  'gender',
-  'nationality',
-  'phone',
-  'birthday',
+  "name",
+  "email",
+  "gender",
+  "nationality",
+  "phone",
+  "birthday",
 ] as const;
 
 interface UserInfoViewProps {
@@ -18,7 +18,7 @@ interface UserInfoViewProps {
 export function UserInfoView({ userInfo }: UserInfoViewProps) {
   const userInfoData = USER_INFO_LABELS.map((label) => ({
     label,
-    value: userInfo?.[label as keyof UserInfo] ?? '',
+    value: userInfo?.[label as keyof UserInfo] ?? "",
   }));
 
   return (
@@ -40,8 +40,8 @@ interface UserInfoViewItemProps {
 
 function UserInfoViewItem({ label, value }: UserInfoViewItemProps) {
   const displayValue = Array.isArray(value)
-    ? value.join(', ')
-    : value || '정보가 없어요.';
+    ? value.join(", ")
+    : value || "정보가 없어요.";
 
   return (
     <TableRow

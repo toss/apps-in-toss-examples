@@ -1,7 +1,7 @@
-import { StyleSheet, View } from 'react-native';
+import { StyleSheet, View } from "react-native";
 import { Image } from "@granite-js/react-native";
-import { Text, colors } from '@toss-design-system/react-native';
-import { ImageState } from 'hooks/useCamera';
+import { Text, colors } from "@toss/tds-react-native";
+import { ImageState } from "hooks/useCamera";
 
 interface PhotoViewProps {
   image: ImageState | null;
@@ -27,18 +27,18 @@ export function PhotoView({ image }: PhotoViewProps) {
 
 const styles = StyleSheet.create({
   container: {
-    alignItems: 'center',
-    justifyContent: 'center',
-    width: '100%',
-    height: 'auto',
+    alignItems: "center",
+    justifyContent: "center",
+    width: "100%",
+    height: "auto",
     aspectRatio: 1 / 1,
     backgroundColor: colors.grey100,
     borderRadius: 16,
-    overflow: 'hidden',
+    overflow: "hidden",
   },
   photo: {
-    width: '100%',
-    height: '100%',
-    objectFit: 'contain',
+    width: "100%",
+    height: "100%",
+    objectFit: "contain",
   },
 });

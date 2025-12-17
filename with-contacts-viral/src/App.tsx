@@ -1,14 +1,14 @@
-import { Top } from '@toss-design-system/mobile';
-import { DIFFICULTY_LABEL } from '@/constants/game';
-import { SafeArea } from '@/components/SafeArea';
-import { StatusPanel } from '@/components/StatusPanel';
-import { GameBoard } from '@/components/GameBoard';
-import { BGMController } from '@/components/BGMController';
-import { SystemSoundController } from '@/components/SystemSoundController';
-import { DifficultySelectorButton } from '@/components/DifficultySelectorButton';
-import { RestartButton } from './components/RestartButton';
-import { useDifficultyConfig } from '@/hooks/useDifficultyConfig';
-import { useBoardManager } from '@/hooks/useBoardManager';
+import { Top } from "@toss/tds-mobile";
+import { DIFFICULTY_LABEL } from "@/constants/game";
+import { SafeArea } from "@/components/SafeArea";
+import { StatusPanel } from "@/components/StatusPanel";
+import { GameBoard } from "@/components/GameBoard";
+import { BGMController } from "@/components/BGMController";
+import { SystemSoundController } from "@/components/SystemSoundController";
+import { DifficultySelectorButton } from "@/components/DifficultySelectorButton";
+import { RestartButton } from "./components/RestartButton";
+import { useDifficultyConfig } from "@/hooks/useDifficultyConfig";
+import { useBoardManager } from "@/hooks/useBoardManager";
 
 export function App() {
   const { difficulty, setDifficulty, gameConfig } = useDifficultyConfig();
@@ -23,8 +23,8 @@ export function App() {
         upperGap={0}
         lowerGap={0}
         title={
-          <Top.TitleParagraph size={28} fontWeight={'bold'}>
-            {DIFFICULTY_LABEL[difficulty as keyof typeof DIFFICULTY_LABEL]}{' '}
+          <Top.TitleParagraph size={28} fontWeight={"bold"}>
+            {DIFFICULTY_LABEL[difficulty as keyof typeof DIFFICULTY_LABEL]}{" "}
             모드에요
           </Top.TitleParagraph>
         }

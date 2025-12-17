@@ -1,5 +1,5 @@
-import { StyleSheet, View } from 'react-native';
-import { Text, colors, FontWeightKeys } from '@toss-design-system/react-native';
+import { StyleSheet, View } from "react-native";
+import { Text, colors, FontWeightKeys } from "@toss/tds-react-native";
 
 interface TextBoxProps {
   text: string;
@@ -12,7 +12,7 @@ export function TextBox({
   text,
   bgColor = colors.grey100,
   fontColor = colors.grey600,
-  fontWeight = 'medium',
+  fontWeight = "medium",
 }: TextBoxProps) {
   return (
     <View style={[{ backgroundColor: bgColor }, styles.container]}>
@@ -33,10 +33,10 @@ const styles = StyleSheet.create({
   container: {
     paddingHorizontal: 20,
     paddingVertical: 14,
-    width: '100%',
-    height: 'auto',
+    width: "100%",
+    height: "auto",
     minHeight: 58,
-    justifyContent: 'center',
+    justifyContent: "center",
     borderRadius: 16,
   },
 });

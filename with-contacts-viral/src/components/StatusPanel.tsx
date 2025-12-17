@@ -1,4 +1,4 @@
-import { Asset, Switch } from '@toss-design-system/mobile';
+import { Asset, Switch } from '@toss/tds-mobile';
 import { GAME_MODE } from '@/constants/game';
 import { EMOJI_BASE_URL, IMAGE_NAME } from '@/constants/cell';
 

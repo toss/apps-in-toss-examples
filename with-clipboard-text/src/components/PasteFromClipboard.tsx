@@ -1,10 +1,10 @@
-import { useState } from 'react';
-import { getClipboardText } from '@apps-in-toss/framework';
-import { Button, TextField, useToast } from '@toss-design-system/react-native';
-import { usePermissionGate } from 'hooks/usePermissionGate';
+import { useState } from "react";
+import { getClipboardText } from "@apps-in-toss/framework";
+import { Button, TextField, useToast } from "@toss/tds-react-native";
+import { usePermissionGate } from "hooks/usePermissionGate";
 
 export function PasteFromClipboard() {
-  const [inputText, setInputText] = useState('');
+  const [inputText, setInputText] = useState("");
   const toast = useToast();
   const permissionGate = usePermissionGate({
     getPermission: () => getClipboardText.getPermission(),
@@ -19,13 +19,13 @@ export function PasteFromClipboard() {
       );
 
       if (!clipboardText) {
-        toast.open('클립보드에 텍스트가 없어요.');
+        toast.open("클립보드에 텍스트가 없어요.");
         return;
       }
 
       setInputText(clipboardText);
     } catch (error) {
-      let errorMessage = '텍스트를 가져오지 못했어요';
+      let errorMessage = "텍스트를 가져오지 못했어요";
 
       if (error instanceof Error) {
         errorMessage = error.message;

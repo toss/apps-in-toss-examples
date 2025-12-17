@@ -1,7 +1,7 @@
 import { openURL, share } from "@apps-in-toss/framework";
 import { Spacing } from "@granite-js/react-native";
-import { Button, ListRow } from '@toss-design-system/react-native';
-import { getTossShareLink } from '@apps-in-toss/framework';
+import { Button, ListRow } from "@toss/tds-react-native";
+import { getTossShareLink } from "@apps-in-toss/framework";
 
 interface ExampleListItemProps {
   icon: string;
@@ -21,7 +21,7 @@ export function ExampleListItem({ icon, label, path }: ExampleListItemProps) {
       const link = await getTossShareLink(deepLink);
       await share({ message: link });
     } catch (error) {
-      console.error('링크를 공유하는 도중 문제가 발생했어요.', error);
+      console.error("링크를 공유하는 도중 문제가 발생했어요.", error);
     }
   };
 
