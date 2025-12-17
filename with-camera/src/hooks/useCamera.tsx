@@ -1,7 +1,7 @@
-import { useCallback, useState } from 'react';
-import { ImageResponse, openCamera } from '@apps-in-toss/framework';
-import { usePermissionGate } from 'hooks/usePermissionGate';
-import { useToast } from '@toss-design-system/react-native';
+import { useCallback, useState } from "react";
+import { ImageResponse, openCamera } from "@apps-in-toss/framework";
+import { usePermissionGate } from "hooks/usePermissionGate";
+import { useToast } from "@toss/tds-react-native";
 
 export interface ImageState extends ImageResponse {
   previewUri: string;
@@ -39,7 +39,7 @@ export function useCamera({ base64 = false }: UseCameraProps) {
 
       setImage(newImage);
     } catch (error) {
-      let errorMessage = '카메라를 불러오는 데 실패했어요.';
+      let errorMessage = "카메라를 불러오는 데 실패했어요.";
 
       if (error instanceof Error) {
         errorMessage = error.message;

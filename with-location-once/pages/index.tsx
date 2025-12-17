@@ -1,12 +1,12 @@
-import { StyleSheet, View } from 'react-native';
+import { StyleSheet, View } from "react-native";
 import { createRoute } from "@granite-js/react-native";
-import { ErrorView } from 'components/ErrorView';
-import { LoadingView } from 'components/LoadingView';
-import { useCurrentLocation } from 'hooks/useCurrentLocation';
-import { TextBox } from 'components/ui/TextBox';
-import { Button, Text } from '@toss-design-system/react-native';
+import { ErrorView } from "components/ErrorView";
+import { LoadingView } from "components/LoadingView";
+import { useCurrentLocation } from "hooks/useCurrentLocation";
+import { TextBox } from "components/ui/TextBox";
+import { Button, Text } from "@toss/tds-react-native";
 
-export const Route = createRoute('/', {
+export const Route = createRoute("/", {
   validateParams: (params) => params,
   component: Index,
 });

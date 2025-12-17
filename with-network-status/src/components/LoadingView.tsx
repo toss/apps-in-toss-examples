@@ -1,4 +1,4 @@
-import { Loader } from '@toss-design-system/react-native';
+import { Loader } from "@toss/tds-react-native";
 
 interface LoadingViewProps {
   children: React.ReactNode;

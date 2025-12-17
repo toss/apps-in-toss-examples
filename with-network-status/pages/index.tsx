@@ -1,13 +1,13 @@
-import { StyleSheet, View } from 'react-native';
+import { StyleSheet, View } from "react-native";
 import { createRoute } from "@granite-js/react-native";
-import { useNetworkStatus } from 'hooks/useNetworkStatus';
-import { LoadingView } from 'components/LoadingView';
-import { OfflineVideoNotice } from 'components/OfflineVideoNotice';
-import { WifiVideoPlayer } from 'components/WifiVideoPlayer';
-import { CellularVideoPlayer } from 'components/CellularVideoPlayer';
-import { Text } from '@toss-design-system/react-native';
+import { useNetworkStatus } from "hooks/useNetworkStatus";
+import { LoadingView } from "components/LoadingView";
+import { OfflineVideoNotice } from "components/OfflineVideoNotice";
+import { WifiVideoPlayer } from "components/WifiVideoPlayer";
+import { CellularVideoPlayer } from "components/CellularVideoPlayer";
+import { Text } from "@toss/tds-react-native";
 
-export const Route = createRoute('/', {
+export const Route = createRoute("/", {
   validateParams: (params) => params,
   component: Index,
 });
@@ -23,10 +23,10 @@ export function Index() {
       <LoadingView loading={loading}>
         {(() => {
           switch (status) {
-            case 'OFFLINE':
+            case "OFFLINE":
             case null:
               return <OfflineVideoNotice reloadNetworkStatus={refetch} />;
-            case 'WIFI':
+            case "WIFI":
               return <WifiVideoPlayer />;
             default:
               return <CellularVideoPlayer />;

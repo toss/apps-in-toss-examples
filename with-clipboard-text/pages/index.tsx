@@ -1,11 +1,11 @@
-import { StyleSheet } from 'react-native';
+import { StyleSheet } from "react-native";
 import { createRoute } from "@granite-js/react-native";
-import { Text } from '@toss-design-system/react-native';
-import { CopyToClipboard } from 'components/CopyToClipboard';
-import { PasteFromClipboard } from 'components/PasteFromClipboard';
-import { KeyboardDismissView } from 'components/KeyboardDismissView';
+import { Text } from "@toss/tds-react-native";
+import { CopyToClipboard } from "components/CopyToClipboard";
+import { PasteFromClipboard } from "components/PasteFromClipboard";
+import { KeyboardDismissView } from "components/KeyboardDismissView";
 
-export const Route = createRoute('/', {
+export const Route = createRoute("/", {
   validateParams: (params) => params,
   component: Index,
 });

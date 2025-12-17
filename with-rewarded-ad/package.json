@@ -8,11 +8,11 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@apps-in-toss/framework": "1.1.3",
+    "@apps-in-toss/framework": "1.5.2",
     "@granite-js/native": "0.1.21",
     "@granite-js/plugin-router": "0.1.21",
     "@granite-js/react-native": "0.1.21",
-    "@toss-design-system/react-native": "1.2.1",
+    "@toss/tds-react-native": "1.3.8",
     "react": "18.2.0",
     "react-native": "0.72.6"
   },

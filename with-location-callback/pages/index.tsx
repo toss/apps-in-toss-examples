@@ -1,17 +1,17 @@
-import { generateHapticFeedback } from '@apps-in-toss/framework';
-import { useState } from 'react';
-import { StyleSheet, View } from 'react-native';
-import { createRoute } from '@granite-js/react-native';
-import { useLocationWatcher } from 'hooks/useLocationWatcher';
+import { generateHapticFeedback } from "@apps-in-toss/framework";
+import { useState } from "react";
+import { StyleSheet, View } from "react-native";
+import { createRoute } from "@granite-js/react-native";
+import { useLocationWatcher } from "hooks/useLocationWatcher";
 import {
   LocationStatusView,
   LOCATION_STATUS,
-} from 'components/LocationStatusView';
-import { LOCATION } from '../src/constants/location';
-import { Button, Text } from '@toss-design-system/react-native';
-import { ErrorView } from 'components/ErrorView';
+} from "components/LocationStatusView";
+import { LOCATION } from "../src/constants/location";
+import { Button, Text } from "@toss/tds-react-native";
+import { ErrorView } from "components/ErrorView";
 
-export const Route = createRoute('/', {
+export const Route = createRoute("/", {
   validateParams: (params) => params,
   component: Index,
 });
@@ -39,10 +39,10 @@ export function Index() {
     onDistanceUpdate: (distance: number) => {
       if (distance >= LOCATION.DISTANCE_THRESHOLD_METERS) {
         setLocationStatus(LOCATION_STATUS_KEYS.WARNING);
-        generateHapticFeedback({ type: 'basicMedium' });
+        generateHapticFeedback({ type: "basicMedium" });
       } else if (distance > LOCATION.DISTANCE_WARNING_METERS) {
         setLocationStatus(LOCATION_STATUS_KEYS.MOVE);
-        generateHapticFeedback({ type: 'softMedium' });
+        generateHapticFeedback({ type: "softMedium" });
       } else {
         setLocationStatus(LOCATION_STATUS_KEYS.SAFE);
       }
@@ -94,9 +94,9 @@ const styles = StyleSheet.create({
   },
   buttons: {
     marginTop: 20,
-    width: '100%',
-    flexDirection: 'row',
-    flexWrap: 'nowrap',
+    width: "100%",
+    flexDirection: "row",
+    flexWrap: "nowrap",
     gap: 8,
   },
   button: {

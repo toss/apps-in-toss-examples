@@ -1,10 +1,10 @@
-import { StyleSheet, View } from 'react-native';
-import { createRoute } from '@granite-js/react-native';
-import { useCamera } from 'hooks/useCamera';
-import { PhotoView } from 'components/PhotoView';
-import { Button } from '@toss-design-system/react-native';
+import { StyleSheet, View } from "react-native";
+import { createRoute } from "@granite-js/react-native";
+import { useCamera } from "hooks/useCamera";
+import { PhotoView } from "components/PhotoView";
+import { Button } from "@toss/tds-react-native";
 
-export const Route = createRoute('/', {
+export const Route = createRoute("/", {
   validateParams: (params) => params,
   component: Index,
 });
@@ -34,9 +34,9 @@ const styles = StyleSheet.create({
   },
   buttons: {
     marginTop: 20,
-    width: '100%',
-    flexDirection: 'row',
-    flexWrap: 'nowrap',
+    width: "100%",
+    flexDirection: "row",
+    flexWrap: "nowrap",
     gap: 8,
   },
   button: {

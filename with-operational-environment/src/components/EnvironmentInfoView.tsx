@@ -1,19 +1,19 @@
-import { type EnvironmentDetails } from 'hooks/useEnvironmentDetails';
-import { FlatList, StyleSheet } from 'react-native';
-import { TextBox } from './TextBox';
-import { colors, ListRow } from '@toss-design-system/react-native';
+import { type EnvironmentDetails } from "hooks/useEnvironmentDetails";
+import { FlatList, StyleSheet } from "react-native";
+import { TextBox } from "./TextBox";
+import { colors, ListRow } from "@toss/tds-react-native";
 
 interface EnvironmentInfoViewProps {
   environmentInfo: EnvironmentDetails | null;
 }
 
 const INFO_LABEL: Record<keyof EnvironmentDetails, string> = {
-  environment: '실행 환경',
-  networkStatus: '네트워크 상태',
-  locale: '사용자 언어',
-  schemeUri: '스킴 URI',
-  platformOS: '운영체제(OS)',
-  deviceId: '디바이스 ID',
+  environment: "실행 환경",
+  networkStatus: "네트워크 상태",
+  locale: "사용자 언어",
+  schemeUri: "스킴 URI",
+  platformOS: "운영체제(OS)",
+  deviceId: "디바이스 ID",
 };
 
 export function EnvironmentInfoView({
@@ -27,7 +27,7 @@ export function EnvironmentInfoView({
     Object.keys(INFO_LABEL) as (keyof EnvironmentDetails)[]
   ).map((key) => ({
     label: INFO_LABEL[key],
-    value: environmentInfo[key] || '정보가 없어요.',
+    value: environmentInfo[key] || "정보가 없어요.",
   }));
 
   return (

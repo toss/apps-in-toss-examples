@@ -1,11 +1,11 @@
 import { getPlatformOS } from "@apps-in-toss/framework";
-import { StyleSheet, View } from 'react-native';
-import { colors } from '@toss-design-system/react-native';
+import { StyleSheet, View } from "react-native";
+import { colors } from "@toss/tds-react-native";
 
 const ITEM_COUNT = 4;
 
 export function BottomAppBar() {
-  const isIOS = getPlatformOS() === 'ios';
+  const isIOS = getPlatformOS() === "ios";
   const barStyle = isIOS ? styles.iosBarStyle : styles.androidBarStyle;
 
   return (
@@ -19,13 +19,13 @@ export function BottomAppBar() {
 
 const styles = StyleSheet.create({
   barBaseStyle: {
-    position: 'absolute',
+    position: "absolute",
     left: 20,
-    flexDirection: 'row',
-    justifyContent: 'center',
-    alignItems: 'center',
+    flexDirection: "row",
+    justifyContent: "center",
+    alignItems: "center",
     gap: 35,
-    width: '100%',
+    width: "100%",
     height: 64,
     borderRadius: 32,
     backgroundColor: colors.grey50,

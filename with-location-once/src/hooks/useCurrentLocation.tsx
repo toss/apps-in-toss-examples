@@ -1,11 +1,11 @@
-import { useEffect, useState, useCallback } from 'react';
+import { useEffect, useState, useCallback } from "react";
 import {
   Accuracy,
   getCurrentLocation,
   Location,
-} from '@apps-in-toss/framework';
-import { usePermissionGate } from './usePermissionGate';
-import { useToast } from '@toss-design-system/react-native';
+} from "@apps-in-toss/framework";
+import { usePermissionGate } from "./usePermissionGate";
+import { useToast } from "@toss/tds-react-native";
 
 export function useCurrentLocation() {
   const [location, setLocation] = useState<Location | null>(null);
@@ -33,7 +33,7 @@ export function useCurrentLocation() {
 
       setLocation(response);
     } catch (error) {
-      let errorMessage = '위치 정보를 가져오는 데 실패했어요.';
+      let errorMessage = "위치 정보를 가져오는 데 실패했어요.";
 
       if (error instanceof Error) {
         errorMessage = error.message;

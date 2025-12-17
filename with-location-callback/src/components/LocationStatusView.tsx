@@ -1,5 +1,5 @@
-import { TextBox } from './ui/TextBox';
-import { colors } from '@toss-design-system/react-native';
+import { TextBox } from "./ui/TextBox";
+import { colors } from "@toss/tds-react-native";
 
 /**
  * 현재 위치 상태에 따라 사용자에게 보여줄 메시지를 정의한 상수예요.
@@ -10,10 +10,10 @@ import { colors } from '@toss-design-system/react-native';
  * - WARNING: 설정된 위치를 벗어났을 때 경고 메시지예요.
  */
 export const LOCATION_STATUS = {
-  INITIAL: '위치를 관찰하고 있지 않아요.',
-  SAFE: '현재 위치에 있어요.',
-  MOVE: '이동 중이에요.',
-  WARNING: '자리를 벗어났어요! 두고 온 물건은 없나요?',
+  INITIAL: "위치를 관찰하고 있지 않아요.",
+  SAFE: "현재 위치에 있어요.",
+  MOVE: "이동 중이에요.",
+  WARNING: "자리를 벗어났어요! 두고 온 물건은 없나요?",
 } as const;
 
 interface LocationStatusViewProps {

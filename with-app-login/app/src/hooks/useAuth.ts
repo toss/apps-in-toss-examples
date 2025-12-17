@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { appLogin } from '@apps-in-toss/framework';
-import { useToast } from '@toss-design-system/react-native';
+import { useToast } from '@toss/tds-react-native';
 import { post } from 'utils/fetcher';
 import type {
   LoginRequest,

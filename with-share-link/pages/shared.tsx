@@ -1,10 +1,10 @@
-import { StyleSheet, View } from 'react-native';
+import { StyleSheet, View } from "react-native";
 import { createRoute } from "@granite-js/react-native";
-import { colors, Text } from '@toss-design-system/react-native';
-import { TextBox } from 'components/TextBox';
-import { PROFILE } from 'constants/profile';
+import { colors, Text } from "@toss/tds-react-native";
+import { TextBox } from "components/TextBox";
+import { PROFILE } from "constants/profile";
 
-export const Route = createRoute('/shared', {
+export const Route = createRoute("/shared", {
   validateParams: (params) => params,
   component: Shared,
 });
@@ -32,15 +32,15 @@ const styles = StyleSheet.create({
   container: {
     paddingHorizontal: 20,
     paddingTop: 10,
-    alignItems: 'center',
+    alignItems: "center",
   },
   avatar: {
     width: 194,
     height: 194,
     borderRadius: 97,
     backgroundColor: colors.grey100,
-    overflow: 'hidden',
-    alignItems: 'center',
+    overflow: "hidden",
+    alignItems: "center",
     marginBottom: 20,
   },
   avatarHead: {

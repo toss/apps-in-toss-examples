@@ -1,10 +1,10 @@
-import React from 'react';
-import { View, ScrollView, StyleSheet } from 'react-native';
-import { createRoute } from '@granite-js/react-native';
-import { Text } from '@toss-design-system/react-native';
-import { HapticFeedbackButton } from 'components/HapticFeedbackButton';
+import React from "react";
+import { View, ScrollView, StyleSheet } from "react-native";
+import { createRoute } from "@granite-js/react-native";
+import { Text } from "@toss/tds-react-native";
+import { HapticFeedbackButton } from "components/HapticFeedbackButton";
 
-export const Route = createRoute('/', {
+export const Route = createRoute("/", {
   validateParams: (params) => params,
   component: Index,
 });

@@ -1,8 +1,8 @@
 import {
   generateHapticFeedback,
   type HapticFeedbackType,
-} from '@apps-in-toss/framework';
-import { Button } from '@toss-design-system/react-native';
+} from "@apps-in-toss/framework";
+import { Button } from "@toss/tds-react-native";
 
 interface HapticFeedbackButtonProps {
   label: string;

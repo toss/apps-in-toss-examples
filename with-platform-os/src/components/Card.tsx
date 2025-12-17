@@ -1,10 +1,10 @@
 import { getPlatformOS } from "@apps-in-toss/framework";
-import { StyleSheet, View } from 'react-native';
-import { colors, Text } from '@toss-design-system/react-native';
+import { StyleSheet, View } from "react-native";
+import { colors, Text } from "@toss/tds-react-native";
 
 export function Card() {
-  const isIOS = getPlatformOS() === 'ios';
-  const titleText = isIOS ? 'iOS 사용자에요.' : '안드로이드 사용자에요.';
+  const isIOS = getPlatformOS() === "ios";
+  const titleText = isIOS ? "iOS 사용자에요." : "안드로이드 사용자에요.";
   const cardShadow = isIOS ? styles.iosShadow : styles.androidShadow;
 
   return (
@@ -27,8 +27,8 @@ export function Card() {
 
 const styles = StyleSheet.create({
   card: {
-    width: '100%',
-    height: 'auto',
+    width: "100%",
+    height: "auto",
     backgroundColor: colors.white,
     borderRadius: 20,
     paddingTop: 14,
@@ -46,7 +46,7 @@ const styles = StyleSheet.create({
     elevation: 6,
   },
   thumbnail: {
-    width: '100%',
+    width: "100%",
     height: 200,
     backgroundColor: colors.grey300,
     borderRadius: 14,

@@ -1,14 +1,14 @@
-import { useState } from 'react';
-import { StyleSheet, View } from 'react-native';
+import { useState } from "react";
+import { StyleSheet, View } from "react-native";
 import { createRoute } from "@granite-js/react-native";
-import { getOperationalEnvironment } from '@apps-in-toss/framework';
-import { Button, Text, useDialog } from '@toss-design-system/react-native';
-import { useRewardedAd } from 'hooks/useRewardedAd';
-import { Visibility } from 'components/Visibility';
-import { TextBox } from 'components/TextBox';
-import { LoadingView } from 'components/LoadingView';
+import { getOperationalEnvironment } from "@apps-in-toss/framework";
+import { Button, Text, useDialog } from "@toss/tds-react-native";
+import { useRewardedAd } from "hooks/useRewardedAd";
+import { Visibility } from "components/Visibility";
+import { TextBox } from "components/TextBox";
+import { LoadingView } from "components/LoadingView";
 
-export const Route = createRoute('/', {
+export const Route = createRoute("/", {
   validateParams: (params) => params,
   component: Index,
 });
@@ -24,12 +24,12 @@ export function Index() {
       <Text typography="st5" fontWeight="extraBold" style={styles.title}>
         보상형 광고 예제
       </Text>
-      <Visibility visible={currentEnv === 'toss'}>
+      <Visibility visible={currentEnv === "toss"}>
         <LoadingView loading={loading}>
           <TextBox text={`광고 보상: ${reward}/3 획득 완료`} />
         </LoadingView>
       </Visibility>
-      <Visibility visible={currentEnv === 'sandbox'}>
+      <Visibility visible={currentEnv === "sandbox"}>
         <TextBox text="보상형 광고는 샌드박스 앱에서 테스트할 수 없어요." />
       </Visibility>
       <Button
@@ -37,12 +37,12 @@ export function Index() {
         disabled={loading}
         onPress={() => {
           if (reward >= 3) {
-            dialog.openAlert({ title: '오늘은 보상을 전부 받았어요.' });
+            dialog.openAlert({ title: "오늘은 보상을 전부 받았어요." });
           } else {
             showRewardAd({
               onRewarded: () => setReward((current) => current + 1),
               onDismiss: () => {
-                dialog.openAlert({ title: '🎁 보상이 지급되었어요.' });
+                dialog.openAlert({ title: "🎁 보상이 지급되었어요." });
                 loadRewardAd();
               },
             });
